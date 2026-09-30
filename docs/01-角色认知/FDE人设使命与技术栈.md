@@ -127,13 +127,35 @@ Palantir 语境里的 **Delta（差距）**：产品开箱能力 ↔ 客户使�
 
 ---
 
-## 10. 读完马上做
+## 10. 「想说是」的团队与结果崇拜
+
+> 补充自 [SPC FDE 专题](https://www.youtube.com/watch?v=hWuoH-ODDNc) 与 [Cognition 部署工程演讲](https://www.youtube.com/watch?v=RVxym6mmIns)。
+
+### 招聘侧反复出现的特质
+
+| 特质 | 现场说法（意译） |
+|------|------------------|
+| 对价值不懈追求 | 用户不用就撕掉重做；爱功能不爱形式 |
+| 想说「是」 | RAMP：FDE 是想赢客户的团队；许多工程师默认想说「不」以保护自己的路线图——两者都可敬，但岗位不同 |
+| 前创始人 / 关心收入 | 不只想构建酷东西，还在乎业务是否成立 |
+| 超级通才 + 必要时谦逊 | Nominal：scrappy、好奇；并重视 FDE ↔ 核心产品轮换 |
+| T 型 | Cognition：广（人际/业务/流程）+ 深尖峰；业务感可学，「房间里的技术专家」难教 |
+| 伟大 vs 好 | 好：能映射产品、能解客户问题；伟大： relentlessly 问「为什么解这个问题、能否回流让所有人受益」 |
+
+### 写代码只占约 20%
+
+Cognition 视角：在模型 + 上下文工程足够好时，**写代码块本身基本已解决**；真正杠杆在测试、审查、部署、维护，以及把 agent 指向最高杠杆工作（而不是无方向 token maxing）。这与本篇「约 50% 胶水 + 50% 策略对齐」不矛盾——都在说：**交付价值 ≠ 敲键盘行数**。
+
+---
+
+## 11. 读完马上做
 
 - [ ] 用 SWE vs FDE 表对照自己上周工作占比  
 - [ ] 列出你最熟的栈 vs 目标雇主/客户栈的缺口三条  
 - [ ] 写一句自己的「使命版」自我介绍（含 Delta）  
 - [ ] 填能力雷达并选定本月最低轴  
 - [ ] 用一句话回答：上周现场洞见有没有变成产品/配置需求？  
+- [ ] 自问：上周有没有「爱上形式多于功能」的瞬间？  
 
 ## 参考与来源
 
@@ -142,4 +164,6 @@ Palantir 语境里的 **Delta（差距）**：产品开箱能力 ↔ 客户使�
 | Awesome FDE — Persona & Mission | 整理入库 | 中文扩展 |
 | Palantir Dev vs Delta | https://blog.palantir.com/dev-versus-delta-demystifying-engineering-roles-at-palantir-ad44c2a6e87 | Delta 对照 |
 | YouTube — FDE 在 Palantir 的起源 | https://www.youtube.com/watch?v=1OMHGsUZiqA | §9 产品战略 |
+| YouTube — SPC FDE 专题 | https://www.youtube.com/watch?v=hWuoH-ODDNc | §10 招聘特质 |
+| YouTube — Cognition 部署工程 | https://www.youtube.com/watch?v=RVxym6mmIns | §10 T 型 / 写代码占比 |
 | 本文 §7–8 | — | 原创扩展 |

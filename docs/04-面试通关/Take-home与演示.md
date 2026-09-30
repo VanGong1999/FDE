@@ -125,15 +125,47 @@
 
 ---
 
-## 10. 读完马上做
+## 10. 周末级端到端练习：电商站挂 AI 助手
+
+> 整理自公开教程 [Juice Shop + AI 助手](https://www.youtube.com/watch?v=miHREcaScRY)（Abhishek）。用 OWASP Juice Shop 等开源店，目标是**可演示的 FDE 生命周期**，不是生产方案。
+
+### 建议范围（对照评分表）
+
+| 项 | 做 | 刻意不做（非目标） |
+|----|----|--------------------|
+| 需求 | 可答：价格/库存/评价；不可答：未来价、内部反馈 | 全自动下单/退款 |
+| 实现 | Python + FastAPI `/ask` + 护栏 | 重写整个电商后端 |
+| RAG | 产品文档 → embeddings → Chroma（或同类） | 一上来微调 |
+| 前端 | 右下角小部件调 API | 像素级重美工 |
+| 部署 | Docker Compose 本地四件套 | 一上来 K8s 多集群 |
+| 证明 | README + 3 个成功例 + 1 个拒答例 + 成本记录 | 「感觉挺准」 |
+
+### 生命周期检查（可当 Take-home README 目录）
+
+1. 需求收集（1–2 天盒）  
+2. 模型/工具选型（可路由省成本）  
+3. 助手实现 + 护栏  
+4. RAG（通常最难）  
+5. 前端集成  
+6. Docker 本地验收  
+7. 可观测性预留（日志字段设计即可）  
+8. 交接文档  
+
+**提醒：** FDE ≠ 全栈炫技；语言无关、API 解耦即可。密钥进 Vault/Secret Manager 的叙述写进 README「生产下一步」。
+
+---
+
+## 11. 读完马上做
 
 - [ ] 选定形态并开仓库  
 - [ ] **先写** README 问题陈述再写代码  
 - [ ] 录一版私密演示并用文首表格自评  
+- [ ] 可选：按 §10 做一个亚美元成本的 RAG 小助手  
 
 ## 参考与来源
 
 | 来源 | 链接 | 本篇用法 |
 |------|------|----------|
 | The Forward Deployed — OpenAI | https://www.theforwarddeployed.io/interviews/openai | 评分维度 |
+| YouTube — Juice Shop FDE 实战 | https://www.youtube.com/watch?v=miHREcaScRY | §10 端到端练习 |
 | 本文 | — | 原创扩展 |

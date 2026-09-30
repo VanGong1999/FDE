@@ -142,13 +142,35 @@ FDE 不是永久外包研发。交接包最少包括：
 
 ---
 
-## 9. 读完马上做
+## 9. 低成本 POC 纪律（可练习）
+
+> 补充自公开实战教程思路（[Juice Shop AI 助手演示](https://www.youtube.com/watch?v=miHREcaScRY)）。适合转岗者做「可演示的窄 POC」，不是生产蓝图。
+
+| 纪律 | 做法 |
+|------|------|
+| 语言解耦 | 主站可以是 Node；AI 助手用 Python + FastAPI 暴露 `/ask` 即可 |
+| 护栏先写 | 只答产品/价格域；拒答预测、内部反馈、争议话题——省钱且安全 |
+| RAG 当主难点 | 文档收集、权限、向量库、语义匹配（cider ↔ apple juice）往往比「调模型」更费时 |
+| Docker Compose 本地验收 | 前端/后端/助手/向量库一键起；生产前人工审 Compose（AI 写 IaC 易错） |
+| 密钥与成本 | `.env` + gitignore；记录单次 POC 美元成本（教程量级可到亚美元） |
+| AI 辅助编码 | 大量用 Copilot/Claude，但**逐行审查**；FDE 对正确性负责 |
+
+完整练习清单见 [Take-home 与演示 §10](../04-面试通关/Take-home与演示.md)；RAG 细节见 [RAG 实战精要](../03-AI落地/RAG实战精要.md)。
+
+---
+
+## 10. 读完马上做
 
 - [ ] 为虚构项目写门禁 1/2 各 5 条
 - [ ] 用一页纸定义试点切片
+- [ ] 若零基础：按 §9 做一个周末级 `/ask` + RAG + Docker 小 POC
 - [ ] 阅读 [客户沟通与阻力处理](./客户沟通与阻力处理.md)
 - [ ] 打开 [POC 验收表](../08-工具箱与清单/POC验收表.md) 勾一遍
 
 ## 参考与来源
 
-本文为原创交付实践；与公开 FDE 岗位中「pilot to production」叙述一致，参见 [sources.md](../../references/sources.md) S01/S03。
+| 来源 | 链接 | 本篇用法 |
+|------|------|----------|
+| 本文主体 | — | 原创交付实践 |
+| YouTube — Juice Shop FDE 实战 | https://www.youtube.com/watch?v=miHREcaScRY | §9 低成本 POC 纪律 |
+| discover–pilot–production | [sources.md](../../references/sources.md) S01/S03 | 对照 |

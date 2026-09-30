@@ -135,11 +135,40 @@ flowchart TD
 
 ---
 
-## 10. 读完马上做
+## 10. Agent 就绪度与「软件工厂」
+
+> 补充自 [Factory Deployed Engineering](https://www.youtube.com/watch?v=wpOA-UXynoM)（Eno Reyes）与 [Cognition 部署工程](https://www.youtube.com/watch?v=RVxym6mmIns)。
+
+### Agent 就绪度
+
+多数组织有一定确定性验证（linter、类型检查、安全扫描、E2E）。**Agent 就绪度 ≈ 代码库里这类确定性反馈环有多密、多密。** 环越多，agent 能在更长任务上无人干预地跑。
+
+FDE / 部署工程师的投资重点常被说反：不是「更多人去手工解题」，而是**准备环境以便问题可验证**——与后训练要密集奖励信号同构。
+
+### 软件工厂（信号进 → 结果出）
+
+隐式循环：信号流入（工单、Slack、高管指令）→ 人类分诊计划 → 变更进真相源（代码库）→ 验证 → 发布 → 新信号。多数组织**度量极差**。用 AI 改造各阶段时，目标是「信号到部署的流动不被人类打断」——人类仍演进工厂本身，而不是每笔变更都手工搬砖。
+
+### 避免 token maxing
+
+无方向让 agent 空转 = 烧钱无成果。部署侧应：对齐最高杠杆战略举措 → 设自动触发（告警/事件）→ 用可验证结果讲 ROI。Cognition 对比：个人工程师快 10× 有价值；**整个组织（含非工程角色）快 10×** 才是企业合作真正价值——单点 CLI/IDE 往往做不到。
+
+### 模型无关 harness 与数据所有权
+
+若 agent harness 被单一模型商锁定：贵、能力边界由供应商决定、traces/数据不在你手里则工厂难演进。金融/医疗/政府常要求气隙；见 [气隙与战术边缘](../05-能力补强/气隙与战术边缘部署.md)。
+
+### 未来城市类比（平衡）
+
+示例要**足够证明未来可实现**，又不能先进到被当成「主题公园、与我们无关」。引用：「未来已经到来，只是分布不均」——有的是**代码库**（不是公司）先跑到高自主比率。
+
+---
+
+## 11. 读完马上做
 
 - [ ] 把一个业务任务画成固定工作流（不要 Agent）  
 - [ ] 标出 L0–L2 工具与 HITL 点  
 - [ ] 为写操作设计「建议 / 尝试 / 执行环境」三阶段门禁  
+- [ ] 评估目标代码库的 Agent 就绪度：缺哪些确定性验证环？  
 - [ ] 读 [评测 Eval 与 Guardrails](./评测Eval与Guardrails.md)
 
 ## 参考与来源
@@ -149,4 +178,6 @@ flowchart TD
 | Anthropic / OpenAI 工具调用文档 | S20, S21 | 能力对照 |
 | 社区 Applied AI 面试讨论 | S05 | 强调权限与 eval |
 | YouTube — OpenAI FDE 访谈 | https://www.youtube.com/watch?v=cBD7_R-Cizg | §9 信任阶梯 |
+| YouTube — Factory Deployed | https://www.youtube.com/watch?v=wpOA-UXynoM | §10 Agent 就绪 / 软件工厂 |
+| YouTube — Cognition 部署工程 | https://www.youtube.com/watch?v=RVxym6mmIns | §10 token maxing |
 | 本文 | — | 原创实践 |

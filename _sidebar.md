@@ -100,6 +100,7 @@
 * [Careers 对照](docs/07-外文精读/06-各公司Careers岗位描述对照.md)
 * [OWASP LLM Top 10](docs/07-外文精读/07-OWASP-LLM应用风险Top10.md)
 * [Awesome FDE 课程总览](docs/07-外文精读/08-Awesome-FDE课程体系总览.md)
+* [SPC 与多家 FDE 现场声音](docs/07-外文精读/09-SPC与多家FDE现场声音.md)
 
 **08 工具箱**
 

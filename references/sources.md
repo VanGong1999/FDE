@@ -52,6 +52,12 @@
 | S30 | FDE 101（Kevin；Anthropic Applied AI） | https://www.youtube.com/watch?v=KwhgfwOSToQ | [什么是 FDE §8](../docs/01-角色认知/什么是FDE.md) |
 | S31 | FDE 在 Palantir 的起源 | https://www.youtube.com/watch?v=1OMHGsUZiqA | [人设 §9](../docs/01-角色认知/FDE人设使命与技术栈.md)、[需求发现 §8–9](../docs/02-交付方法论/需求发现与问题拆解.md)、[反模式 §7](../docs/02-交付方法论/反模式与踩坑.md) |
 | S32 | OpenAI FDE 访谈（Colin Jarvis） | https://www.youtube.com/watch?v=cBD7_R-Cizg | [产品化 §10](../docs/05-能力补强/解决方案产品化.md)、[评测双环 §7](../docs/03-AI落地/LLM评测双环.md)、[架构决策树 §7](../docs/03-AI落地/架构决策树.md)、[Agent §9](../docs/03-AI落地/Agent与工具调用.md)、[案例 03/07](../docs/06-行业案例/) |
+| S33 | South Park Commons — FDE 专题讨论（RAMP / Nominal / Dataland / OpenAI） | https://www.youtube.com/watch?v=hWuoH-ODDNc | [精读 09](../docs/07-外文精读/09-SPC与多家FDE现场声音.md)；分散追加至角色认知 / 反模式 / 客户成果 / 产品化 |
+| S34 | Cognition — 部署工程（Gia） | https://www.youtube.com/watch?v=RVxym6mmIns | 同上索引；[人设 §10](../docs/01-角色认知/FDE人设使命与技术栈.md)、[Agent §10](../docs/03-AI落地/Agent与工具调用.md) |
+| S35 | Factory — Deployed Engineering（Eno Reyes） | https://www.youtube.com/watch?v=wpOA-UXynoM | 同上；[Agent §10](../docs/03-AI落地/Agent与工具调用.md)、[产品化 §11](../docs/05-能力补强/解决方案产品化.md) |
+| S36 | Sierra — Natalie Mirror on FDE | https://www.youtube.com/watch?v=Byv311hdoHE | [什么是 FDE §9](../docs/01-角色认知/什么是FDE.md)、[公司图谱 §12](../docs/01-角色认知/公司图谱与岗位差异.md) |
+| S37 | FDE 六阶段工作流讲解 | https://www.youtube.com/watch?v=7jbyXygn9h0 | [DDDR §8](../docs/02-交付方法论/Discover-Design-Deploy-Review.md) |
+| S38 | Juice Shop AI 助手 FDE 实战（Abhishek） | https://www.youtube.com/watch?v=miHREcaScRY | [Take-home §10](../docs/04-面试通关/Take-home与演示.md)、[POC §9](../docs/02-交付方法论/POC到生产.md)、[RAG §9](../docs/03-AI落地/RAG实战精要.md) |
 
 ## 本库原创
 
@@ -63,4 +69,4 @@ Awesome FDE 相关中文篇为**翻译整理**，版权与署名归原策展人�
 
 ---
 
-最后更新：2026-09-28（追加 YouTube FDE 演讲精读 S30–S32 至既有篇）
+最后更新：2026-09-30（追加 YouTube FDE 现场声音 S33–S38，精读 09；内容并入既有专篇）

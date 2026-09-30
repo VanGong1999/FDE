@@ -131,11 +131,33 @@ AI 时代许多产品变 agentic、高度可定制，客户更难理解「你到
 
 ---
 
-## 9. 读完马上做
+## 9. 为什么模型越强，FDE 反而更重要？
+
+> 补充自 [South Park Commons FDE 专题讨论](https://www.youtube.com/watch?v=hWuoH-ODDNc)（RAMP / Nominal / Dataland / OpenAI）与 [Sierra Agent Engineering 演讲](https://www.youtube.com/watch?v=Byv311hdoHE)。
+
+模型变强并不自动等于企业价值变现。公开讨论里反复出现的机制：
+
+| 机制 | 含义 |
+|------|------|
+| 问题异质 | B2B「待完成工作」比标准 SaaS 形状多几个数量级；劳动力资本远大于软件资本 |
+| 解锁点在用例理解 | 模型够用之后，瓶颈变成「像当事人一样理解工作流 + 把前沿模型嵌进去」 |
+| 管道成本下降 | 强编码模型缩短胶水代码时间，FDE 可承接更难、更靠近业务价值链的问题 |
+| 角色边界模糊 | 代码变便宜后，产品工程、Agent 工程、客户工程都在「对客户结果负责」上汇合 |
+
+**一句话**：模型解决「能不能写」，FDE 解决「该写什么、在约束里写到能用、并能证明」。
+
+Sierra 演讲者 Natalie Mirror 的尖锐说法：**「FDE 并不存在」**——标题被用来描述太多东西，几乎失去统一定义；但**唯一连续性是：对客户结果负责**。她的收束是：「Forward deployed engineering is dead. Long live forward deployed engineering.」——术语可死，责任模型活着。
+
+另可问自己一句有趣的话：**「你是哪一年份的 FDE？」**（像葡萄酒年份）——DevOps、数据集成、本体建模、决策写回、客户赋能……不同年代主业不同，总工作量往往随平台成熟而**增加**而非消失。历史脉络见 [公司图谱 §11](./公司图谱与岗位差异.md)。
+
+---
+
+## 10. 读完马上做
 
 - [ ] 用自己的话写 200 字 FDE 定义
 - [ ] 列出你过去项目里「最像 FDE」的一段经历
 - [ ] 用 §8 矩阵判断：你目标雇主是否真在「非技术买家 × 技术产品」象限
+- [ ] 用一句话解释：模型变强后，你服务的客户里「解锁点」还在哪
 - [ ] 继续阅读 [公司图谱与岗位差异](./公司图谱与岗位差异.md)
 
 ## 参考与来源
@@ -145,4 +167,6 @@ AI 时代许多产品变 agentic、高度可定制，客户更难理解「你到
 | Exponent FDE Interview Guide 2026 | https://www.tryexponent.com/blog/forward-deployed-engineer-interview-the-definitive-2026-guide-fde | 角色定位与公司语境综述 |
 | Palantir Careers | https://www.palantir.com/careers/ | Forward Deployed 公开定位对照 |
 | YouTube — FDE 101（Kevin） | https://www.youtube.com/watch?v=KwhgfwOSToQ | §8 何时需要 / 平台原语 |
+| YouTube — SPC FDE 专题讨论 | https://www.youtube.com/watch?v=hWuoH-ODDNc | §9 模型越强 FDE 越重要 |
+| YouTube — Sierra / Natalie Mirror | https://www.youtube.com/watch?v=Byv311hdoHE | §9「FDE 不存在」与责任连续性 |
 | 本文其余部分 | — | 原创综述 |

@@ -113,7 +113,7 @@
 - [精读目录](docs/07-外文精读/README.md)
 - [Exponent 2026](docs/07-外文精读/01-Exponent-FDE面试2026指南.md) · [Decomposition](docs/07-外文精读/02-Decomposition面试框架与操练.md) · [Palantir](docs/07-外文精读/03-Palantir-FDSE面试指南.md) · [OpenAI](docs/07-外文精读/04-OpenAI-FDE面试指南.md)
 - [Anthropic](docs/07-外文精读/05-Anthropic-Applied-AI面试侧重点.md) · [Careers 对照](docs/07-外文精读/06-各公司Careers岗位描述对照.md) · [OWASP LLM](docs/07-外文精读/07-OWASP-LLM应用风险Top10.md)
-- [Awesome FDE 课程体系总览](docs/07-外文精读/08-Awesome-FDE课程体系总览.md)
+- [Awesome FDE 课程体系总览](docs/07-外文精读/08-Awesome-FDE课程体系总览.md) · [SPC 与多家 FDE 现场声音](docs/07-外文精读/09-SPC与多家FDE现场声音.md)
 
 ### 08 工具箱与模板
 

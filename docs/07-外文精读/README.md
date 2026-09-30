@@ -15,6 +15,7 @@
 | 06 | [各公司 Careers 岗位描述对照](./06-各公司Careers岗位描述对照.md) | 见文内 | P1 |
 | 07 | [OWASP LLM 应用风险 Top 10](./07-OWASP-LLM应用风险Top10.md) | [链接](https://owasp.org/www-project-top-10-for-large-language-model-applications/) | P1 |
 | 08 | [Awesome FDE 课程体系总览](./08-Awesome-FDE课程体系总览.md) | 用户入库整理稿 / Awesome FDE | P0 |
+| 09 | [SPC 与多家 FDE 现场声音](./09-SPC与多家FDE现场声音.md) | [SPC 专题](https://www.youtube.com/watch?v=hWuoH-ODDNc) 等（见文末） | P1 |
 
 ## 推荐阅读顺序
 
@@ -23,6 +24,7 @@
 3. 投递前：06  
 4. 方案/上线前：07  
 5. 体系地图：08（再按表跳到拆分后的中文专篇）  
+6. 角色/产品化现场共识：09（索引型，跳转到已追加的专篇）  
 
 ## 新建精读
 

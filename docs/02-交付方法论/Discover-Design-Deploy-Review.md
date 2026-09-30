@@ -172,12 +172,36 @@ AI 项目特别容易在 Deploy 前假装 Design 完成——**没有 Eval 计�
 
 ---
 
-## 8. 读完马上做
+## 8. 六阶段对照（Discover → Scale）
+
+> 补充自公开讲解 [FDE 六阶段工作流](https://www.youtube.com/watch?v=7jbyXygn9h0)。与本篇四阶段一一映射，便于面试口述与周报栏目。
+
+| 六阶段 | 对应 DDDR | 核心技能提醒 |
+|--------|-----------|--------------|
+| **Discover** | Discover | 商业理解 + 技术判断；客户口述需求常不是瓶颈 |
+| **Design** | Design | 明确做/不做；基础设施、数据、安全、失败模式 |
+| **Build** | Deploy（实现） | RAG、Eval、脏 API/无 API 兼容；生产可靠重于 Demo |
+| **Deploy** | Deploy（上线） | 私有化/云、合规、文化阻力；安全可靠可扩展 |
+| **Prove** | Review | 把效果换成钱/风险/时间；ROI 是建立信任的关键 |
+| **Scale** | Review → 下一轮 Discover | 复制到相邻部门；监控漂移与成本；模式回流产品 |
+
+**保险公司例子（同视频，可当 Decomposition 素材）：** 客户以为理赔慢是「平台问题」→ 发现实为理赔前文档人工审核 → Design 做「读文档 + 对照保单 + 结构化摘要」，**不**自动做理赔决策 → Prove 用「数小时→数分钟」与金额叙事。
+
+低成本端到端练习（电商聊天助手 + RAG + Docker）见 [Take-home 与演示 §10](../04-面试通关/Take-home与演示.md)。
+
+---
+
+## 9. 读完马上做
 
 - [ ] 默写四阶段出口检查
 - [ ] 选一个你过去的项目，标出它实际停在哪一阶段
+- [ ] 用六阶段表给同一项目再标一遍，看缺口是否在 Prove / Scale
 - [ ] 精读 [需求发现与问题拆解](./需求发现与问题拆解.md)
 
 ## 参考与来源
 
-本文为原创交付框架；与业界「discover–pilot–production」实践及面试中的 decomposition 思维一致，参见 [sources.md](../../references/sources.md) S01/S04。
+| 来源 | 链接 | 本篇用法 |
+|------|------|----------|
+| 本文主体 | — | 原创交付框架 |
+| YouTube — FDE 六阶段工作流 | https://www.youtube.com/watch?v=7jbyXygn9h0 | §8 六阶段对照 |
+| 业界 discover–pilot–production | [sources.md](../../references/sources.md) S01/S04 | 对照 |
