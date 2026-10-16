@@ -34,7 +34,7 @@
 | Decomposition | 问题拆解面（面试轮次名，保留英文） |
 | RAG / Eval / Guardrails | 技术术语保留英文，首次出现附中文 |
 
-新增术语请同步更新 [docs/00-导读/术语表.md](docs/00-导读/术语表.md)。
+新增术语请同步更新 [docs/00-导读/术语表.md](/docs/00-导读/术语表.md)。
 
 ## 外文精读格式（强制）
 
@@ -55,7 +55,7 @@
 - 本篇使用方式：精读 / 综述 / 翻译要点
 ```
 
-同时在 [references/sources.md](references/sources.md) 追加一行。
+同时在 [references/sources.md](/references/sources.md) 追加一行。
 
 ## 正文文末格式
 
