@@ -1,0 +1,374 @@
+[
+  {
+    "src": "生成图片及翻译 (1).png",
+    "dst": "gen-01-hermes-summary-11-sections.png",
+    "caption": "Hermes 摘要始终包含的 11 个固定部分",
+    "bytes": 929069
+  },
+  {
+    "src": "生成图片及翻译 (10).png",
+    "dst": "gen-10-hermes-memory-user-files.png",
+    "caption": "Hermes 两个由代理写入的存储文件：MEMORY.md 与 USER.md",
+    "bytes": 2135502
+  },
+  {
+    "src": "生成图片及翻译 (11).png",
+    "dst": "gen-11-memory-tool-crud.png",
+    "caption": "记忆工具三件事：添加 / 替换 / 删除（短子串匹配）",
+    "bytes": 2778628
+  },
+  {
+    "src": "生成图片及翻译 (12).png",
+    "dst": "gen-12-hermes-post-turn-review.png",
+    "caption": "Hermes 复盘自己的回合：后台 fork，不碰对话缓存",
+    "bytes": 2425863
+  },
+  {
+    "src": "生成图片及翻译 (13).png",
+    "dst": "gen-13.png",
+    "caption": "将刚发生的事转化为技能：/learn → 新 SKILL.md（描述≤60字符）",
+    "bytes": 1867096
+  },
+  {
+    "src": "生成图片及翻译 (14).png",
+    "dst": "gen-14.png",
+    "caption": "将刚发生的事转化为技能（与 gen-13 同主题变体）",
+    "bytes": 1867096
+  },
+  {
+    "src": "生成图片及翻译 (15).png",
+    "dst": "gen-15-notes-lifecycle-prune.png",
+    "caption": "旧笔记定期整理：7天复盘 / 30天陈旧 / 90天归档",
+    "bytes": 2669746
+  },
+  {
+    "src": "生成图片及翻译 (16).png",
+    "dst": "gen-16.png",
+    "caption": "谁负责写入记忆：Pi 手动 / Hermes 自动复盘 / OpenClaw 后台扫描",
+    "bytes": 2691001
+  },
+  {
+    "src": "生成图片及翻译 (17).png",
+    "dst": "gen-17.png",
+    "caption": "同一思路三层级：Pi→Hermes→OpenClaw（召回↑，复杂度↑）",
+    "bytes": 2385986
+  },
+  {
+    "src": "生成图片及翻译 (18).png",
+    "dst": "gen-18-three-memory-shapes.png",
+    "caption": "记忆的三种形态：Pi / Hermes / OpenClaw",
+    "bytes": 3077470
+  },
+  {
+    "src": "生成图片及翻译 (19).png",
+    "dst": "gen-19.png",
+    "caption": "任务过大时三种答案：子代理 / 接力 / 编排器 fleet",
+    "bytes": 3429548
+  },
+  {
+    "src": "生成图片及翻译 (2).png",
+    "dst": "gen-02-micro-compression-cursor.png",
+    "caption": "单次微压缩：滚动摘要 + 光标，账单分期而非一次大额停顿",
+    "bytes": 2876949
+  },
+  {
+    "src": "生成图片及翻译 (20).png",
+    "dst": "gen-20-where-subagents-run.png",
+    "caption": "子进程运行在哪里：Pi/Hermes/Codex/Claude Code 隔离边界",
+    "bytes": 2310033
+  },
+  {
+    "src": "生成图片及翻译 (21).png",
+    "dst": "gen-21.png",
+    "caption": "子代理工具三种模式：single / parallel / chain",
+    "bytes": 2901071
+  },
+  {
+    "src": "生成图片及翻译 (22).png",
+    "dst": "gen-22.png",
+    "caption": "子代理工具三种模式（与 gen-21 同主题变体）",
+    "bytes": 2901071
+  },
+  {
+    "src": "生成图片及翻译 (23).png",
+    "dst": "gen-23.png",
+    "caption": "角色文件成为隔离子进程：父进程只收结果",
+    "bytes": 3250143
+  },
+  {
+    "src": "生成图片及翻译 (24).png",
+    "dst": "gen-24.png",
+    "caption": "implement 预设：侦察→规划→执行（独立进程，{previous} 传递）",
+    "bytes": 2642956
+  },
+  {
+    "src": "生成图片及翻译 (25).png",
+    "dst": "gen-25.png",
+    "caption": "子进程运行在哪里（与 gen-20 同主题变体）",
+    "bytes": 2773841
+  },
+  {
+    "src": "生成图片及翻译 (26).png",
+    "dst": "gen-26.png",
+    "caption": "子进程定义存放位置：Pi YAML / Hermes 枚举 / Codex 配置层 / Claude 大 frontmatter",
+    "bytes": 2259554
+  },
+  {
+    "src": "生成图片及翻译 (27).png",
+    "dst": "gen-27.png",
+    "caption": "阻塞还是后台：Pi/Codex 阻塞等待 vs Hermes/Claude Code 后台",
+    "bytes": 2731955
+  },
+  {
+    "src": "生成图片及翻译 (28).png",
+    "dst": "gen-28.png",
+    "caption": "阻塞还是后台（与 gen-27 同主题变体）",
+    "bytes": 2731955
+  },
+  {
+    "src": "生成图片及翻译 (29).png",
+    "dst": "gen-29.png",
+    "caption": "Pi 将委托能力排除在核心之外：subagent 仅为示例扩展",
+    "bytes": 2375239
+  },
+  {
+    "src": "生成图片及翻译 (3).png",
+    "dst": "gen-03-hermes-compression-failure.png",
+    "caption": "Hermes 压缩失败处理：允许失败，绝不允许循环",
+    "bytes": 2994213
+  },
+  {
+    "src": "生成图片及翻译 (30).png",
+    "dst": "gen-30.png",
+    "caption": "答案回传的接缝：子代理输出→父上下文的守卫边界",
+    "bytes": 2937508
+  },
+  {
+    "src": "生成图片及翻译 (31).png",
+    "dst": "gen-31.png",
+    "caption": "编排器驱动 N 个 Pi 实例（实验性）：1 编排器对 N 目标",
+    "bytes": 4011174
+  },
+  {
+    "src": "生成图片及翻译 (32).png",
+    "dst": "gen-32.png",
+    "caption": "有限上下文三种答案：压缩保留摘要 / 交接保留目标 / 子代理仅保留答案",
+    "bytes": 4183535
+  },
+  {
+    "src": "生成图片及翻译 (33).png",
+    "dst": "gen-33.png",
+    "caption": "任务过大三种规模答案：子进程 / 交接 / 编排器集群",
+    "bytes": 3185553
+  },
+  {
+    "src": "生成图片及翻译 (34).png",
+    "dst": "gen-34.png",
+    "caption": "进程结束时磁盘留下什么：Pi JSONL / Hermes state.db / Codex 文件+缓存 / Claude JSONL",
+    "bytes": 2413883
+  },
+  {
+    "src": "生成图片及翻译 (35).png",
+    "dst": "gen-35.png",
+    "caption": "无人兑现的票据：外套寄存式崩溃留下非法会话",
+    "bytes": 3370511
+  },
+  {
+    "src": "生成图片及翻译 (36).png",
+    "dst": "gen-36.png",
+    "caption": "同一个循环四种名字：Pi runLoop / Hermes run_conversation / Codex run_turn / Claude query",
+    "bytes": 2384123
+  },
+  {
+    "src": "生成图片及翻译 (37).png",
+    "dst": "gen-37.png",
+    "caption": "压缩时机：Hermes/Codex 调用前检查 vs Pi 溢出后恢复",
+    "bytes": 3044572
+  },
+  {
+    "src": "生成图片及翻译 (38).png",
+    "dst": "gen-38.png",
+    "caption": "RunLoop 的一圈：stream → tool calls → execute → append → repeat",
+    "bytes": 2875644
+  },
+  {
+    "src": "生成图片及翻译 (39).png",
+    "dst": "gen-39.png",
+    "caption": "四套集合交叉才允许工具调用：用户权限×能力清单×策略×ACL",
+    "bytes": 3956322
+  },
+  {
+    "src": "生成图片及翻译 (4).png",
+    "dst": "gen-04-pi-vs-hermes-reserve.png",
+    "caption": "两种决策时机：Pi 固定保留 16384；Hermes 按比例保留",
+    "bytes": 2380105
+  },
+  {
+    "src": "生成图片及翻译 (5).png",
+    "dst": "gen-05-two-memory-forms.png",
+    "caption": "两种记忆形态：Pi 6 部分 vs Hermes 11 部分",
+    "bytes": 3225147
+  },
+  {
+    "src": "生成图片及翻译 (6).png",
+    "dst": "gen-06-two-rhythms.png",
+    "caption": "两种节奏：一次长暂停 vs 多次短暂停（微压缩）",
+    "bytes": 2312590
+  },
+  {
+    "src": "生成图片及翻译 (7).png",
+    "dst": "gen-07-hermes-trust-provider-tokens.png",
+    "caption": "Hermes 更信任服务商返回的真实 token，而非自身猜测",
+    "bytes": 3743460
+  },
+  {
+    "src": "生成图片及翻译 (8).png",
+    "dst": "gen-08-pi-estimate-no-usage.png",
+    "caption": "Pi 如何估算没有用量数据的消息（字符/4、工具、图片4800）",
+    "bytes": 1870807
+  },
+  {
+    "src": "生成图片及翻译 (9).png",
+    "dst": "gen-09-pi-token-sources.png",
+    "caption": "Pi 从哪里获取 token：精确值 + 尾部估算",
+    "bytes": 2681408
+  },
+  {
+    "src": "生成图片及翻译.png",
+    "dst": "gen-00-hermes-e2e-compression.png",
+    "caption": "Hermes 端到端压缩：四个廉价步骤围绕一个昂贵步骤",
+    "bytes": 796973
+  },
+  {
+    "src": "绘制图片 (10).png",
+    "dst": "draw-10.png",
+    "caption": "buildSystemPrompt() 按序组装五段内容",
+    "bytes": 3537962
+  },
+  {
+    "src": "绘制图片 (11).png",
+    "dst": "draw-11.png",
+    "caption": "AGENTS.md 向上查找：global first，最近者最后生效",
+    "bytes": 3980516
+  },
+  {
+    "src": "绘制图片 (12).png",
+    "dst": "draw-12.png",
+    "caption": "技能分三批付费：名称描述常驻 → 正文触发时 → 附属文件打开时",
+    "bytes": 3587452
+  },
+  {
+    "src": "绘制图片 (13).png",
+    "dst": "draw-13.png",
+    "caption": "给予多少自由度：窄桥精确脚本 vs 旷野给目标",
+    "bytes": 3082244
+  },
+  {
+    "src": "绘制图片 (14).png",
+    "dst": "draw-14.png",
+    "caption": "让技能检查自身输出：修改→验证→修复，通过才继续",
+    "bytes": 2742695
+  },
+  {
+    "src": "绘制图片 (15).png",
+    "dst": "draw-15-what-is-skill-file.png",
+    "caption": "技能文件是什么：frontmatter 常驻加载，正文按需加载",
+    "bytes": 2650374
+  },
+  {
+    "src": "绘制图片 (16).png",
+    "dst": "draw-16.png",
+    "caption": "相同模板三种组装结果：日期/上下文/技能会变",
+    "bytes": 3395326
+  },
+  {
+    "src": "绘制图片 (17).png",
+    "dst": "draw-17.png",
+    "caption": "组装生成而非硬编码：极小固定身份 + 动态 AGENTS.md/日期/cwd",
+    "bytes": 3800435
+  },
+  {
+    "src": "绘制图片 (18).png",
+    "dst": "draw-18.png",
+    "caption": "组装生成而非硬编码（与 draw-17 同主题变体）",
+    "bytes": 3800435
+  },
+  {
+    "src": "绘制图片 (19).png",
+    "dst": "draw-19.png",
+    "caption": "Pi 何时压缩：contextTokens > window - 16384",
+    "bytes": 2176504
+  },
+  {
+    "src": "绘制图片 (2).png",
+    "dst": "draw-02-three-roles-growing-list.png",
+    "caption": "三种角色，一张不断增长的列表 = 智能体全部记忆",
+    "bytes": 1650080
+  },
+  {
+    "src": "绘制图片 (20).png",
+    "dst": "draw-20.png",
+    "caption": "反向查找截断点：从最新回溯累加至 keepRecentTokens=20000",
+    "bytes": 3081934
+  },
+  {
+    "src": "绘制图片 (21).png",
+    "dst": "draw-21.png",
+    "caption": "关于同一条消息的两个问题：可否截断 vs 是否开启轮次",
+    "bytes": 3573969
+  },
+  {
+    "src": "绘制图片 (22).png",
+    "dst": "draw-22.png",
+    "caption": "头中尾压缩：保护头尾，只总结中部；尾部约占触发内容 20%",
+    "bytes": 3662473
+  },
+  {
+    "src": "绘制图片 (3).png",
+    "dst": "draw-03-call-exec-append-quadratic.png",
+    "caption": "一回合=调用+执行+追加；第N回合重放前史 → 成本二次增长",
+    "bytes": 1087798
+  },
+  {
+    "src": "绘制图片 (4).png",
+    "dst": "draw-04-pi-native-toolbox.png",
+    "caption": "Pi 原生工具盒：七个内置动词 + MCP 对等接入",
+    "bytes": 1510859
+  },
+  {
+    "src": "绘制图片 (5).png",
+    "dst": "draw-05-tool-as-job-posting.png",
+    "caption": "工具就是招聘启事：模型只看 schema，代码在幕布之后",
+    "bytes": 2025607
+  },
+  {
+    "src": "绘制图片 (6).png",
+    "dst": "draw-06.png",
+    "caption": "许可门：Allow / Ask / Deny 三结果",
+    "bytes": 1312644
+  },
+  {
+    "src": "绘制图片 (7).png",
+    "dst": "draw-07.png",
+    "caption": "相同工具三个运行位置：本地 / SSH / 沙箱（操作槽抽象）",
+    "bytes": 1441035
+  },
+  {
+    "src": "绘制图片 (8).png",
+    "dst": "draw-08.png",
+    "caption": "两层防御：许可门降低出事概率 + 沙箱限制破坏程度",
+    "bytes": 1292011
+  },
+  {
+    "src": "绘制图片 (9).png",
+    "dst": "draw-09-permission-gate-in-loop.png",
+    "caption": "接入循环的许可门：安全工具自由跑，危险工具先敲门",
+    "bytes": 3512512
+  },
+  {
+    "src": "绘制图片.png",
+    "dst": "draw-00-agent-loop-reasoning.png",
+    "caption": "循环的推导过程：调用模型 → 工具？→ 执行 → 追加 → 再循环",
+    "bytes": 1478935
+  }
+]

@@ -112,8 +112,57 @@ A：跨会话复问、干扰项插入、权限对穿、摘要后关键槽位是�
 
 ---
 
+
+## 深入：Pi / Hermes / OpenClaw 记忆形态（追加）
+
+开源助手把「长期记忆」落成文件与写入权责，可与上文分层记忆对照：
+
+| 项目 | 形态 | 谁写入 |
+|------|------|--------|
+| **Pi** | 主要靠你维护的 `AGENTS.md` 等 | **人**手动 |
+| **Hermes** | `MEMORY.md`（工作）+ `USER.md`（人物）；`§` 分隔多行条目 | **代理**每轮后后台复盘（不碰提示缓存） |
+| **OpenClaw** | `USER.md` / `MEMORY.md` / daily notes / `DREAMS.md` 等更分层 | 代理写 + **后台扫描**决定保留 |
+
+口条：文件越多，事实可放位置越多，**优先级规则也越多**；差异常在「谁被信任执行写入」，而非存储介质。旧笔记可按 7 天复盘 / 30 天陈旧 / 90 天归档——**从不裁剪的记忆会变成始终加载的噪声**。
+
+
+### 三种形态与写入权责
+
+![记忆的三种形态：Pi / Hermes / OpenClaw](../../assets/agent-harness/gen-18-three-memory-shapes.png)
+
+*记忆的三种形态：Pi / Hermes / OpenClaw*
+
+![谁负责写入记忆：Pi 手动 / Hermes 自动复盘 / OpenClaw 后台扫描](../../assets/agent-harness/gen-16.png)
+
+*谁负责写入记忆：Pi 手动 / Hermes 自动复盘 / OpenClaw 后台扫描*
+
+![同一思路三层级：Pi→Hermes→OpenClaw（召回↑，复杂度↑）](../../assets/agent-harness/gen-17.png)
+
+*同一思路三层级：Pi→Hermes→OpenClaw（召回↑，复杂度↑）*
+
+### Hermes 记忆文件与工具
+
+![Hermes 两个由代理写入的存储文件：MEMORY.md 与 USER.md](../../assets/agent-harness/gen-10-hermes-memory-user-files.png)
+
+*Hermes 两个由代理写入的存储文件：MEMORY.md 与 USER.md*
+
+![记忆工具三件事：添加 / 替换 / 删除（短子串匹配）](../../assets/agent-harness/gen-11-memory-tool-crud.png)
+
+*记忆工具三件事：添加 / 替换 / 删除（短子串匹配）*
+
+![Hermes 复盘自己的回合：后台 fork，不碰对话缓存](../../assets/agent-harness/gen-12-hermes-post-turn-review.png)
+
+*Hermes 复盘自己的回合：后台 fork，不碰对话缓存*
+
+![旧笔记定期整理：7天复盘 / 30天陈旧 / 90天归档](../../assets/agent-harness/gen-15-notes-lifecycle-prune.png)
+
+*旧笔记定期整理：7天复盘 / 30天陈旧 / 90天归档*
+
+---
+
 ## 参考与来源
 
 - 原创综述：Agent 记忆分层与企业合规要点（本篇）  
 - 会话摘要与记忆检索的公开工程实践  
-- 本库上下文窗口相关面试题
+- 本库上下文窗口相关面试题  
+- 追加：Pi/Hermes/OpenClaw 记忆图示

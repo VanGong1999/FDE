@@ -133,8 +133,41 @@ A：依赖供应链与默认示例配置常过宽，要审默认值。
 
 ---
 
+
+## 深入：Harness 中的失败模式与可靠性（追加）
+
+除上文目录外，开源 Harness 还高频踩这些坑：
+
+1. **外套寄存式崩溃（coat-check crash）**  
+   每次工具调用必须恰好一条结果。若在「发起调用」与「写入结果」之间崩溃，对话末尾留下**无人兑现的票据** → 校验拒收整段会话 → 朴素 resume 首请求失败。落盘协议必须保证 call/result 成对。
+
+2. **中间层过厚或过薄**  
+   同一个循环可叫 `runLoop` / `run_conversation` / `run_turn` / `query()`；行数差反映「多少策略留在中间层」。厚则能力全但难审计，薄则清晰但缺企业能力。
+
+3. **压缩允许失败，不允许死循环**  
+   Hermes 式：floor / two strikes / cooldown / fallback；压缩失败要降级，不能卡死主循环（见图示见 [13-上下文窗口管理](./13-FDE-Agent上下文窗口管理.md)）。
+
+4. **Checkpoint 边界**  
+   影子 Git（Hermes）≠ Claude 的提示前快照 ≠ Codex 已移除的 ghost snapshot。明确：**bash 侧效果与子代理编辑**往往不在 undo 范围。
+
+
+### 崩溃票据与磁盘持久化
+
+![无人兑现的票据：外套寄存式崩溃留下非法会话](../../assets/agent-harness/gen-35.png)
+
+*无人兑现的票据：外套寄存式崩溃留下非法会话*
+
+![进程结束时磁盘留下什么：Pi JSONL / Hermes state.db / Codex 文件+缓存 / Claude JSONL](../../assets/agent-harness/gen-34.png)
+
+*进程结束时磁盘留下什么：Pi JSONL / Hermes state.db / Codex 文件+缓存 / Claude JSONL*
+
+选型总表见 [32-Agent-Harness开源实践对照](./32-Agent-Harness开源实践对照.md)。
+
+---
+
 ## 参考与来源
 
 - 原创综述：Agent 框架选型视角与失败模式目录（本篇）  
 - 各主流框架官方文档（实现参考）  
-- 本库编排与评测文
+- 本库编排与评测文  
+- 追加：coat-check 与持久化图示

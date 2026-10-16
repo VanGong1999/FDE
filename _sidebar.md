@@ -33,6 +33,7 @@
 * [企业 AI 落地全景](/docs/03-AI落地/企业AI落地全景.md)
 * [RAG 实战精要](/docs/03-AI落地/RAG实战精要.md)
 * [Agent 与工具调用](/docs/03-AI落地/Agent与工具调用.md)
+* [Agent 开发工程经验](/docs/03-AI落地/Agent开发工程经验.md)
 * [Google ADK 与多 Agent](/docs/03-AI落地/Google-ADK与多Agent编排.md)
 * [评测 Eval 与 Guardrails](/docs/03-AI落地/评测Eval与Guardrails.md)
 * [LLM 评测双环](/docs/03-AI落地/LLM评测双环.md)
@@ -181,7 +182,7 @@
   * [21 你独自在客户现场。客户提出了范围之外的需求，而你的团队在另一个时区，此刻正在休息。现在就要做出决定。](/docs/09-面试题/10.客户面手艺/21.范围外需求.md)
 
 
-**10 概念课程**（171 概念 · 对照公开十条轨道）
+**10 概念课程**（172 概念 · 对照公开十条轨道）
 
 * [总索引](/docs/10-概念课程/README.md)
 * [01 LLM 与 GenAI 基础](/docs/10-概念课程/01-LLM与GenAI基础/README.md)

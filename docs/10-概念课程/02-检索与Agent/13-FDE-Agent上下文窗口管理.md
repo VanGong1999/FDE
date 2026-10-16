@@ -130,8 +130,130 @@ A：结构化槽位（订单号、金额、截止日）强制保留；摘要只�
 
 ---
 
+
+## 深入：开源 Harness 的 Loop 压缩对照（追加）
+
+开源编码 Agent（Pi / Hermes 等）把「窗口管理」落成可运行的压缩循环，可与上文预算表对照：
+
+| 维度 | Pi | Hermes |
+|------|----|--------|
+| 触发哲学 | 调用后检查，**从溢出中恢复** | 调用前检查，**绝不发送超预算请求** |
+| 预留方式 | 固定预留 **16,384** token 给回复 | 按有效窗口的**比例**（再加 64k / 75% / 85% 边界修正） |
+| 节奏 | 接近阈值时一次长暂停 | 可开**微压缩**：多次短暂停顿，账单分期付 |
+| 摘要形态 | 约 6 段（目标/约束/进度/决策/下一步/关键上下文） | 固定 **11 段**（含活跃状态、阻塞项、已裁剪技能等） |
+| 头中尾 | 保护头尾，中部总结；最近约 20k 逐词保留 | 四个廉价步骤围绕「总结中部」一个昂贵步骤 |
+
+Hermes 有效窗口示意：
+
+```python
+effective_window = context_length - (max_tokens or 0)
+# 阈值 ≈ 50%，保底 64k；小窗拉高到 75%；冲突时 85%
+```
+
+三种「留什么」口条：**压缩留摘要，交接留目标，子代理只留答案。**
+
+
+### 压缩时机与节奏
+
+![压缩时机：Hermes/Codex 调用前检查 vs Pi 溢出后恢复](../../assets/agent-harness/gen-37.png)
+
+*压缩时机：Hermes/Codex 调用前检查 vs Pi 溢出后恢复*
+
+![两种决策时机：Pi 固定保留 16384；Hermes 按比例保留](../../assets/agent-harness/gen-04-pi-vs-hermes-reserve.png)
+
+*两种决策时机：Pi 固定保留 16384；Hermes 按比例保留*
+
+![两种节奏：一次长暂停 vs 多次短暂停（微压缩）](../../assets/agent-harness/gen-06-two-rhythms.png)
+
+*两种节奏：一次长暂停 vs 多次短暂停（微压缩）*
+
+![Pi 何时压缩：contextTokens > window - 16384](../../assets/agent-harness/draw-19.png)
+
+*Pi 何时压缩：contextTokens > window - 16384*
+
+![单次微压缩：滚动摘要 + 光标，账单分期而非一次大额停顿](../../assets/agent-harness/gen-02-micro-compression-cursor.png)
+
+*单次微压缩：滚动摘要 + 光标，账单分期而非一次大额停顿*
+
+### Hermes 端到端与失败兜底
+
+![Hermes 端到端压缩：四个廉价步骤围绕一个昂贵步骤](../../assets/agent-harness/gen-00-hermes-e2e-compression.png)
+
+*Hermes 端到端压缩：四个廉价步骤围绕一个昂贵步骤*
+
+![Hermes 摘要始终包含的 11 个固定部分](../../assets/agent-harness/gen-01-hermes-summary-11-sections.png)
+
+*Hermes 摘要始终包含的 11 个固定部分*
+
+![Hermes 压缩失败处理：允许失败，绝不允许循环](../../assets/agent-harness/gen-03-hermes-compression-failure.png)
+
+*Hermes 压缩失败处理：允许失败，绝不允许循环*
+
+![两种记忆形态：Pi 6 部分 vs Hermes 11 部分](../../assets/agent-harness/gen-05-two-memory-forms.png)
+
+*两种记忆形态：Pi 6 部分 vs Hermes 11 部分*
+
+### Token 估算与截断点
+
+![Hermes 更信任服务商返回的真实 token，而非自身猜测](../../assets/agent-harness/gen-07-hermes-trust-provider-tokens.png)
+
+*Hermes 更信任服务商返回的真实 token，而非自身猜测*
+
+![Pi 如何估算没有用量数据的消息（字符/4、工具、图片4800）](../../assets/agent-harness/gen-08-pi-estimate-no-usage.png)
+
+*Pi 如何估算没有用量数据的消息（字符/4、工具、图片4800）*
+
+![Pi 从哪里获取 token：精确值 + 尾部估算](../../assets/agent-harness/gen-09-pi-token-sources.png)
+
+*Pi 从哪里获取 token：精确值 + 尾部估算*
+
+![反向查找截断点：从最新回溯累加至 keepRecentTokens=20000](../../assets/agent-harness/draw-20.png)
+
+*反向查找截断点：从最新回溯累加至 keepRecentTokens=20000*
+
+![关于同一条消息的两个问题：可否截断 vs 是否开启轮次](../../assets/agent-harness/draw-21.png)
+
+*关于同一条消息的两个问题：可否截断 vs 是否开启轮次*
+
+![头中尾压缩：保护头尾，只总结中部；尾部约占触发内容 20%](../../assets/agent-harness/draw-22.png)
+
+*头中尾压缩：保护头尾，只总结中部；尾部约占触发内容 20%*
+
+![有限上下文三种答案：压缩保留摘要 / 交接保留目标 / 子代理仅保留答案](../../assets/agent-harness/gen-32.png)
+
+*有限上下文三种答案：压缩保留摘要 / 交接保留目标 / 子代理仅保留答案*
+
+### 系统提示如何组装进窗口
+
+`buildSystemPrompt()` 按序组装；AGENTS.md 向上查找、最近者最后生效；模板固定但日期/技能会变。
+
+![buildSystemPrompt() 按序组装五段内容](../../assets/agent-harness/draw-10.png)
+
+*buildSystemPrompt() 按序组装五段内容*
+
+![AGENTS.md 向上查找：global first，最近者最后生效](../../assets/agent-harness/draw-11.png)
+
+*AGENTS.md 向上查找：global first，最近者最后生效*
+
+![相同模板三种组装结果：日期/上下文/技能会变](../../assets/agent-harness/draw-16.png)
+
+*相同模板三种组装结果：日期/上下文/技能会变*
+
+![组装生成而非硬编码：极小固定身份 + 动态 AGENTS.md/日期/cwd](../../assets/agent-harness/draw-17.png)
+
+*组装生成而非硬编码：极小固定身份 + 动态 AGENTS.md/日期/cwd*
+
+![组装生成而非硬编码（与 draw-17 同主题变体）](../../assets/agent-harness/draw-18.png)
+
+*组装生成而非硬编码（与 draw-17 同主题变体）*
+
+项目级对照表见 [32-Agent-Harness开源实践对照](./32-Agent-Harness开源实践对照.md)。
+
+---
+
 ## 参考与来源
 
 - 原创综述：Agent 场景的上下文预算与外置原则（本篇）  
 - 提示缓存与 KV 相关公开文档（见基础课 KV-Cache 篇若已建立）  
-- 本库延迟与成本面试题
+- 本库延迟与成本面试题  
+- 追加：Pi/Hermes 压缩与提示组装图示（`docs/assets/agent-harness/`）

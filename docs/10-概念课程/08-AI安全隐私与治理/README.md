@@ -21,6 +21,8 @@
 | 15 | Secrets 管理 | [15-Secrets管理.md](./15-Secrets管理.md) |
 | 16 | Agent 沙箱与执行隔离 | [16-Agent沙箱与执行隔离.md](./16-Agent沙箱与执行隔离.md) |
 
+> 16 篇已追加 Gate / Jail / Path Jail 与配图；对照总表见 [32-Agent-Harness开源实践对照](../02-检索与Agent/32-Agent-Harness开源实践对照.md)。
+
 ## 建议阅读顺序
 
 1. **攻击面与数据**：01 → 02 → 15 → 16 → 14  

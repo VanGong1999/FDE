@@ -117,6 +117,68 @@ Agent 项目失败经常不是模型不行，而是职责没人认：谁批、�
 
 ---
 
+---
+
+## 深入：Agent 循环、技能与提示组装（Harness 图示）
+
+循环本身很简单：**调用模型 → 是否调工具 → 执行 → 把结果追加进消息列表 → 再循环**。消息列表即记忆；第 N 回合重放前史，成本近似二次增长——这正是上下文压缩的动机。
+
+
+### 循环如何长出来
+
+同一套循环在不同项目里名字不同（`runLoop` / `run_conversation` / `run_turn` / `query()`），行数差反映中间层厚薄。
+
+![循环的推导过程：调用模型 → 工具？→ 执行 → 追加 → 再循环](../../assets/agent-harness/draw-00-agent-loop-reasoning.png)
+
+*循环的推导过程：调用模型 → 工具？→ 执行 → 追加 → 再循环*
+
+![三种角色，一张不断增长的列表 = 智能体全部记忆](../../assets/agent-harness/draw-02-three-roles-growing-list.png)
+
+*三种角色，一张不断增长的列表 = 智能体全部记忆*
+
+![一回合=调用+执行+追加；第N回合重放前史 → 成本二次增长](../../assets/agent-harness/draw-03-call-exec-append-quadratic.png)
+
+*一回合=调用+执行+追加；第N回合重放前史 → 成本二次增长*
+
+![RunLoop 的一圈：stream → tool calls → execute → append → repeat](../../assets/agent-harness/gen-38.png)
+
+*RunLoop 的一圈：stream → tool calls → execute → append → repeat*
+
+![同一个循环四种名字：Pi runLoop / Hermes run_conversation / Codex run_turn / Claude query](../../assets/agent-harness/gen-36.png)
+
+*同一个循环四种名字：Pi runLoop / Hermes run_conversation / Codex run_turn / Claude query*
+
+### SKILL：按需加载与自校验
+
+frontmatter 常驻、正文触发时加载、附属文件打开才付费；改完必须验证通过才继续。经验可用 `/learn` 落成可复用 `SKILL.md`。
+
+![技能文件是什么：frontmatter 常驻加载，正文按需加载](../../assets/agent-harness/draw-15-what-is-skill-file.png)
+
+*技能文件是什么：frontmatter 常驻加载，正文按需加载*
+
+![技能分三批付费：名称描述常驻 → 正文触发时 → 附属文件打开时](../../assets/agent-harness/draw-12.png)
+
+*技能分三批付费：名称描述常驻 → 正文触发时 → 附属文件打开时*
+
+![给予多少自由度：窄桥精确脚本 vs 旷野给目标](../../assets/agent-harness/draw-13.png)
+
+*给予多少自由度：窄桥精确脚本 vs 旷野给目标*
+
+![让技能检查自身输出：修改→验证→修复，通过才继续](../../assets/agent-harness/draw-14.png)
+
+*让技能检查自身输出：修改→验证→修复，通过才继续*
+
+![将刚发生的事转化为技能：/learn → 新 SKILL.md（描述≤60字符）](../../assets/agent-harness/gen-13.png)
+
+*将刚发生的事转化为技能：/learn → 新 SKILL.md（描述≤60字符）*
+
+![将刚发生的事转化为技能（与 gen-13 同主题变体）](../../assets/agent-harness/gen-14.png)
+
+*将刚发生的事转化为技能（与 gen-13 同主题变体）*
+
+对照总表与项目研究见 [32-Agent-Harness开源实践对照](./32-Agent-Harness开源实践对照.md)。
+
+
 ## 参考与来源
 
 - 原创综述：企业场景下 Agent 的形态划分与风险边界（本篇）  

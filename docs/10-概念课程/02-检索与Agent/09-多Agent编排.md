@@ -118,8 +118,93 @@ risk_level, needs_hitl: boolean
 
 ---
 
+
+## 深入：开源 Harness 的子 Agent 与 Recipe（追加）
+
+生产编码 Agent 把「多角色」落成**独立进程/会话 + 显式交接变量**，而不是共享一份膨胀上下文：
+
+| 模式 | 含义 | 典型实现 |
+|------|------|----------|
+| **single** | 委托一次，一个答案返回 | Pi `subagent` |
+| **parallel** | 一次扇出多任务再汇合 | Pi（上限约 8） |
+| **chain** | 管道式传 `{previous}` | `implement`：scout→planner→worker |
+
+**边界选择决定能访问什么**：Pi 用独立 OS 进程；Hermes 同进程线程（须手动隔离）；Codex 子会话；Claude Code 可配独立 worktree。同一地址空间的方案必须额外做权限收缩。
+
+角色文件（YAML + Markdown）定义 `tools` / `model`；父进程**只收结果**，探索成本关在子进程内。
+
+完整对照表（并发、嵌套、超时、重启存活）见 [32-Agent-Harness开源实践对照](./32-Agent-Harness开源实践对照.md)。
+
+
+### 子进程边界与定义存放
+
+![子进程运行在哪里：Pi/Hermes/Codex/Claude Code 隔离边界](../../assets/agent-harness/gen-20-where-subagents-run.png)
+
+*子进程运行在哪里：Pi/Hermes/Codex/Claude Code 隔离边界*
+
+![子进程运行在哪里（与 gen-20 同主题变体）](../../assets/agent-harness/gen-25.png)
+
+*子进程运行在哪里（与 gen-20 同主题变体）*
+
+![子进程定义存放位置：Pi YAML / Hermes 枚举 / Codex 配置层 / Claude 大 frontmatter](../../assets/agent-harness/gen-26.png)
+
+*子进程定义存放位置：Pi YAML / Hermes 枚举 / Codex 配置层 / Claude 大 frontmatter*
+
+![Pi 将委托能力排除在核心之外：subagent 仅为示例扩展](../../assets/agent-harness/gen-29.png)
+
+*Pi 将委托能力排除在核心之外：subagent 仅为示例扩展*
+
+### 三种模式与阻塞/后台
+
+![子代理工具三种模式：single / parallel / chain](../../assets/agent-harness/gen-21.png)
+
+*子代理工具三种模式：single / parallel / chain*
+
+![子代理工具三种模式（与 gen-21 同主题变体）](../../assets/agent-harness/gen-22.png)
+
+*子代理工具三种模式（与 gen-21 同主题变体）*
+
+![阻塞还是后台：Pi/Codex 阻塞等待 vs Hermes/Claude Code 后台](../../assets/agent-harness/gen-27.png)
+
+*阻塞还是后台：Pi/Codex 阻塞等待 vs Hermes/Claude Code 后台*
+
+![阻塞还是后台（与 gen-27 同主题变体）](../../assets/agent-harness/gen-28.png)
+
+*阻塞还是后台（与 gen-27 同主题变体）*
+
+### 角色、Recipe 与规模化
+
+任务过大时：子进程只返答案、交接只带目标、或实验性编排器 fleet。答案回传接缝值得守卫。
+
+![角色文件成为隔离子进程：父进程只收结果](../../assets/agent-harness/gen-23.png)
+
+*角色文件成为隔离子进程：父进程只收结果*
+
+![implement 预设：侦察→规划→执行（独立进程，{previous} 传递）](../../assets/agent-harness/gen-24.png)
+
+*implement 预设：侦察→规划→执行（独立进程，{previous} 传递）*
+
+![任务过大时三种答案：子代理 / 接力 / 编排器 fleet](../../assets/agent-harness/gen-19.png)
+
+*任务过大时三种答案：子代理 / 接力 / 编排器 fleet*
+
+![任务过大三种规模答案：子进程 / 交接 / 编排器集群](../../assets/agent-harness/gen-33.png)
+
+*任务过大三种规模答案：子进程 / 交接 / 编排器集群*
+
+![编排器驱动 N 个 Pi 实例（实验性）：1 编排器对 N 目标](../../assets/agent-harness/gen-31.png)
+
+*编排器驱动 N 个 Pi 实例（实验性）：1 编排器对 N 目标*
+
+![答案回传的接缝：子代理输出→父上下文的守卫边界](../../assets/agent-harness/gen-30.png)
+
+*答案回传的接缝：子代理输出→父上下文的守卫边界*
+
+---
+
 ## 参考与来源
 
 - 原创综述：多 Agent 拓扑选型与企业默认（本篇）  
 - 各编排框架文档（LangGraph、ADK 等）作实现参考  
-- 本库生产篇与评测篇
+- 本库生产篇与评测篇  
+- 追加：Pi / Hermes / Codex / Claude Code 子 Agent 图示
