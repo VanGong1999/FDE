@@ -57,7 +57,7 @@ FDEInterviews 把备面拆成四段：**认角色 → 按课程学工作顺序 �
 | 7 | Behavioral & Customer Scenarios | 发现扮演、敌意干系人、demo 翻车、为何做客户面 | [STAR](../04-面试通关/行为面STAR题库.md)、[客户模拟](../04-面试通关/客户模拟操练.md) |
 | 8 | MLOps & ML Engineering | 模型 CI/CD、漂移、K8s 推理、特征商店、晋级 | [生产化清单](../03-AI落地/生产化清单.md) |
 | 9 | ML Infrastructure & GPUs | 分布式训练、vLLM/KV cache、调度、网关扩容 | [GCP 云架构](../05-能力补强/GCP云架构与基础设施.md) |
-| 10 | AI Security, Privacy & Governance | 注入、PII、审计、SOC2/EU AI Act、CISO 场 | [OWASP 精读](./07-OWASP-LLM应用风险Top10.md)、[SSO](../05-能力补强/企业SSO与权限模型.md) |
+| 10 | AI Security, Privacy & Governance | 注入、PII、审计、SOC2/EU AI Act、CISO 场 | [09 面试题 · AI安全隐私与治理](../09-面试题/README.md#8-ai安全隐私与治理) · [概念课 08](../10-概念课程/08-AI安全隐私与治理/README.md) · [OWASP 精读](./07-OWASP-LLM应用风险Top10.md) |
 | 11 | ML System Design (Product) | 推荐/信息流/广告/欺诈：召回、特征、离线/在线评测 | [AI 系统设计课程](../03-AI落地/AI系统设计课程-基础篇.md) |
 
 首页公开样题（RAG 刷新后幻觉）：**先测召回，再动 prompt。** 数据刷新若只重摄入不重嵌入，索引会指向过期向量。本库对应 [RAG 实战精要](../03-AI落地/RAG实战精要.md)。
