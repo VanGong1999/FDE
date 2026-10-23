@@ -227,6 +227,28 @@
   * [30 Webhooks](/docs/10-概念课程/11-后端开发第一性原理/30-Webhooks.md)
   * [31 DevOps](/docs/10-概念课程/11-后端开发第一性原理/31-后端工程师的DevOps.md)
 
+**11 课程录音整理**（B 站《从 AI FDE 到 Agentic AI 架构师》）
+
+* [总索引](/docs/11-从AIFDE到AgenticAI架构师/README.md)
+* Day 1
+  * [01 课程简介与三周总览](/docs/11-从AIFDE到AgenticAI架构师/01-课程简介与三周总览.md)
+  * [02 OpenRouter 与免费 LLM 即时上手](/docs/11-从AIFDE到AgenticAI架构师/02-Day1-OpenRouter与免费LLM即时上手.md)
+  * [03 三周路线图](/docs/11-从AIFDE到AgenticAI架构师/03-Day1-三周路线图.md)
+  * [04 什么是 FDE](/docs/11-从AIFDE到AgenticAI架构师/04-Day1-什么是FDE.md)
+  * [05 FDE 所需技能工具与经验](/docs/11-从AIFDE到AgenticAI架构师/05-Day1-FDE所需技能工具与经验.md)
+  * [06 环境搭建](/docs/11-从AIFDE到AgenticAI架构师/06-Day1-环境搭建.md)
+  * [07 克隆仓库与 uv sync](/docs/11-从AIFDE到AgenticAI架构师/07-Day1-克隆仓库与uv-sync.md)
+  * [08 本地运行 Maze Agent](/docs/11-从AIFDE到AgenticAI架构师/08-Day1-本地运行Maze-Agent.md)
+* Day 2
+  * [09 回顾与计划](/docs/11-从AIFDE到AgenticAI架构师/09-Day2-回顾与计划.md)
+  * [10 从 GPT 到 ChatGPT 的 6 个技巧](/docs/11-从AIFDE到AgenticAI架构师/10-Day2-从GPT到ChatGPT的6个技巧.md)
+  * [11 比较前沿 LLM 与 METR](/docs/11-从AIFDE到AgenticAI架构师/11-Day2-比较前沿LLM与METR.md)
+  * [12 介绍 UnderCover 项目](/docs/11-从AIFDE到AgenticAI架构师/12-Day2-介绍UnderCover项目.md)
+  * [13 Lab 准备与 LangChain 基础](/docs/11-从AIFDE到AgenticAI架构师/13-Day2-Lab准备与LangChain基础.md)
+  * [14 探索理赔数据](/docs/11-从AIFDE到AgenticAI架构师/14-Day2-探索理赔数据.md)
+  * [15 测试多个模型](/docs/11-从AIFDE到AgenticAI架构师/15-Day2-测试多个模型.md)
+  * [16 用 LangChain 构建理赔 Agent](/docs/11-从AIFDE到AgenticAI架构师/16-Day2-用LangChain构建理赔Agent.md)
+
 **其他**
 
 * [支持与联系](/#/README?id=支持与联系)

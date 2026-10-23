@@ -141,6 +141,16 @@
 - [07 数据与 SQL](/docs/10-概念课程/07-数据与SQL工程/README.md) · [08 安全治理](/docs/10-概念课程/08-AI安全隐私与治理/README.md)
 - [09 编码手艺](/docs/10-概念课程/09-编码与工程手艺/README.md) · [10 客户面手艺](/docs/10-概念课程/10-客户面手艺/README.md)
 
+### 11 课程录音整理（B 站课程）
+
+B 站《从 AI FDE 到 Agentic AI 架构师：把智能体真正落地到业务现场》（BV1XYnF6GEjD）Day 1 + Day 2 录音整理笔记。
+
+- [总索引](/docs/11-从AIFDE到AgenticAI架构师/README.md)
+- Day 1：[课程简介](/docs/11-从AIFDE到AgenticAI架构师/01-课程简介与三周总览.md) · [OpenRouter 与免费 LLM](/docs/11-从AIFDE到AgenticAI架构师/02-Day1-OpenRouter与免费LLM即时上手.md) · [三周路线图](/docs/11-从AIFDE到AgenticAI架构师/03-Day1-三周路线图.md) · [什么是 FDE](/docs/11-从AIFDE到AgenticAI架构师/04-Day1-什么是FDE.md)
+- Day 1：[技能工具经验](/docs/11-从AIFDE到AgenticAI架构师/05-Day1-FDE所需技能工具与经验.md) · [环境搭建](/docs/11-从AIFDE到AgenticAI架构师/06-Day1-环境搭建.md) · [克隆仓库与 uv sync](/docs/11-从AIFDE到AgenticAI架构师/07-Day1-克隆仓库与uv-sync.md) · [本地 Maze Agent](/docs/11-从AIFDE到AgenticAI架构师/08-Day1-本地运行Maze-Agent.md)
+- Day 2：[回顾计划](/docs/11-从AIFDE到AgenticAI架构师/09-Day2-回顾与计划.md) · [GPT→ChatGPT 6 技巧](/docs/11-从AIFDE到AgenticAI架构师/10-Day2-从GPT到ChatGPT的6个技巧.md) · [前沿 LLM 与 METR](/docs/11-从AIFDE到AgenticAI架构师/11-Day2-比较前沿LLM与METR.md) · [UnderCover 项目](/docs/11-从AIFDE到AgenticAI架构师/12-Day2-介绍UnderCover项目.md)
+- Day 2：[Lab 与 LangChain](/docs/11-从AIFDE到AgenticAI架构师/13-Day2-Lab准备与LangChain基础.md) · [理赔数据](/docs/11-从AIFDE到AgenticAI架构师/14-Day2-探索理赔数据.md) · [测试多模型](/docs/11-从AIFDE到AgenticAI架构师/15-Day2-测试多个模型.md) · [LangChain 理赔 Agent](/docs/11-从AIFDE到AgenticAI架构师/16-Day2-用LangChain构建理赔Agent.md)
+
 ### 引用总表
 
 - [references/sources.md](/references/sources.md)
