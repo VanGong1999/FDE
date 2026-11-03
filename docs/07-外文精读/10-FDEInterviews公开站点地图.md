@@ -56,7 +56,7 @@ FDEInterviews 把备面拆成四段：**认角色 → 按课程学工作顺序 �
 | 6 | System Design & Production Engineering | Decomposition、POC 生产化、事故、可观测、VPC/气隙 | [Decomposition](../04-面试通关/Decomposition拆解面.md)、[POC 到生产](../02-交付方法论/POC到生产.md) |
 | 7 | Behavioral & Customer Scenarios | 发现扮演、敌意干系人、demo 翻车、为何做客户面 | [STAR](../04-面试通关/行为面STAR题库.md)、[客户模拟](../04-面试通关/客户模拟操练.md) |
 | 8 | MLOps & ML Engineering | 模型 CI/CD、漂移、K8s 推理、特征商店、晋级 | [生产化清单](../03-AI落地/生产化清单.md) |
-| 9 | ML Infrastructure & GPUs | 分布式训练、vLLM/KV cache、调度、网关扩容 | [GCP 云架构](../05-能力补强/GCP云架构与基础设施.md) |
+| 9 | ML Infrastructure & GPUs | 分布式训练、vLLM/KV cache、调度、网关扩容 | [09 面试题 · ML基础设施与Serving](../09-面试题/README.md#6-ml基础设施与serving) · [概念课 06](../10-概念课程/06-ML基础设施与Serving/README.md) · [GCP 云架构](../05-能力补强/GCP云架构与基础设施.md) |
 | 10 | AI Security, Privacy & Governance | 注入、PII、审计、SOC2/EU AI Act、CISO 场 | [09 面试题 · AI安全隐私与治理](../09-面试题/README.md#8-ai安全隐私与治理) · [概念课 08](../10-概念课程/08-AI安全隐私与治理/README.md) · [OWASP 精读](./07-OWASP-LLM应用风险Top10.md) |
 | 11 | ML System Design (Product) | 推荐/信息流/广告/欺诈：召回、特征、离线/在线评测 | [09 面试题 · 生产系统设计](../09-面试题/README.md#4-生产系统设计) · [AI 系统设计课程](../03-AI落地/AI系统设计课程-基础篇.md) |
 

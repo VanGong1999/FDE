@@ -6,6 +6,16 @@
 > 主读者：有后端/全栈经验、转 FDE。从零基础开始，可参考 [学习路径-零基础](/docs/00-导读/学习路径-零基础.md)  
 > 打赏 / 加好友 / 关注公众号 → [支持与联系](#支持与联系)
 
+## 姊妹知识库
+
+本库与另外两个专题库互补，可按方向跳转：
+
+| 知识库 | 侧重 | 仓库 |
+|--------|------|------|
+| **FDE 知识库**（本库） | 前线部署角色、交付方法论、企业 AI 落地、面试通关 | [VanGong1999/FDE](https://github.com/VanGong1999/FDE) |
+| **AI 推理工程知识库** | 推理 Serving、GPU/显存、批处理、KV Cache、性能与成本 | [VanGong1999/ai-inference](https://github.com/VanGong1999/ai-inference) |
+| **AI Agent 知识库** | LLM Agent 面试与系统设计、工具调用、多 Agent、护栏 | [VanGong1999/llm-agents-interview](https://github.com/VanGong1999/llm-agents-interview) |
+
 ## 你学完能做什么
 
 - 说清 FDE 与 SWE / SE / SA 的差异，并完成转岗自评

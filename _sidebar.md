@@ -1,5 +1,11 @@
 * [首页](/)
 
+**姊妹知识库**
+
+* [FDE 知识库](https://github.com/VanGong1999/FDE)
+* [AI 推理工程](https://github.com/VanGong1999/ai-inference)
+* [AI Agent 面试](https://github.com/VanGong1999/llm-agents-interview)
+
 **导读**
 
 * [如何使用本仓库](/docs/00-导读/如何使用本仓库.md)
@@ -171,6 +177,27 @@
   * [10 为在线课程（或电商）目录设计一个推荐引擎](/docs/09-面试题/4.生产系统设计/10.为在线课程设计搜索引擎.md)
   * [11 为短视频“为你推荐（For You）”信息流设计排序系统](/docs/09-面试题/4.生产系统设计/11.为短视频信息流设计排序系统.md)
   * [12 为商品/交易市场搜索设计排序学习（Learning-to-rank, LTR）](/docs/09-面试题/4.生产系统设计/12.为商品交易市场搜索设计排序学习.md)
+* [6. ML基础设施与Serving](/docs/09-面试题/README.md?id=6-ml基础设施与serving)
+  * [01 解释 CUDA 执行模型如何映射到硬件：网格、线程块、warp、SM](/docs/09-面试题/06-ML基础设施与Serving/1.cuda执行模型如何映射硬件.md)
+  * [02 带你梳理GPU存储层次：寄存器、共享内存、L2缓存、HBM](/docs/09-面试题/06-ML基础设施与Serving/2.梳理gpu的存储层次.md)
+  * [03 什么是warp divergence（束发散/线程束分化）？为什么它会损害性能？](/docs/09-面试题/06-ML基础设施与Serving/3.线程束分化.md)
+  * [04 解释内存合并访问与共享内存体冲突；同时存在时如何修复？](/docs/09-面试题/06-ML基础设施与Serving/4.内存合并访问和共享内存体冲突.md)
+  * [05 什么是占用率（occupancy）？如何权衡块大小与寄存器、共享内存？](/docs/09-面试题/06-ML基础设施与Serving/5.占用率权衡寄存器和共享内存.md)
+  * [06 如何判断一个 Kernel 是访存受限还是计算受限？](/docs/09-面试题/06-ML基础设施与Serving/6.内存受限和计算受限.md)
+  * [07 你做过机器学习GPU负载相关的工作吗？](/docs/09-面试题/06-ML基础设施与Serving/7.GPU-payload.md)
+  * [08 对比数据并行、张量并行、流水线并行；如何组合成3D并行？](/docs/09-面试题/06-ML基础设施与Serving/8.TP-DP-PP.md)
+  * [09 环形全归约（Ring All-Reduce）原理说明以及通信代价推导](/docs/09-面试题/06-ML基础设施与Serving/9.Ring-All-Reduce.md)
+  * [10 ZeRO 和 FSDP 究竟分片了什么？梯度检查点在其中处于什么位置？](/docs/09-面试题/06-ML基础设施与Serving/10.ZeRo和FSDP.md)
+  * [11 训练1000亿参数模型：设计数据并行与模型并行方案](/docs/09-面试题/06-ML基础设施与Serving/11.训练千亿参数模型方案.md)
+  * [12 流水线并行：TP/PP/DP 如何映射到集群网络结构？](/docs/09-面试题/06-ML基础设施与Serving/12.流水线并行.md)
+  * [13 NCCL 到底做什么？通信受限时 GPU 利用率为何还能 100%？](/docs/09-面试题/06-ML基础设施与Serving/13.NCCL.md)
+  * [14 对于GPU训练集群，该如何选择InfiniBand还是RoCE？](/docs/09-面试题/06-ML基础设施与Serving/14.gpu训练集群选择.md)
+  * [15 你如何处理MoE模型中的专家负载均衡？](/docs/09-面试题/06-ML基础设施与Serving/15.moe.md)
+  * [16 训练代码能跑但损失持平不变：讲一下调试流程](/docs/09-面试题/06-ML基础设施与Serving/16.调试流程.md)
+  * [17 硬件故障与拖慢节点下，如何保障数周训练稳定运行？](/docs/09-面试题/06-ML基础设施与Serving/17.保障持续数周的训练任务稳定运行.md)
+  * [18 你在机器学习基础设施（包括分布式GPU集群）方面有哪些经验？](/docs/09-面试题/06-ML基础设施与Serving/18.ML基础设施经验.md)
+  * [19 什么是KV缓存？为何占推理绝大部分显存？针对70B演算](/docs/09-面试题/06-ML基础设施与Serving/19.kvcache.md)
+  * [20 vLLM 的 PagedAttention 是如何工作的？它实际解决了什么问题？](/docs/09-面试题/06-ML基础设施与Serving/20.pagedAttention.md)
 * [8. AI安全隐私与治理](/docs/09-面试题/README.md?id=8-ai安全隐私与治理)
   * [01 解释直接提示注入与间接提示注入，以及二者分别会如何破坏大语言模型应用。](/docs/09-面试题/08-AI安全隐私与治理/1.直接提示注入和间接提示注入.md)
   * [02 （待补）](/docs/09-面试题/08-AI安全隐私与治理/2.模型越狱和提示词注入.md)
