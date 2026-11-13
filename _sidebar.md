@@ -2,7 +2,8 @@
 
 **姊妹知识库**
 
-* [FDE 知识库](https://github.com/VanGong1999/FDE)
+* [FDE 知识库 · GitHub](https://github.com/VanGong1999/FDE)
+* [FDE 在线阅读](https://vangong1999.github.io/FDE/)
 * [AI 推理工程](https://github.com/VanGong1999/ai-inference)
 * [AI Agent 面试](https://github.com/VanGong1999/llm-agents-interview)
 

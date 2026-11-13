@@ -1,0 +1,325 @@
+/* FDE Docsify theme — teal / slate, light atmosphere */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+
+:root {
+  --theme-color: #0f766e;
+  --theme-color-dark: #0b5f59;
+  --ink: #0f172a;
+  --muted: #475569;
+  --line: rgba(15, 118, 110, 0.14);
+  --panel: rgba(255, 255, 255, 0.78);
+  --wash-a: #ecfdf8;
+  --wash-b: #f0f7f4;
+  --wash-c: #e8eef5;
+}
+
+html, body {
+  font-family: 'Noto Sans SC', 'Space Grotesk', sans-serif;
+  color: var(--ink);
+  background:
+    radial-gradient(1200px 600px at 8% -10%, rgba(15, 118, 110, 0.16), transparent 55%),
+    radial-gradient(900px 500px at 100% 0%, rgba(71, 85, 105, 0.12), transparent 50%),
+    linear-gradient(180deg, var(--wash-a) 0%, var(--wash-b) 42%, var(--wash-c) 100%);
+  background-attachment: fixed;
+}
+
+/* Sidebar */
+.sidebar {
+  background: rgba(255, 255, 255, 0.86);
+  backdrop-filter: blur(10px);
+  border-right: 1px solid var(--line);
+}
+
+.sidebar .app-name {
+  font-family: 'Space Grotesk', 'Noto Sans SC', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.sidebar .app-name a {
+  color: var(--theme-color-dark) !important;
+}
+
+.sidebar-nav ul li strong {
+  display: block;
+  margin: 1rem 0 0.35rem;
+  padding: 0.2rem 0;
+  color: var(--theme-color-dark);
+  font-family: 'Space Grotesk', 'Noto Sans SC', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--line);
+}
+
+.sidebar-nav a {
+  color: var(--muted) !important;
+  border-radius: 8px;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.sidebar-nav a:hover {
+  color: var(--theme-color-dark) !important;
+  background: rgba(15, 118, 110, 0.08);
+}
+
+.sidebar-nav li.active > a {
+  color: var(--theme-color-dark) !important;
+  background: rgba(15, 118, 110, 0.12);
+  font-weight: 600;
+}
+
+.search input {
+  border: 1px solid var(--line) !important;
+  border-radius: 10px !important;
+  background: #fff !important;
+}
+
+.search .matching-post {
+  border-bottom: 1px solid var(--line);
+}
+
+/* Main content */
+.markdown-section {
+  max-width: 880px;
+  padding: 36px 28px 64px;
+}
+
+.markdown-section h1,
+.markdown-section h2,
+.markdown-section h3 {
+  font-family: 'Noto Serif SC', 'Noto Sans SC', serif;
+  color: var(--ink);
+  letter-spacing: 0.01em;
+}
+
+.markdown-section h1 {
+  font-size: 2rem;
+  margin-bottom: 0.6rem;
+  padding-bottom: 0.55rem;
+  border-bottom: 2px solid rgba(15, 118, 110, 0.22);
+}
+
+.markdown-section h2 {
+  margin-top: 2rem;
+  padding-left: 0.65rem;
+  border-left: 4px solid var(--theme-color);
+}
+
+.markdown-section p,
+.markdown-section li {
+  line-height: 1.75;
+  color: #1e293b;
+}
+
+.markdown-section blockquote {
+  border-left: 4px solid var(--theme-color);
+  background: rgba(15, 118, 110, 0.06);
+  color: var(--muted);
+  border-radius: 0 12px 12px 0;
+  padding: 0.85rem 1rem;
+}
+
+.markdown-section a {
+  color: var(--theme-color-dark);
+  font-weight: 500;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(15, 118, 110, 0.28);
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.markdown-section a:hover {
+  color: #115e59;
+  border-bottom-color: #115e59;
+}
+
+.markdown-section table {
+  display: block;
+  overflow-x: auto;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--panel);
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.04);
+}
+
+.markdown-section tr:nth-child(2n) {
+  background: rgba(15, 118, 110, 0.04);
+}
+
+.markdown-section th {
+  background: rgba(15, 118, 110, 0.1);
+  color: var(--theme-color-dark);
+  font-weight: 700;
+}
+
+.markdown-section th,
+.markdown-section td {
+  border-color: var(--line) !important;
+  padding: 0.7rem 0.85rem !important;
+}
+
+.markdown-section code {
+  background: rgba(15, 118, 110, 0.08);
+  color: #0f4c49;
+  border-radius: 6px;
+  padding: 0.12em 0.35em;
+}
+
+.markdown-section pre {
+  border-radius: 12px !important;
+  border: 1px solid var(--line);
+  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.06);
+}
+
+.markdown-section img {
+  border-radius: 12px;
+  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.08);
+}
+
+.markdown-section .mermaid {
+  text-align: center;
+  overflow-x: auto;
+  margin: 1.2em 0;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+}
+
+/* Sister KB cards (homepage HTML block) */
+.sister-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin: 1.1rem 0 1.6rem;
+}
+
+.sister-card {
+  display: block;
+  padding: 1rem 1.05rem 1.1rem;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background:
+    linear-gradient(165deg, rgba(255, 255, 255, 0.95), rgba(236, 253, 248, 0.88));
+  box-shadow: 0 10px 26px rgba(15, 23, 42, 0.05);
+  text-decoration: none !important;
+  border-bottom: none !important;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+.sister-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 32px rgba(15, 23, 42, 0.09);
+  border-color: rgba(15, 118, 110, 0.35);
+}
+
+.sister-card .tag {
+  display: inline-block;
+  margin-bottom: 0.45rem;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--theme-color-dark);
+  background: rgba(15, 118, 110, 0.1);
+  padding: 0.18rem 0.45rem;
+  border-radius: 6px;
+}
+
+.sister-card h3 {
+  margin: 0 0 0.4rem !important;
+  font-size: 1.05rem !important;
+  border: none !important;
+  padding: 0 !important;
+  color: var(--ink) !important;
+}
+
+.sister-card p {
+  margin: 0;
+  font-size: 0.88rem;
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0.9rem 0 0.4rem;
+}
+
+.hero-actions a {
+  display: inline-block;
+  padding: 0.55rem 0.95rem;
+  border-radius: 10px;
+  font-weight: 600;
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
+.hero-actions .primary {
+  color: #fff !important;
+  background: linear-gradient(135deg, #0f766e, #0b5f59);
+  box-shadow: 0 8px 18px rgba(15, 118, 110, 0.28);
+}
+
+.hero-actions .ghost {
+  color: var(--theme-color-dark) !important;
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid var(--line) !important;
+}
+
+/* Cover page */
+section.cover {
+  background:
+    radial-gradient(900px 480px at 20% 20%, rgba(15, 118, 110, 0.28), transparent 60%),
+    radial-gradient(700px 420px at 85% 15%, rgba(71, 85, 105, 0.18), transparent 55%),
+    linear-gradient(160deg, #ecfdf8 0%, #f8fafc 55%, #e8eef5 100%) !important;
+}
+
+section.cover .cover-main > p:last-child a {
+  border-radius: 10px !important;
+  font-weight: 600;
+  padding: 0.55rem 1.15rem !important;
+  border: none !important;
+}
+
+section.cover .cover-main > p:last-child a:first-child {
+  background: linear-gradient(135deg, #0f766e, #0b5f59) !important;
+  color: #fff !important;
+}
+
+section.cover .cover-main > p:last-child a:not(:first-child) {
+  background: rgba(255, 255, 255, 0.8) !important;
+  color: #0b5f59 !important;
+  border: 1px solid rgba(15, 118, 110, 0.25) !important;
+}
+
+section.cover h1 {
+  font-family: 'Noto Serif SC', 'Space Grotesk', serif;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+section.cover h1 small,
+section.cover p {
+  color: #334155 !important;
+}
+
+/* Pagination */
+.pagination-item a {
+  color: var(--theme-color-dark) !important;
+}
+
+@media (max-width: 900px) {
+  .sister-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .markdown-section {
+    padding: 24px 18px 48px;
+  }
+}

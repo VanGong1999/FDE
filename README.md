@@ -2,13 +2,38 @@
 
 中文 **AI 前线部署工程师（Forward Deployed Engineer）** 学习与面试资料库：从角色认知、交付方法论、企业 AI 落地，到面试通关与可复制工作模板。
 
-> 在线阅读（GitHub Pages）：https://vangong1999.github.io/FDE/  
+> 在线阅读：[vangong1999.github.io/FDE](https://vangong1999.github.io/FDE/) · 源码仓库：[github.com/VanGong1999/FDE](https://github.com/VanGong1999/FDE)  
 > 主读者：有后端/全栈经验、转 FDE。从零基础开始，可参考 [学习路径-零基础](/docs/00-导读/学习路径-零基础.md)  
 > 打赏 / 加好友 / 关注公众号 → [支持与联系](#支持与联系)
+
+<div class="hero-actions">
+  <a class="primary" href="https://vangong1999.github.io/FDE/">在线阅读</a>
+  <a class="ghost" href="https://github.com/VanGong1999/FDE">GitHub 仓库</a>
+  <a class="ghost" href="/docs/00-导读/学习路径-转岗者.md">转岗学习路径</a>
+  <a class="ghost" href="/docs/09-面试题/README.md">面试题目录</a>
+</div>
 
 ## 姊妹知识库
 
 本库与另外两个专题库互补，可按方向跳转：
+
+<div class="sister-grid">
+  <a class="sister-card" href="https://github.com/VanGong1999/FDE">
+    <span class="tag">本库</span>
+    <h3>FDE 知识库</h3>
+    <p>前线部署角色、交付方法论、企业 AI 落地、面试通关</p>
+  </a>
+  <a class="sister-card" href="https://github.com/VanGong1999/ai-inference">
+    <span class="tag">推理</span>
+    <h3>AI 推理工程</h3>
+    <p>Serving、GPU/显存、批处理、KV Cache、vLLM 与性能成本</p>
+  </a>
+  <a class="sister-card" href="https://github.com/VanGong1999/llm-agents-interview">
+    <span class="tag">Agent</span>
+    <h3>AI Agent 知识库</h3>
+    <p>Agent 面试与系统设计、工具调用、多 Agent、护栏</p>
+  </a>
+</div>
 
 | 知识库 | 侧重 | 仓库 |
 |--------|------|------|
@@ -78,6 +103,7 @@
 - [企业 AI 落地全景](/docs/03-AI落地/企业AI落地全景.md)
 - [RAG 实战精要](/docs/03-AI落地/RAG实战精要.md)
 - [Agent 与工具调用](/docs/03-AI落地/Agent与工具调用.md)
+- [Agent 开发工程经验](/docs/03-AI落地/Agent开发工程经验.md)
 - [Google ADK 与多 Agent 编排](/docs/03-AI落地/Google-ADK与多Agent编排.md)
 - [评测 Eval 与 Guardrails](/docs/03-AI落地/评测Eval与Guardrails.md)
 - [LLM 评测双环](/docs/03-AI落地/LLM评测双环.md)
@@ -132,14 +158,17 @@
 - [08 工具箱与清单](/docs/08-工具箱与清单/README.md)
   - [发现访谈提纲](/docs/08-工具箱与清单/发现访谈提纲.md) · [POC 验收表](/docs/08-工具箱与清单/POC验收表.md) · [Go-Live](/docs/08-工具箱与清单/生产Go-Live清单.md) · [周报](/docs/08-工具箱与清单/周报模板.md)
   - [现场勘察与范围文档](/docs/08-工具箱与清单/现场勘察与范围文档.md)
-- [可复制模板](/docs/templates/)
+- 可复制模板：[发现访谈纪要](/docs/templates/发现访谈纪要.md) · [问题陈述](/docs/templates/问题陈述.md) · [技术范围 PRD](/docs/templates/技术范围PRD.md) · [POC 验收表](/docs/templates/POC验收表.md) · [Go-Live 检查表](/docs/templates/Go-Live检查表.md) · [周报](/docs/templates/周报.md) · [高管周报 WES](/docs/templates/高管周报WES.md) · [决策备忘录](/docs/templates/决策备忘录.md) · [现场勘察](/docs/templates/现场勘察SiteSurvey.md)
 
 ### 09 面试题
 
 - [题目录](/docs/09-面试题/README.md)
-- [1. LLM和AI基础](/docs/09-面试题/README.md#1-llm和ai基础)（20 题：上下文窗口、生成循环、Transformer、Token、RAG/微调选型、幻觉、工具调用、延迟等）
-- [2. RAG和Agent系统](/docs/09-面试题/README.md#2-rag和agent系统)（20 题：流水线、分块、混合检索、Agent/护栏、流式、多源摄取、权限 RAG 等）
-- [10. 客户面手艺](/docs/09-面试题/README.md#10-客户面手艺)（21 题：行为面与客户场景——需求调研、幻觉质疑、准确率谈判、范围外需求等）
+- [1. LLM和AI基础](/docs/09-面试题/README.md#1-llm和ai基础)（20 题）· [目录](https://github.com/VanGong1999/FDE/tree/main/docs/09-面试题/1.LLM和AI基础)
+- [2. RAG和Agent系统](/docs/09-面试题/README.md#2-rag和agent系统)（20 题）· [目录](https://github.com/VanGong1999/FDE/tree/main/docs/09-面试题/2.RAG和Agent系统)
+- [4. 生产系统设计](/docs/09-面试题/README.md#4-生产系统设计)（12 题）· [目录](https://github.com/VanGong1999/FDE/tree/main/docs/09-面试题/4.生产系统设计)
+- [6. ML基础设施与Serving](/docs/09-面试题/README.md#6-ml基础设施与serving)（20 题）· [目录](https://github.com/VanGong1999/FDE/tree/main/docs/09-面试题/06-ML基础设施与Serving)
+- [8. AI安全隐私与治理](/docs/09-面试题/README.md#8-ai安全隐私与治理)（20 题）· [目录](https://github.com/VanGong1999/FDE/tree/main/docs/09-面试题/08-AI安全隐私与治理)
+- [10. 客户面手艺](/docs/09-面试题/README.md#10-客户面手艺)（21 题）· [目录](https://github.com/VanGong1999/FDE/tree/main/docs/09-面试题/10.客户面手艺)
 
 ### 10 概念课程（171 概念）
 
@@ -150,6 +179,7 @@
 - [04 生产系统设计](/docs/10-概念课程/04-生产系统设计/README.md) · [05 MLOps](/docs/10-概念课程/05-MLOps与生命周期/README.md) · [06 Serving](/docs/10-概念课程/06-ML基础设施与Serving/README.md)
 - [07 数据与 SQL](/docs/10-概念课程/07-数据与SQL工程/README.md) · [08 安全治理](/docs/10-概念课程/08-AI安全隐私与治理/README.md)
 - [09 编码手艺](/docs/10-概念课程/09-编码与工程手艺/README.md) · [10 客户面手艺](/docs/10-概念课程/10-客户面手艺/README.md)
+- [11 后端开发第一性原理](/docs/10-概念课程/11-后端开发第一性原理/README.md)
 
 ### 11 课程录音整理（B 站课程）
 
