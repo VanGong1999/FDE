@@ -9,8 +9,41 @@
 <div class="hero-actions">
   <a class="primary" href="https://vangong1999.github.io/FDE/">在线阅读</a>
   <a class="ghost" href="https://github.com/VanGong1999/FDE">GitHub 仓库</a>
-  <a class="ghost" href="/docs/00-导读/学习路径-转岗者.md">转岗学习路径</a>
-  <a class="ghost" href="/docs/09-面试题/README.md">面试题目录</a>
+  <a class="ghost" href="#/docs/00-导读/学习路径-转岗者.md">转岗学习路径</a>
+  <a class="ghost" href="#/docs/09-面试题/README.md">面试题目录</a>
+</div>
+
+<div class="hero-stats" aria-label="知识库规模">
+  <div><strong>11</strong><span>知识轨道</span></div>
+  <div><strong>171</strong><span>概念课程</span></div>
+  <div><strong>4 周</strong><span>核心路径</span></div>
+  <div><strong>∞</strong><span>现场模板</span></div>
+</div>
+
+<div class="start-grid">
+  <a class="start-card start-card-featured" href="#/docs/00-导读/学习路径-转岗者.md">
+    <span class="start-index">01 / START HERE</span>
+    <strong>我是后端 / 全栈，想转 FDE</strong>
+    <small>从角色认知到第一场客户交付，按周推进。</small>
+    <em>打开转岗路径 →</em>
+  </a>
+  <a class="start-card" href="#/docs/02-交付方法论/Discover-Design-Deploy-Review.md">
+    <span class="start-index">02 / DELIVER</span>
+    <strong>我已经在做客户项目</strong>
+    <small>用 Discover → Design → Deploy → Review 建立交付节奏。</small>
+    <em>进入交付方法论 →</em>
+  </a>
+  <a class="start-card" href="#/docs/04-面试通关/面试全景与公司对照.md">
+    <span class="start-index">03 / INTERVIEW</span>
+    <strong>我想准备 FDE 面试</strong>
+    <small>公司对照、系统设计、Decomposition 与行为面一站式练习。</small>
+    <em>打开面试地图 →</em>
+  </a>
+</div>
+
+<div class="path-strip">
+  <span class="path-label">4-WEEK CORE PATH</span>
+  <span>角色定位</span><b>→</b><span>交付方法</span><b>→</b><span>AI 落地</span><b>→</b><span>面试与模板</span>
 </div>
 
 ## 姊妹知识库
