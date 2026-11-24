@@ -6,9 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="中文 FDE（Forward Deployed Engineer）学习与面试知识库：角色认知、交付方法论、AI 落地、面试通关、行业案例与外文精读。姊妹库：AI 推理工程、AI Agent。" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+  <meta name="theme-color" content="#07111f" />
+  <meta name="color-scheme" content="light dark" />
   <meta property="og:title" content="FDE 知识库 — AI 前线部署工程师" />
   <meta property="og:description" content="中文 FDE 学习与面试资料库：从角色认知到企业 AI 落地与面试通关。" />
   <meta property="og:url" content="https://vangong1999.github.io/FDE/" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%2300a88f'/%3E%3Cpath d='M17 14h30v9H27v10h17v9H27v18h-10z' fill='%2307111f'/%3E%3C/svg%3E" />
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css" />
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" />
   <link rel="stylesheet" href="assets/custom.css" />
@@ -18,8 +21,124 @@
   <!-- Docsify 暂不支持 Mermaid 异步渲染，官方文档锁定到 v9.3.0 -->
   <script src="//cdn.jsdelivr.net/npm/mermaid@9.3.0/dist/mermaid.min.js"></script>
   <script>
+    (function () {
+      var storedTheme = null;
+      try {
+        storedTheme = localStorage.getItem('fde-ui-theme');
+      } catch (error) {
+        storedTheme = null;
+      }
+      var preferredTheme = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      document.documentElement.dataset.theme = storedTheme === 'dark' || storedTheme === 'light' ? storedTheme : preferredTheme;
+    }());
+
     var mermaidId = 0;
     mermaid.initialize({ startOnLoad: false, securityLevel: 'loose' });
+
+    window.FDEUI = {
+      initialized: false,
+      init: function () {
+        var root = document.documentElement;
+        var body = document.body;
+        var app = document.getElementById('app');
+        var main = document.getElementById('main');
+        if (!app && !main) return;
+
+        if (!document.querySelector('.fde-topbar')) {
+          var topbar = document.createElement('header');
+          topbar.className = 'fde-topbar';
+          topbar.innerHTML = [
+            '<a class="fde-brand" href="#/" aria-label="返回 FDE 知识库首页">',
+            '<span class="fde-brand-mark">F</span>',
+            '<span><strong>FDE</strong><small>FIELD DEPLOYMENT ENGINEERING</small></span>',
+            '</a>',
+            '<div class="fde-topbar-meta"><span class="fde-live-dot"></span><span>知识库持续更新</span></div>',
+            '<div class="fde-topbar-actions">',
+            '<a class="fde-topbar-link" href="#/docs/00-导读/如何使用本仓库.md" aria-label="打开知识库目录">目录</a>',
+            '<a class="fde-topbar-link" href="https://github.com/VanGong1999/FDE" target="_blank" rel="noreferrer">GitHub</a>',
+            '<button class="fde-theme-toggle" type="button" aria-label="切换深色模式" title="切换深色模式"><span aria-hidden="true">◐</span></button>',
+            '</div>'
+          ].join('');
+          body.appendChild(topbar);
+        }
+
+        if (!document.querySelector('.fde-progress')) {
+          var progress = document.createElement('div');
+          progress.className = 'fde-progress';
+          progress.setAttribute('aria-hidden', 'true');
+          body.appendChild(progress);
+        }
+
+        if (!document.querySelector('.fde-backtop')) {
+          var backtop = document.createElement('button');
+          backtop.className = 'fde-backtop';
+          backtop.type = 'button';
+          backtop.tabIndex = -1;
+          backtop.setAttribute('aria-label', '返回顶部');
+          backtop.title = '返回顶部';
+          backtop.innerHTML = '<span aria-hidden="true">↑</span>';
+          body.appendChild(backtop);
+        }
+
+        var toggle = document.querySelector('.fde-theme-toggle');
+        if (toggle) {
+          var toggleLabel = root.dataset.theme === 'dark' ? '切换浅色模式' : '切换深色模式';
+          toggle.setAttribute('aria-label', toggleLabel);
+          toggle.title = toggleLabel;
+        }
+        if (toggle && !toggle.dataset.bound) {
+          toggle.dataset.bound = 'true';
+          toggle.addEventListener('click', function () {
+            var next = root.dataset.theme === 'dark' ? 'light' : 'dark';
+            root.dataset.theme = next;
+            try {
+              localStorage.setItem('fde-ui-theme', next);
+            } catch (error) {
+              // Theme still applies in memory when storage is unavailable.
+            }
+            this.setAttribute('aria-label', next === 'dark' ? '切换浅色模式' : '切换深色模式');
+            this.title = next === 'dark' ? '切换浅色模式' : '切换深色模式';
+          });
+        }
+
+        var backtopButton = document.querySelector('.fde-backtop');
+        if (backtopButton && !backtopButton.dataset.bound) {
+          backtopButton.dataset.bound = 'true';
+          backtopButton.addEventListener('click', function () {
+            var behavior = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth';
+            window.scrollTo({ top: 0, behavior: behavior });
+          });
+        }
+
+        if (!this.initialized) {
+          this.initialized = true;
+          window.addEventListener('scroll', this.updateScrollState, { passive: true });
+          window.addEventListener('resize', this.updateScrollState, { passive: true });
+          this.updateScrollState();
+        }
+
+        var path = window.location.hash.replace(/^#\/?/, '').split('?')[0];
+        var isHome = !path || path === 'README.md' || path === 'README';
+        root.dataset.page = isHome ? 'home' : 'article';
+        var section = document.querySelector('.markdown-section');
+        if (section) section.toggleAttribute('data-fde-home', isHome);
+      },
+      updateScrollState: function () {
+        var scrollable = document.documentElement.scrollHeight - window.innerHeight;
+        var progress = scrollable > 0 ? Math.min(window.scrollY / scrollable, 1) : 0;
+        var bar = document.querySelector('.fde-progress');
+        var backtop = document.querySelector('.fde-backtop');
+        if (bar) bar.style.transform = 'scaleX(' + progress + ')';
+        if (backtop) {
+          var visible = window.scrollY > 420;
+          backtop.toggleAttribute('data-visible', visible);
+          backtop.tabIndex = visible ? 0 : -1;
+        }
+      }
+    };
+
+    window.addEventListener('load', function () { window.setTimeout(function () { window.FDEUI.init(); }, 250); });
+    window.addEventListener('hashchange', function () { window.setTimeout(function () { window.FDEUI.init(); }, 0); });
 
     window.$docsify = {
       name: 'FDE 知识库',
@@ -47,15 +166,23 @@
         crossChapter: true,
         crossChapterText: true
       },
+      plugins: [function (hook) {
+        hook.ready(function () { window.FDEUI.init(); });
+        hook.doneEach(function () { window.FDEUI.init(); });
+      }],
       markdown: {
         renderer: {
           code: function (code, lang) {
             if (lang === 'mermaid') {
-              return (
-                '<div class="mermaid">' +
-                mermaid.render('mermaid-svg-' + mermaidId++, code) +
-                '</div>'
-              );
+              try {
+                return (
+                  '<div class="mermaid">' +
+                  mermaid.render('mermaid-svg-' + mermaidId++, code) +
+                  '</div>'
+                );
+              } catch (error) {
+                return this.origin.code.apply(this, arguments);
+              }
             }
             return this.origin.code.apply(this, arguments);
           }
