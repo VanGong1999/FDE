@@ -110,6 +110,7 @@
 * [Awesome FDE 课程总览](/docs/07-外文精读/08-Awesome-FDE课程体系总览.md)
 * [SPC 与多家 FDE 现场声音](/docs/07-外文精读/09-SPC与多家FDE现场声音.md)
 * [FDEInterviews 公开站点地图](/docs/07-外文精读/10-FDEInterviews公开站点地图.md)
+* [Pragmatic Engineer · FDE 角色深潜](/docs/07-外文精读/11-PragmaticEngineer-什么是FDE与为何抢手.md)
 
 **08 工具箱**
 

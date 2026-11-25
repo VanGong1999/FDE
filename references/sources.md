@@ -18,6 +18,7 @@
 | S08 | The Forward Deployed — Real Deployments | https://www.theforwarddeployed.io/ | [真实部署案例](../docs/06-行业案例/07-Morgan-Stanley-OpenAI.md)（Morgan Stanley / John Deere / Airbus） |
 | S09 | The Forward Deployed — 各公司面试指南（Anthropic / Google / AI 初创） | https://www.theforwarddeployed.io/ | [Anthropic](../docs/04-面试通关/Anthropic-FDE面试指南.md)、[Google](../docs/04-面试通关/Google-FDE面试指南.md)、[AI 初创](../docs/04-面试通关/AI初创公司面试指南.md) |
 | S39 | FDEInterviews — 公开首页 / Start here / 题库主题 / 概念目录 / 课程大纲 | https://fdeinterviews.com/ | 目录级精读与本库对照；[精读 10](../docs/07-外文精读/10-FDEInterviews公开站点地图.md)。本库原创概念课：[10 概念课程](../docs/10-概念课程/README.md)（171 篇，不转载原站专页） |
+| S43 | The Pragmatic Engineer — What are Forward Deployed Engineers, and why are they so in demand?（Gergely Orosz） | https://newsletter.pragmaticengineer.com/p/forward-deployed-engineers | 角色定义与行业深潜全文意译；[精读 11](../docs/07-外文精读/11-PragmaticEngineer-什么是FDE与为何抢手.md) |
 
 > The Forward Deployed（theforwarddeployed.io，2026 年 7 月上线）是独立的 FDE 面试/职业课程站。其来源分级：primary（官方招聘帖/雇主文档/客户案例）、first-person（具名从业者/候选人）、independent（独立报道分析）、commercial guide（商用面试指南/匿名论坛，谨慎使用并标注）。本站 AI Systems、Customer Outcomes、Interview Practice、Real Deployments、Career & Comparisons 各板块均已翻译入库（见 S06–S08、S28–S29）。
 

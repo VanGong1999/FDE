@@ -17,16 +17,18 @@
 | 08 | [Awesome FDE 课程体系总览](./08-Awesome-FDE课程体系总览.md) | 用户入库整理稿 / Awesome FDE | P0 |
 | 09 | [SPC 与多家 FDE 现场声音](./09-SPC与多家FDE现场声音.md) | [SPC 专题](https://www.youtube.com/watch?v=hWuoH-ODDNc) 等（见文末） | P1 |
 | 10 | [FDEInterviews 公开站点地图](./10-FDEInterviews公开站点地图.md) | [fdeinterviews.com](https://fdeinterviews.com/) | P0 |
+| 11 | [Pragmatic Engineer · 什么是 FDE 与为何抢手](./11-PragmaticEngineer-什么是FDE与为何抢手.md) | [原文](https://newsletter.pragmaticengineer.com/p/forward-deployed-engineers) | P0 |
 
 ## 推荐阅读顺序
 
-1. 面试地图：01 → 按目标公司读 03 或 04 或 05  
-2. 必练：02（配合每日口述）  
-3. 投递前：06  
-4. 方案/上线前：07  
-5. 体系地图：08（再按表跳到拆分后的中文专篇）  
-6. 角色/产品化现场共识：09（索引型，跳转到已追加的专篇）  
-7. 公开题库/课程目录对照：10（对着原站开口练，不搬题解）  
+1. 角色总览：11（*The Pragmatic Engineer* 全文意译）→ 再读本库 [什么是 FDE](../01-角色认知/什么是FDE.md)  
+2. 面试地图：01 → 按目标公司读 03 或 04 或 05  
+3. 必练：02（配合每日口述）  
+4. 投递前：06  
+5. 方案/上线前：07  
+6. 体系地图：08（再按表跳到拆分后的中文专篇）  
+7. 角色/产品化现场共识：09（索引型，跳转到已追加的专篇）  
+8. 公开题库/课程目录对照：10（对着原站开口练，不搬题解）  
 
 ## 新建精读
 
