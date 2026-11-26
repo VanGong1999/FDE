@@ -1,0 +1,1414 @@
+{
+  "generatedAt": "2026-11-26T12:11:49.107Z",
+  "nodes": [
+    {
+      "id": "hub:fde",
+      "name": "FDE",
+      "type": "hub",
+      "group": 0,
+      "val": 28,
+      "color": "#4ee2c5",
+      "path": null
+    },
+    {
+      "id": "track:导读",
+      "name": "导读",
+      "type": "track",
+      "group": 1,
+      "val": 21,
+      "color": "#4ee2c5",
+      "path": "docs/00-导读/如何使用本仓库.md",
+      "docCount": 5
+    },
+    {
+      "id": "doc:docs/00-导读/如何使用本仓库.md",
+      "name": "如何使用本仓库",
+      "type": "doc",
+      "group": 1,
+      "val": 8,
+      "color": "#4ee2c5",
+      "path": "docs/00-导读/如何使用本仓库.md",
+      "trackId": "track:导读"
+    },
+    {
+      "id": "doc:docs/00-导读/学习路径-转岗者.md",
+      "name": "学习路径-转岗者",
+      "type": "doc",
+      "group": 1,
+      "val": 7,
+      "color": "#4ee2c5",
+      "path": "docs/00-导读/学习路径-转岗者.md",
+      "trackId": "track:导读"
+    },
+    {
+      "id": "doc:docs/00-导读/学习路径-零基础.md",
+      "name": "学习路径-零基础",
+      "type": "doc",
+      "group": 1,
+      "val": 6,
+      "color": "#4ee2c5",
+      "path": "docs/00-导读/学习路径-零基础.md",
+      "trackId": "track:导读"
+    },
+    {
+      "id": "doc:docs/00-导读/术语表.md",
+      "name": "术语表",
+      "type": "doc",
+      "group": 1,
+      "val": 5,
+      "color": "#4ee2c5",
+      "path": "docs/00-导读/术语表.md",
+      "trackId": "track:导读"
+    },
+    {
+      "id": "doc:docs/00-导读/扩展阅读清单.md",
+      "name": "扩展阅读清单",
+      "type": "doc",
+      "group": 1,
+      "val": 4,
+      "color": "#4ee2c5",
+      "path": "docs/00-导读/扩展阅读清单.md",
+      "trackId": "track:导读"
+    },
+    {
+      "id": "track:01-角色认知",
+      "name": "01 角色认知",
+      "type": "track",
+      "group": 2,
+      "val": 23,
+      "color": "#7dd3fc",
+      "path": "docs/01-角色认知/什么是FDE.md",
+      "docCount": 7
+    },
+    {
+      "id": "doc:docs/01-角色认知/什么是FDE.md",
+      "name": "什么是 FDE",
+      "type": "doc",
+      "group": 2,
+      "val": 8,
+      "color": "#7dd3fc",
+      "path": "docs/01-角色认知/什么是FDE.md",
+      "trackId": "track:01-角色认知"
+    },
+    {
+      "id": "doc:docs/01-角色认知/FDE人设使命与技术栈.md",
+      "name": "人设使命与技术栈",
+      "type": "doc",
+      "group": 2,
+      "val": 7,
+      "color": "#7dd3fc",
+      "path": "docs/01-角色认知/FDE人设使命与技术栈.md",
+      "trackId": "track:01-角色认知"
+    },
+    {
+      "id": "doc:docs/01-角色认知/公司图谱与岗位差异.md",
+      "name": "公司图谱与岗位差异",
+      "type": "doc",
+      "group": 2,
+      "val": 6,
+      "color": "#7dd3fc",
+      "path": "docs/01-角色认知/公司图谱与岗位差异.md",
+      "trackId": "track:01-角色认知"
+    },
+    {
+      "id": "doc:docs/01-角色认知/能力模型与成长路径.md",
+      "name": "能力模型与成长路径",
+      "type": "doc",
+      "group": 2,
+      "val": 5,
+      "color": "#7dd3fc",
+      "path": "docs/01-角色认知/能力模型与成长路径.md",
+      "trackId": "track:01-角色认知"
+    },
+    {
+      "id": "doc:docs/01-角色认知/适合谁不适合谁.md",
+      "name": "适合谁不适合谁",
+      "type": "doc",
+      "group": 2,
+      "val": 4,
+      "color": "#7dd3fc",
+      "path": "docs/01-角色认知/适合谁不适合谁.md",
+      "trackId": "track:01-角色认知"
+    },
+    {
+      "id": "doc:docs/01-角色认知/FDE与SWE对比.md",
+      "name": "FDE 与 SWE 对比",
+      "type": "doc",
+      "group": 2,
+      "val": 4,
+      "color": "#7dd3fc",
+      "path": "docs/01-角色认知/FDE与SWE对比.md",
+      "trackId": "track:01-角色认知"
+    },
+    {
+      "id": "track:02-交付方法论",
+      "name": "02 交付方法论",
+      "type": "track",
+      "group": 3,
+      "val": 23,
+      "color": "#ffb454",
+      "path": "docs/02-交付方法论/Discover-Design-Deploy-Review.md",
+      "docCount": 7
+    },
+    {
+      "id": "doc:docs/02-交付方法论/Discover-Design-Deploy-Review.md",
+      "name": "Discover-Design-Deploy-Review",
+      "type": "doc",
+      "group": 3,
+      "val": 8,
+      "color": "#ffb454",
+      "path": "docs/02-交付方法论/Discover-Design-Deploy-Review.md",
+      "trackId": "track:02-交付方法论"
+    },
+    {
+      "id": "doc:docs/02-交付方法论/需求发现与问题拆解.md",
+      "name": "需求发现与问题拆解",
+      "type": "doc",
+      "group": 3,
+      "val": 7,
+      "color": "#ffb454",
+      "path": "docs/02-交付方法论/需求发现与问题拆解.md",
+      "trackId": "track:02-交付方法论"
+    },
+    {
+      "id": "doc:docs/02-交付方法论/POC到生产.md",
+      "name": "POC 到生产",
+      "type": "doc",
+      "group": 3,
+      "val": 6,
+      "color": "#ffb454",
+      "path": "docs/02-交付方法论/POC到生产.md",
+      "trackId": "track:02-交付方法论"
+    },
+    {
+      "id": "doc:docs/02-交付方法论/客户沟通与阻力处理.md",
+      "name": "客户沟通与阻力处理",
+      "type": "doc",
+      "group": 3,
+      "val": 5,
+      "color": "#ffb454",
+      "path": "docs/02-交付方法论/客户沟通与阻力处理.md",
+      "trackId": "track:02-交付方法论"
+    },
+    {
+      "id": "doc:docs/02-交付方法论/咨询思维与软技能栈.md",
+      "name": "咨询思维与软技能栈",
+      "type": "doc",
+      "group": 3,
+      "val": 4,
+      "color": "#ffb454",
+      "path": "docs/02-交付方法论/咨询思维与软技能栈.md",
+      "trackId": "track:02-交付方法论"
+    },
+    {
+      "id": "doc:docs/02-交付方法论/反模式与踩坑.md",
+      "name": "反模式与踩坑",
+      "type": "doc",
+      "group": 3,
+      "val": 4,
+      "color": "#ffb454",
+      "path": "docs/02-交付方法论/反模式与踩坑.md",
+      "trackId": "track:02-交付方法论"
+    },
+    {
+      "id": "track:03-ai-落地",
+      "name": "03 AI 落地",
+      "type": "track",
+      "group": 4,
+      "val": 27,
+      "color": "#c4b5fd",
+      "path": "docs/03-AI落地/企业AI落地全景.md",
+      "docCount": 11
+    },
+    {
+      "id": "doc:docs/03-AI落地/企业AI落地全景.md",
+      "name": "企业 AI 落地全景",
+      "type": "doc",
+      "group": 4,
+      "val": 8,
+      "color": "#c4b5fd",
+      "path": "docs/03-AI落地/企业AI落地全景.md",
+      "trackId": "track:03-ai-落地"
+    },
+    {
+      "id": "doc:docs/03-AI落地/RAG实战精要.md",
+      "name": "RAG 实战精要",
+      "type": "doc",
+      "group": 4,
+      "val": 7,
+      "color": "#c4b5fd",
+      "path": "docs/03-AI落地/RAG实战精要.md",
+      "trackId": "track:03-ai-落地"
+    },
+    {
+      "id": "doc:docs/03-AI落地/Agent与工具调用.md",
+      "name": "Agent 与工具调用",
+      "type": "doc",
+      "group": 4,
+      "val": 6,
+      "color": "#c4b5fd",
+      "path": "docs/03-AI落地/Agent与工具调用.md",
+      "trackId": "track:03-ai-落地"
+    },
+    {
+      "id": "doc:docs/03-AI落地/Agent开发工程经验.md",
+      "name": "Agent 开发工程经验",
+      "type": "doc",
+      "group": 4,
+      "val": 5,
+      "color": "#c4b5fd",
+      "path": "docs/03-AI落地/Agent开发工程经验.md",
+      "trackId": "track:03-ai-落地"
+    },
+    {
+      "id": "doc:docs/03-AI落地/Google-ADK与多Agent编排.md",
+      "name": "Google ADK 与多 Agent",
+      "type": "doc",
+      "group": 4,
+      "val": 4,
+      "color": "#c4b5fd",
+      "path": "docs/03-AI落地/Google-ADK与多Agent编排.md",
+      "trackId": "track:03-ai-落地"
+    },
+    {
+      "id": "doc:docs/03-AI落地/评测Eval与Guardrails.md",
+      "name": "评测 Eval 与 Guardrails",
+      "type": "doc",
+      "group": 4,
+      "val": 4,
+      "color": "#c4b5fd",
+      "path": "docs/03-AI落地/评测Eval与Guardrails.md",
+      "trackId": "track:03-ai-落地"
+    },
+    {
+      "id": "track:04-面试通关",
+      "name": "04 面试通关",
+      "type": "track",
+      "group": 5,
+      "val": 28,
+      "color": "#fb7185",
+      "path": "docs/04-面试通关/面试全景与公司对照.md",
+      "docCount": 19
+    },
+    {
+      "id": "doc:docs/04-面试通关/面试全景与公司对照.md",
+      "name": "面试全景与公司对照",
+      "type": "doc",
+      "group": 5,
+      "val": 8,
+      "color": "#fb7185",
+      "path": "docs/04-面试通关/面试全景与公司对照.md",
+      "trackId": "track:04-面试通关"
+    },
+    {
+      "id": "doc:docs/04-面试通关/公司差异与薪酬.md",
+      "name": "公司差异与薪酬",
+      "type": "doc",
+      "group": 5,
+      "val": 7,
+      "color": "#fb7185",
+      "path": "docs/04-面试通关/公司差异与薪酬.md",
+      "trackId": "track:04-面试通关"
+    },
+    {
+      "id": "doc:docs/04-面试通关/Palantir-FDSE面试指南.md",
+      "name": "Palantir FDSE 面试指南",
+      "type": "doc",
+      "group": 5,
+      "val": 6,
+      "color": "#fb7185",
+      "path": "docs/04-面试通关/Palantir-FDSE面试指南.md",
+      "trackId": "track:04-面试通关"
+    },
+    {
+      "id": "doc:docs/04-面试通关/OpenAI-FDE面试指南.md",
+      "name": "OpenAI FDE 面试指南",
+      "type": "doc",
+      "group": 5,
+      "val": 5,
+      "color": "#fb7185",
+      "path": "docs/04-面试通关/OpenAI-FDE面试指南.md",
+      "trackId": "track:04-面试通关"
+    },
+    {
+      "id": "doc:docs/04-面试通关/Anthropic-FDE面试指南.md",
+      "name": "Anthropic FDE 面试指南",
+      "type": "doc",
+      "group": 5,
+      "val": 4,
+      "color": "#fb7185",
+      "path": "docs/04-面试通关/Anthropic-FDE面试指南.md",
+      "trackId": "track:04-面试通关"
+    },
+    {
+      "id": "doc:docs/04-面试通关/Google-FDE面试指南.md",
+      "name": "Google FDE 面试指南",
+      "type": "doc",
+      "group": 5,
+      "val": 4,
+      "color": "#fb7185",
+      "path": "docs/04-面试通关/Google-FDE面试指南.md",
+      "trackId": "track:04-面试通关"
+    },
+    {
+      "id": "track:05-能力补强",
+      "name": "05 能力补强",
+      "type": "track",
+      "group": 6,
+      "val": 26,
+      "color": "#34d399",
+      "path": "docs/05-能力补强/README.md",
+      "docCount": 10
+    },
+    {
+      "id": "doc:docs/05-能力补强/README.md",
+      "name": "索引",
+      "type": "doc",
+      "group": 6,
+      "val": 8,
+      "color": "#34d399",
+      "path": "docs/05-能力补强/README.md",
+      "trackId": "track:05-能力补强"
+    },
+    {
+      "id": "doc:docs/05-能力补强/零基础编程补课地图.md",
+      "name": "零基础补课地图",
+      "type": "doc",
+      "group": 6,
+      "val": 7,
+      "color": "#34d399",
+      "path": "docs/05-能力补强/零基础编程补课地图.md",
+      "trackId": "track:05-能力补强"
+    },
+    {
+      "id": "doc:docs/05-能力补强/数据工程基石课程.md",
+      "name": "数据工程基石",
+      "type": "doc",
+      "group": 6,
+      "val": 6,
+      "color": "#34d399",
+      "path": "docs/05-能力补强/数据工程基石课程.md",
+      "trackId": "track:05-能力补强"
+    },
+    {
+      "id": "doc:docs/05-能力补强/GCP云架构与基础设施.md",
+      "name": "GCP 云架构",
+      "type": "doc",
+      "group": 6,
+      "val": 5,
+      "color": "#34d399",
+      "path": "docs/05-能力补强/GCP云架构与基础设施.md",
+      "trackId": "track:05-能力补强"
+    },
+    {
+      "id": "doc:docs/05-能力补强/气隙与战术边缘部署.md",
+      "name": "气隙与战术边缘",
+      "type": "doc",
+      "group": 6,
+      "val": 4,
+      "color": "#34d399",
+      "path": "docs/05-能力补强/气隙与战术边缘部署.md",
+      "trackId": "track:05-能力补强"
+    },
+    {
+      "id": "doc:docs/05-能力补强/Snowflake与Databricks现场.md",
+      "name": "Snowflake 与 Databricks",
+      "type": "doc",
+      "group": 6,
+      "val": 4,
+      "color": "#34d399",
+      "path": "docs/05-能力补强/Snowflake与Databricks现场.md",
+      "trackId": "track:05-能力补强"
+    },
+    {
+      "id": "track:06-行业案例",
+      "name": "06 行业案例",
+      "type": "track",
+      "group": 7,
+      "val": 26,
+      "color": "#f472b6",
+      "path": "docs/06-行业案例/README.md",
+      "docCount": 10
+    },
+    {
+      "id": "doc:docs/06-行业案例/README.md",
+      "name": "案例目录",
+      "type": "doc",
+      "group": 7,
+      "val": 8,
+      "color": "#f472b6",
+      "path": "docs/06-行业案例/README.md",
+      "trackId": "track:06-行业案例"
+    },
+    {
+      "id": "doc:docs/06-行业案例/01-客服坐席助手.md",
+      "name": "客服坐席助手",
+      "type": "doc",
+      "group": 7,
+      "val": 7,
+      "color": "#f472b6",
+      "path": "docs/06-行业案例/01-客服坐席助手.md",
+      "trackId": "track:06-行业案例"
+    },
+    {
+      "id": "doc:docs/06-行业案例/02-企业知识库问答.md",
+      "name": "企业知识库问答",
+      "type": "doc",
+      "group": 7,
+      "val": 6,
+      "color": "#f472b6",
+      "path": "docs/06-行业案例/02-企业知识库问答.md",
+      "trackId": "track:06-行业案例"
+    },
+    {
+      "id": "doc:docs/06-行业案例/03-内部研发Copilot.md",
+      "name": "内部研发 Copilot",
+      "type": "doc",
+      "group": 7,
+      "val": 5,
+      "color": "#f472b6",
+      "path": "docs/06-行业案例/03-内部研发Copilot.md",
+      "trackId": "track:06-行业案例"
+    },
+    {
+      "id": "doc:docs/06-行业案例/04-合同单据审核HITL.md",
+      "name": "合同审核 HITL",
+      "type": "doc",
+      "group": 7,
+      "val": 4,
+      "color": "#f472b6",
+      "path": "docs/06-行业案例/04-合同单据审核HITL.md",
+      "trackId": "track:06-行业案例"
+    },
+    {
+      "id": "doc:docs/06-行业案例/05-流程型工单Agent.md",
+      "name": "流程工单 Agent",
+      "type": "doc",
+      "group": 7,
+      "val": 4,
+      "color": "#f472b6",
+      "path": "docs/06-行业案例/05-流程型工单Agent.md",
+      "trackId": "track:06-行业案例"
+    },
+    {
+      "id": "track:07-外文精读",
+      "name": "07 外文精读",
+      "type": "track",
+      "group": 8,
+      "val": 28,
+      "color": "#a3e635",
+      "path": "docs/07-外文精读/README.md",
+      "docCount": 12
+    },
+    {
+      "id": "doc:docs/07-外文精读/README.md",
+      "name": "精读目录",
+      "type": "doc",
+      "group": 8,
+      "val": 8,
+      "color": "#a3e635",
+      "path": "docs/07-外文精读/README.md",
+      "trackId": "track:07-外文精读"
+    },
+    {
+      "id": "doc:docs/07-外文精读/01-Exponent-FDE面试2026指南.md",
+      "name": "Exponent 2026 指南",
+      "type": "doc",
+      "group": 8,
+      "val": 7,
+      "color": "#a3e635",
+      "path": "docs/07-外文精读/01-Exponent-FDE面试2026指南.md",
+      "trackId": "track:07-外文精读"
+    },
+    {
+      "id": "doc:docs/07-外文精读/02-Decomposition面试框架与操练.md",
+      "name": "Decomposition 操练",
+      "type": "doc",
+      "group": 8,
+      "val": 6,
+      "color": "#a3e635",
+      "path": "docs/07-外文精读/02-Decomposition面试框架与操练.md",
+      "trackId": "track:07-外文精读"
+    },
+    {
+      "id": "doc:docs/07-外文精读/03-Palantir-FDSE面试指南.md",
+      "name": "Palantir FDSE",
+      "type": "doc",
+      "group": 8,
+      "val": 5,
+      "color": "#a3e635",
+      "path": "docs/07-外文精读/03-Palantir-FDSE面试指南.md",
+      "trackId": "track:07-外文精读"
+    },
+    {
+      "id": "doc:docs/07-外文精读/04-OpenAI-FDE面试指南.md",
+      "name": "OpenAI FDE",
+      "type": "doc",
+      "group": 8,
+      "val": 4,
+      "color": "#a3e635",
+      "path": "docs/07-外文精读/04-OpenAI-FDE面试指南.md",
+      "trackId": "track:07-外文精读"
+    },
+    {
+      "id": "doc:docs/07-外文精读/05-Anthropic-Applied-AI面试侧重点.md",
+      "name": "Anthropic Applied AI",
+      "type": "doc",
+      "group": 8,
+      "val": 4,
+      "color": "#a3e635",
+      "path": "docs/07-外文精读/05-Anthropic-Applied-AI面试侧重点.md",
+      "trackId": "track:07-外文精读"
+    },
+    {
+      "id": "track:08-工具箱",
+      "name": "08 工具箱",
+      "type": "track",
+      "group": 9,
+      "val": 22,
+      "color": "#38bdf8",
+      "path": "docs/08-工具箱与清单/README.md",
+      "docCount": 6
+    },
+    {
+      "id": "doc:docs/08-工具箱与清单/README.md",
+      "name": "工具箱索引",
+      "type": "doc",
+      "group": 9,
+      "val": 8,
+      "color": "#38bdf8",
+      "path": "docs/08-工具箱与清单/README.md",
+      "trackId": "track:08-工具箱"
+    },
+    {
+      "id": "doc:docs/08-工具箱与清单/发现访谈提纲.md",
+      "name": "发现访谈提纲",
+      "type": "doc",
+      "group": 9,
+      "val": 7,
+      "color": "#38bdf8",
+      "path": "docs/08-工具箱与清单/发现访谈提纲.md",
+      "trackId": "track:08-工具箱"
+    },
+    {
+      "id": "doc:docs/08-工具箱与清单/POC验收表.md",
+      "name": "POC 验收表",
+      "type": "doc",
+      "group": 9,
+      "val": 6,
+      "color": "#38bdf8",
+      "path": "docs/08-工具箱与清单/POC验收表.md",
+      "trackId": "track:08-工具箱"
+    },
+    {
+      "id": "doc:docs/08-工具箱与清单/生产Go-Live清单.md",
+      "name": "Go-Live 清单",
+      "type": "doc",
+      "group": 9,
+      "val": 5,
+      "color": "#38bdf8",
+      "path": "docs/08-工具箱与清单/生产Go-Live清单.md",
+      "trackId": "track:08-工具箱"
+    },
+    {
+      "id": "doc:docs/08-工具箱与清单/周报模板.md",
+      "name": "周报模板",
+      "type": "doc",
+      "group": 9,
+      "val": 4,
+      "color": "#38bdf8",
+      "path": "docs/08-工具箱与清单/周报模板.md",
+      "trackId": "track:08-工具箱"
+    },
+    {
+      "id": "doc:docs/08-工具箱与清单/现场勘察与范围文档.md",
+      "name": "现场勘察与范围文档",
+      "type": "doc",
+      "group": 9,
+      "val": 4,
+      "color": "#38bdf8",
+      "path": "docs/08-工具箱与清单/现场勘察与范围文档.md",
+      "trackId": "track:08-工具箱"
+    },
+    {
+      "id": "track:09-面试题",
+      "name": "09 面试题",
+      "type": "track",
+      "group": 10,
+      "val": 28,
+      "color": "#fbbf24",
+      "path": "docs/09-面试题/README.md",
+      "docCount": 120
+    },
+    {
+      "id": "doc:docs/09-面试题/README.md",
+      "name": "题目录",
+      "type": "doc",
+      "group": 10,
+      "val": 8,
+      "color": "#fbbf24",
+      "path": "docs/09-面试题/README.md",
+      "trackId": "track:09-面试题"
+    },
+    {
+      "id": "doc:docs/09-面试题/README.md?id=1-llm和ai基础",
+      "name": "1. LLM和AI基础",
+      "type": "doc",
+      "group": 10,
+      "val": 7,
+      "color": "#fbbf24",
+      "path": "docs/09-面试题/README.md?id=1-llm和ai基础",
+      "trackId": "track:09-面试题"
+    },
+    {
+      "id": "doc:docs/09-面试题/1.LLM和AI基础/1.什么是上下文窗口.md",
+      "name": "01 什么是上下文窗口？它在生产环境下有哪些实际限制？",
+      "type": "doc",
+      "group": 10,
+      "val": 6,
+      "color": "#fbbf24",
+      "path": "docs/09-面试题/1.LLM和AI基础/1.什么是上下文窗口.md",
+      "trackId": "track:09-面试题"
+    },
+    {
+      "id": "doc:docs/09-面试题/1.LLM和AI基础/2.大语言模型生成回复时发生什么.md",
+      "name": "02 请为我完整讲解大语言模型生成回复时，到底发生了什么。",
+      "type": "doc",
+      "group": 10,
+      "val": 5,
+      "color": "#fbbf24",
+      "path": "docs/09-面试题/1.LLM和AI基础/2.大语言模型生成回复时发生什么.md",
+      "trackId": "track:09-面试题"
+    },
+    {
+      "id": "doc:docs/09-面试题/1.LLM和AI基础/3.从头到尾梳理transformer.md",
+      "name": "03 从头到尾梳理Transformer架构，不用复杂数学",
+      "type": "doc",
+      "group": 10,
+      "val": 4,
+      "color": "#fbbf24",
+      "path": "docs/09-面试题/1.LLM和AI基础/3.从头到尾梳理transformer.md",
+      "trackId": "track:09-面试题"
+    },
+    {
+      "id": "doc:docs/09-面试题/1.LLM和AI基础/4.token是什么FDE为何关注分词.md",
+      "name": "04 什么是词元（token）？为什么现场部署工程师（FDE）需要关心分词（tokenization）？",
+      "type": "doc",
+      "group": 10,
+      "val": 4,
+      "color": "#fbbf24",
+      "path": "docs/09-面试题/1.LLM和AI基础/4.token是什么FDE为何关注分词.md",
+      "trackId": "track:09-面试题"
+    },
+    {
+      "id": "track:10-概念课程",
+      "name": "10 概念课程",
+      "type": "track",
+      "group": 11,
+      "val": 28,
+      "color": "#818cf8",
+      "path": "docs/10-概念课程/README.md",
+      "docCount": 21
+    },
+    {
+      "id": "doc:docs/10-概念课程/README.md",
+      "name": "总索引",
+      "type": "doc",
+      "group": 11,
+      "val": 8,
+      "color": "#818cf8",
+      "path": "docs/10-概念课程/README.md",
+      "trackId": "track:10-概念课程"
+    },
+    {
+      "id": "doc:docs/10-概念课程/01-LLM与GenAI基础/README.md",
+      "name": "01 LLM 与 GenAI 基础",
+      "type": "doc",
+      "group": 11,
+      "val": 7,
+      "color": "#818cf8",
+      "path": "docs/10-概念课程/01-LLM与GenAI基础/README.md",
+      "trackId": "track:10-概念课程"
+    },
+    {
+      "id": "doc:docs/10-概念课程/02-检索与Agent/README.md",
+      "name": "02 检索与 Agent",
+      "type": "doc",
+      "group": 11,
+      "val": 6,
+      "color": "#818cf8",
+      "path": "docs/10-概念课程/02-检索与Agent/README.md",
+      "trackId": "track:10-概念课程"
+    },
+    {
+      "id": "doc:docs/10-概念课程/03-评测与ML基础/README.md",
+      "name": "03 评测与 ML 基础",
+      "type": "doc",
+      "group": 11,
+      "val": 5,
+      "color": "#818cf8",
+      "path": "docs/10-概念课程/03-评测与ML基础/README.md",
+      "trackId": "track:10-概念课程"
+    },
+    {
+      "id": "doc:docs/10-概念课程/04-生产系统设计/README.md",
+      "name": "04 生产系统设计",
+      "type": "doc",
+      "group": 11,
+      "val": 4,
+      "color": "#818cf8",
+      "path": "docs/10-概念课程/04-生产系统设计/README.md",
+      "trackId": "track:10-概念课程"
+    },
+    {
+      "id": "doc:docs/10-概念课程/05-MLOps与生命周期/README.md",
+      "name": "05 MLOps 与生命周期",
+      "type": "doc",
+      "group": 11,
+      "val": 4,
+      "color": "#818cf8",
+      "path": "docs/10-概念课程/05-MLOps与生命周期/README.md",
+      "trackId": "track:10-概念课程"
+    },
+    {
+      "id": "track:11-课程录音整理",
+      "name": "11 课程录音整理",
+      "type": "track",
+      "group": 12,
+      "val": 28,
+      "color": "#2dd4bf",
+      "path": "docs/11-从AIFDE到AgenticAI架构师/README.md",
+      "docCount": 17
+    },
+    {
+      "id": "doc:docs/11-从AIFDE到AgenticAI架构师/README.md",
+      "name": "总索引",
+      "type": "doc",
+      "group": 12,
+      "val": 8,
+      "color": "#2dd4bf",
+      "path": "docs/11-从AIFDE到AgenticAI架构师/README.md",
+      "trackId": "track:11-课程录音整理"
+    },
+    {
+      "id": "doc:docs/11-从AIFDE到AgenticAI架构师/01-课程简介与三周总览.md",
+      "name": "01 课程简介与三周总览",
+      "type": "doc",
+      "group": 12,
+      "val": 7,
+      "color": "#2dd4bf",
+      "path": "docs/11-从AIFDE到AgenticAI架构师/01-课程简介与三周总览.md",
+      "trackId": "track:11-课程录音整理"
+    },
+    {
+      "id": "doc:docs/11-从AIFDE到AgenticAI架构师/02-Day1-OpenRouter与免费LLM即时上手.md",
+      "name": "02 OpenRouter 与免费 LLM 即时上手",
+      "type": "doc",
+      "group": 12,
+      "val": 6,
+      "color": "#2dd4bf",
+      "path": "docs/11-从AIFDE到AgenticAI架构师/02-Day1-OpenRouter与免费LLM即时上手.md",
+      "trackId": "track:11-课程录音整理"
+    },
+    {
+      "id": "doc:docs/11-从AIFDE到AgenticAI架构师/03-Day1-三周路线图.md",
+      "name": "03 三周路线图",
+      "type": "doc",
+      "group": 12,
+      "val": 5,
+      "color": "#2dd4bf",
+      "path": "docs/11-从AIFDE到AgenticAI架构师/03-Day1-三周路线图.md",
+      "trackId": "track:11-课程录音整理"
+    },
+    {
+      "id": "doc:docs/11-从AIFDE到AgenticAI架构师/04-Day1-什么是FDE.md",
+      "name": "04 什么是 FDE",
+      "type": "doc",
+      "group": 12,
+      "val": 4,
+      "color": "#2dd4bf",
+      "path": "docs/11-从AIFDE到AgenticAI架构师/04-Day1-什么是FDE.md",
+      "trackId": "track:11-课程录音整理"
+    },
+    {
+      "id": "doc:docs/11-从AIFDE到AgenticAI架构师/05-Day1-FDE所需技能工具与经验.md",
+      "name": "05 FDE 所需技能工具与经验",
+      "type": "doc",
+      "group": 12,
+      "val": 4,
+      "color": "#2dd4bf",
+      "path": "docs/11-从AIFDE到AgenticAI架构师/05-Day1-FDE所需技能工具与经验.md",
+      "trackId": "track:11-课程录音整理"
+    }
+  ],
+  "links": [
+    {
+      "source": "hub:fde",
+      "target": "track:导读"
+    },
+    {
+      "source": "track:导读",
+      "target": "doc:docs/00-导读/如何使用本仓库.md"
+    },
+    {
+      "source": "track:导读",
+      "target": "doc:docs/00-导读/学习路径-转岗者.md"
+    },
+    {
+      "source": "doc:docs/00-导读/如何使用本仓库.md",
+      "target": "doc:docs/00-导读/学习路径-转岗者.md"
+    },
+    {
+      "source": "track:导读",
+      "target": "doc:docs/00-导读/学习路径-零基础.md"
+    },
+    {
+      "source": "doc:docs/00-导读/学习路径-转岗者.md",
+      "target": "doc:docs/00-导读/学习路径-零基础.md"
+    },
+    {
+      "source": "track:导读",
+      "target": "doc:docs/00-导读/术语表.md"
+    },
+    {
+      "source": "doc:docs/00-导读/学习路径-零基础.md",
+      "target": "doc:docs/00-导读/术语表.md"
+    },
+    {
+      "source": "track:导读",
+      "target": "doc:docs/00-导读/扩展阅读清单.md"
+    },
+    {
+      "source": "doc:docs/00-导读/术语表.md",
+      "target": "doc:docs/00-导读/扩展阅读清单.md"
+    },
+    {
+      "source": "hub:fde",
+      "target": "track:01-角色认知"
+    },
+    {
+      "source": "track:01-角色认知",
+      "target": "doc:docs/01-角色认知/什么是FDE.md"
+    },
+    {
+      "source": "track:01-角色认知",
+      "target": "doc:docs/01-角色认知/FDE人设使命与技术栈.md"
+    },
+    {
+      "source": "doc:docs/01-角色认知/什么是FDE.md",
+      "target": "doc:docs/01-角色认知/FDE人设使命与技术栈.md"
+    },
+    {
+      "source": "track:01-角色认知",
+      "target": "doc:docs/01-角色认知/公司图谱与岗位差异.md"
+    },
+    {
+      "source": "doc:docs/01-角色认知/FDE人设使命与技术栈.md",
+      "target": "doc:docs/01-角色认知/公司图谱与岗位差异.md"
+    },
+    {
+      "source": "track:01-角色认知",
+      "target": "doc:docs/01-角色认知/能力模型与成长路径.md"
+    },
+    {
+      "source": "doc:docs/01-角色认知/公司图谱与岗位差异.md",
+      "target": "doc:docs/01-角色认知/能力模型与成长路径.md"
+    },
+    {
+      "source": "track:01-角色认知",
+      "target": "doc:docs/01-角色认知/适合谁不适合谁.md"
+    },
+    {
+      "source": "doc:docs/01-角色认知/能力模型与成长路径.md",
+      "target": "doc:docs/01-角色认知/适合谁不适合谁.md"
+    },
+    {
+      "source": "track:01-角色认知",
+      "target": "doc:docs/01-角色认知/FDE与SWE对比.md"
+    },
+    {
+      "source": "doc:docs/01-角色认知/适合谁不适合谁.md",
+      "target": "doc:docs/01-角色认知/FDE与SWE对比.md"
+    },
+    {
+      "source": "hub:fde",
+      "target": "track:02-交付方法论"
+    },
+    {
+      "source": "track:02-交付方法论",
+      "target": "doc:docs/02-交付方法论/Discover-Design-Deploy-Review.md"
+    },
+    {
+      "source": "track:02-交付方法论",
+      "target": "doc:docs/02-交付方法论/需求发现与问题拆解.md"
+    },
+    {
+      "source": "doc:docs/02-交付方法论/Discover-Design-Deploy-Review.md",
+      "target": "doc:docs/02-交付方法论/需求发现与问题拆解.md"
+    },
+    {
+      "source": "track:02-交付方法论",
+      "target": "doc:docs/02-交付方法论/POC到生产.md"
+    },
+    {
+      "source": "doc:docs/02-交付方法论/需求发现与问题拆解.md",
+      "target": "doc:docs/02-交付方法论/POC到生产.md"
+    },
+    {
+      "source": "track:02-交付方法论",
+      "target": "doc:docs/02-交付方法论/客户沟通与阻力处理.md"
+    },
+    {
+      "source": "doc:docs/02-交付方法论/POC到生产.md",
+      "target": "doc:docs/02-交付方法论/客户沟通与阻力处理.md"
+    },
+    {
+      "source": "track:02-交付方法论",
+      "target": "doc:docs/02-交付方法论/咨询思维与软技能栈.md"
+    },
+    {
+      "source": "doc:docs/02-交付方法论/客户沟通与阻力处理.md",
+      "target": "doc:docs/02-交付方法论/咨询思维与软技能栈.md"
+    },
+    {
+      "source": "track:02-交付方法论",
+      "target": "doc:docs/02-交付方法论/反模式与踩坑.md"
+    },
+    {
+      "source": "doc:docs/02-交付方法论/咨询思维与软技能栈.md",
+      "target": "doc:docs/02-交付方法论/反模式与踩坑.md"
+    },
+    {
+      "source": "hub:fde",
+      "target": "track:03-ai-落地"
+    },
+    {
+      "source": "track:03-ai-落地",
+      "target": "doc:docs/03-AI落地/企业AI落地全景.md"
+    },
+    {
+      "source": "track:03-ai-落地",
+      "target": "doc:docs/03-AI落地/RAG实战精要.md"
+    },
+    {
+      "source": "doc:docs/03-AI落地/企业AI落地全景.md",
+      "target": "doc:docs/03-AI落地/RAG实战精要.md"
+    },
+    {
+      "source": "track:03-ai-落地",
+      "target": "doc:docs/03-AI落地/Agent与工具调用.md"
+    },
+    {
+      "source": "doc:docs/03-AI落地/RAG实战精要.md",
+      "target": "doc:docs/03-AI落地/Agent与工具调用.md"
+    },
+    {
+      "source": "track:03-ai-落地",
+      "target": "doc:docs/03-AI落地/Agent开发工程经验.md"
+    },
+    {
+      "source": "doc:docs/03-AI落地/Agent与工具调用.md",
+      "target": "doc:docs/03-AI落地/Agent开发工程经验.md"
+    },
+    {
+      "source": "track:03-ai-落地",
+      "target": "doc:docs/03-AI落地/Google-ADK与多Agent编排.md"
+    },
+    {
+      "source": "doc:docs/03-AI落地/Agent开发工程经验.md",
+      "target": "doc:docs/03-AI落地/Google-ADK与多Agent编排.md"
+    },
+    {
+      "source": "track:03-ai-落地",
+      "target": "doc:docs/03-AI落地/评测Eval与Guardrails.md"
+    },
+    {
+      "source": "doc:docs/03-AI落地/Google-ADK与多Agent编排.md",
+      "target": "doc:docs/03-AI落地/评测Eval与Guardrails.md"
+    },
+    {
+      "source": "hub:fde",
+      "target": "track:04-面试通关"
+    },
+    {
+      "source": "track:04-面试通关",
+      "target": "doc:docs/04-面试通关/面试全景与公司对照.md"
+    },
+    {
+      "source": "track:04-面试通关",
+      "target": "doc:docs/04-面试通关/公司差异与薪酬.md"
+    },
+    {
+      "source": "doc:docs/04-面试通关/面试全景与公司对照.md",
+      "target": "doc:docs/04-面试通关/公司差异与薪酬.md"
+    },
+    {
+      "source": "track:04-面试通关",
+      "target": "doc:docs/04-面试通关/Palantir-FDSE面试指南.md"
+    },
+    {
+      "source": "doc:docs/04-面试通关/公司差异与薪酬.md",
+      "target": "doc:docs/04-面试通关/Palantir-FDSE面试指南.md"
+    },
+    {
+      "source": "track:04-面试通关",
+      "target": "doc:docs/04-面试通关/OpenAI-FDE面试指南.md"
+    },
+    {
+      "source": "doc:docs/04-面试通关/Palantir-FDSE面试指南.md",
+      "target": "doc:docs/04-面试通关/OpenAI-FDE面试指南.md"
+    },
+    {
+      "source": "track:04-面试通关",
+      "target": "doc:docs/04-面试通关/Anthropic-FDE面试指南.md"
+    },
+    {
+      "source": "doc:docs/04-面试通关/OpenAI-FDE面试指南.md",
+      "target": "doc:docs/04-面试通关/Anthropic-FDE面试指南.md"
+    },
+    {
+      "source": "track:04-面试通关",
+      "target": "doc:docs/04-面试通关/Google-FDE面试指南.md"
+    },
+    {
+      "source": "doc:docs/04-面试通关/Anthropic-FDE面试指南.md",
+      "target": "doc:docs/04-面试通关/Google-FDE面试指南.md"
+    },
+    {
+      "source": "hub:fde",
+      "target": "track:05-能力补强"
+    },
+    {
+      "source": "track:05-能力补强",
+      "target": "doc:docs/05-能力补强/README.md"
+    },
+    {
+      "source": "track:05-能力补强",
+      "target": "doc:docs/05-能力补强/零基础编程补课地图.md"
+    },
+    {
+      "source": "doc:docs/05-能力补强/README.md",
+      "target": "doc:docs/05-能力补强/零基础编程补课地图.md"
+    },
+    {
+      "source": "track:05-能力补强",
+      "target": "doc:docs/05-能力补强/数据工程基石课程.md"
+    },
+    {
+      "source": "doc:docs/05-能力补强/零基础编程补课地图.md",
+      "target": "doc:docs/05-能力补强/数据工程基石课程.md"
+    },
+    {
+      "source": "track:05-能力补强",
+      "target": "doc:docs/05-能力补强/GCP云架构与基础设施.md"
+    },
+    {
+      "source": "doc:docs/05-能力补强/数据工程基石课程.md",
+      "target": "doc:docs/05-能力补强/GCP云架构与基础设施.md"
+    },
+    {
+      "source": "track:05-能力补强",
+      "target": "doc:docs/05-能力补强/气隙与战术边缘部署.md"
+    },
+    {
+      "source": "doc:docs/05-能力补强/GCP云架构与基础设施.md",
+      "target": "doc:docs/05-能力补强/气隙与战术边缘部署.md"
+    },
+    {
+      "source": "track:05-能力补强",
+      "target": "doc:docs/05-能力补强/Snowflake与Databricks现场.md"
+    },
+    {
+      "source": "doc:docs/05-能力补强/气隙与战术边缘部署.md",
+      "target": "doc:docs/05-能力补强/Snowflake与Databricks现场.md"
+    },
+    {
+      "source": "hub:fde",
+      "target": "track:06-行业案例"
+    },
+    {
+      "source": "track:06-行业案例",
+      "target": "doc:docs/06-行业案例/README.md"
+    },
+    {
+      "source": "track:06-行业案例",
+      "target": "doc:docs/06-行业案例/01-客服坐席助手.md"
+    },
+    {
+      "source": "doc:docs/06-行业案例/README.md",
+      "target": "doc:docs/06-行业案例/01-客服坐席助手.md"
+    },
+    {
+      "source": "track:06-行业案例",
+      "target": "doc:docs/06-行业案例/02-企业知识库问答.md"
+    },
+    {
+      "source": "doc:docs/06-行业案例/01-客服坐席助手.md",
+      "target": "doc:docs/06-行业案例/02-企业知识库问答.md"
+    },
+    {
+      "source": "track:06-行业案例",
+      "target": "doc:docs/06-行业案例/03-内部研发Copilot.md"
+    },
+    {
+      "source": "doc:docs/06-行业案例/02-企业知识库问答.md",
+      "target": "doc:docs/06-行业案例/03-内部研发Copilot.md"
+    },
+    {
+      "source": "track:06-行业案例",
+      "target": "doc:docs/06-行业案例/04-合同单据审核HITL.md"
+    },
+    {
+      "source": "doc:docs/06-行业案例/03-内部研发Copilot.md",
+      "target": "doc:docs/06-行业案例/04-合同单据审核HITL.md"
+    },
+    {
+      "source": "track:06-行业案例",
+      "target": "doc:docs/06-行业案例/05-流程型工单Agent.md"
+    },
+    {
+      "source": "doc:docs/06-行业案例/04-合同单据审核HITL.md",
+      "target": "doc:docs/06-行业案例/05-流程型工单Agent.md"
+    },
+    {
+      "source": "hub:fde",
+      "target": "track:07-外文精读"
+    },
+    {
+      "source": "track:07-外文精读",
+      "target": "doc:docs/07-外文精读/README.md"
+    },
+    {
+      "source": "track:07-外文精读",
+      "target": "doc:docs/07-外文精读/01-Exponent-FDE面试2026指南.md"
+    },
+    {
+      "source": "doc:docs/07-外文精读/README.md",
+      "target": "doc:docs/07-外文精读/01-Exponent-FDE面试2026指南.md"
+    },
+    {
+      "source": "track:07-外文精读",
+      "target": "doc:docs/07-外文精读/02-Decomposition面试框架与操练.md"
+    },
+    {
+      "source": "doc:docs/07-外文精读/01-Exponent-FDE面试2026指南.md",
+      "target": "doc:docs/07-外文精读/02-Decomposition面试框架与操练.md"
+    },
+    {
+      "source": "track:07-外文精读",
+      "target": "doc:docs/07-外文精读/03-Palantir-FDSE面试指南.md"
+    },
+    {
+      "source": "doc:docs/07-外文精读/02-Decomposition面试框架与操练.md",
+      "target": "doc:docs/07-外文精读/03-Palantir-FDSE面试指南.md"
+    },
+    {
+      "source": "track:07-外文精读",
+      "target": "doc:docs/07-外文精读/04-OpenAI-FDE面试指南.md"
+    },
+    {
+      "source": "doc:docs/07-外文精读/03-Palantir-FDSE面试指南.md",
+      "target": "doc:docs/07-外文精读/04-OpenAI-FDE面试指南.md"
+    },
+    {
+      "source": "track:07-外文精读",
+      "target": "doc:docs/07-外文精读/05-Anthropic-Applied-AI面试侧重点.md"
+    },
+    {
+      "source": "doc:docs/07-外文精读/04-OpenAI-FDE面试指南.md",
+      "target": "doc:docs/07-外文精读/05-Anthropic-Applied-AI面试侧重点.md"
+    },
+    {
+      "source": "hub:fde",
+      "target": "track:08-工具箱"
+    },
+    {
+      "source": "track:08-工具箱",
+      "target": "doc:docs/08-工具箱与清单/README.md"
+    },
+    {
+      "source": "track:08-工具箱",
+      "target": "doc:docs/08-工具箱与清单/发现访谈提纲.md"
+    },
+    {
+      "source": "doc:docs/08-工具箱与清单/README.md",
+      "target": "doc:docs/08-工具箱与清单/发现访谈提纲.md"
+    },
+    {
+      "source": "track:08-工具箱",
+      "target": "doc:docs/08-工具箱与清单/POC验收表.md"
+    },
+    {
+      "source": "doc:docs/08-工具箱与清单/发现访谈提纲.md",
+      "target": "doc:docs/08-工具箱与清单/POC验收表.md"
+    },
+    {
+      "source": "track:08-工具箱",
+      "target": "doc:docs/08-工具箱与清单/生产Go-Live清单.md"
+    },
+    {
+      "source": "doc:docs/08-工具箱与清单/POC验收表.md",
+      "target": "doc:docs/08-工具箱与清单/生产Go-Live清单.md"
+    },
+    {
+      "source": "track:08-工具箱",
+      "target": "doc:docs/08-工具箱与清单/周报模板.md"
+    },
+    {
+      "source": "doc:docs/08-工具箱与清单/生产Go-Live清单.md",
+      "target": "doc:docs/08-工具箱与清单/周报模板.md"
+    },
+    {
+      "source": "track:08-工具箱",
+      "target": "doc:docs/08-工具箱与清单/现场勘察与范围文档.md"
+    },
+    {
+      "source": "doc:docs/08-工具箱与清单/周报模板.md",
+      "target": "doc:docs/08-工具箱与清单/现场勘察与范围文档.md"
+    },
+    {
+      "source": "hub:fde",
+      "target": "track:09-面试题"
+    },
+    {
+      "source": "track:09-面试题",
+      "target": "doc:docs/09-面试题/README.md"
+    },
+    {
+      "source": "track:09-面试题",
+      "target": "doc:docs/09-面试题/README.md?id=1-llm和ai基础"
+    },
+    {
+      "source": "doc:docs/09-面试题/README.md",
+      "target": "doc:docs/09-面试题/README.md?id=1-llm和ai基础"
+    },
+    {
+      "source": "track:09-面试题",
+      "target": "doc:docs/09-面试题/1.LLM和AI基础/1.什么是上下文窗口.md"
+    },
+    {
+      "source": "doc:docs/09-面试题/README.md?id=1-llm和ai基础",
+      "target": "doc:docs/09-面试题/1.LLM和AI基础/1.什么是上下文窗口.md"
+    },
+    {
+      "source": "track:09-面试题",
+      "target": "doc:docs/09-面试题/1.LLM和AI基础/2.大语言模型生成回复时发生什么.md"
+    },
+    {
+      "source": "doc:docs/09-面试题/1.LLM和AI基础/1.什么是上下文窗口.md",
+      "target": "doc:docs/09-面试题/1.LLM和AI基础/2.大语言模型生成回复时发生什么.md"
+    },
+    {
+      "source": "track:09-面试题",
+      "target": "doc:docs/09-面试题/1.LLM和AI基础/3.从头到尾梳理transformer.md"
+    },
+    {
+      "source": "doc:docs/09-面试题/1.LLM和AI基础/2.大语言模型生成回复时发生什么.md",
+      "target": "doc:docs/09-面试题/1.LLM和AI基础/3.从头到尾梳理transformer.md"
+    },
+    {
+      "source": "track:09-面试题",
+      "target": "doc:docs/09-面试题/1.LLM和AI基础/4.token是什么FDE为何关注分词.md"
+    },
+    {
+      "source": "doc:docs/09-面试题/1.LLM和AI基础/3.从头到尾梳理transformer.md",
+      "target": "doc:docs/09-面试题/1.LLM和AI基础/4.token是什么FDE为何关注分词.md"
+    },
+    {
+      "source": "hub:fde",
+      "target": "track:10-概念课程"
+    },
+    {
+      "source": "track:10-概念课程",
+      "target": "doc:docs/10-概念课程/README.md"
+    },
+    {
+      "source": "track:10-概念课程",
+      "target": "doc:docs/10-概念课程/01-LLM与GenAI基础/README.md"
+    },
+    {
+      "source": "doc:docs/10-概念课程/README.md",
+      "target": "doc:docs/10-概念课程/01-LLM与GenAI基础/README.md"
+    },
+    {
+      "source": "track:10-概念课程",
+      "target": "doc:docs/10-概念课程/02-检索与Agent/README.md"
+    },
+    {
+      "source": "doc:docs/10-概念课程/01-LLM与GenAI基础/README.md",
+      "target": "doc:docs/10-概念课程/02-检索与Agent/README.md"
+    },
+    {
+      "source": "track:10-概念课程",
+      "target": "doc:docs/10-概念课程/03-评测与ML基础/README.md"
+    },
+    {
+      "source": "doc:docs/10-概念课程/02-检索与Agent/README.md",
+      "target": "doc:docs/10-概念课程/03-评测与ML基础/README.md"
+    },
+    {
+      "source": "track:10-概念课程",
+      "target": "doc:docs/10-概念课程/04-生产系统设计/README.md"
+    },
+    {
+      "source": "doc:docs/10-概念课程/03-评测与ML基础/README.md",
+      "target": "doc:docs/10-概念课程/04-生产系统设计/README.md"
+    },
+    {
+      "source": "track:10-概念课程",
+      "target": "doc:docs/10-概念课程/05-MLOps与生命周期/README.md"
+    },
+    {
+      "source": "doc:docs/10-概念课程/04-生产系统设计/README.md",
+      "target": "doc:docs/10-概念课程/05-MLOps与生命周期/README.md"
+    },
+    {
+      "source": "hub:fde",
+      "target": "track:11-课程录音整理"
+    },
+    {
+      "source": "track:11-课程录音整理",
+      "target": "doc:docs/11-从AIFDE到AgenticAI架构师/README.md"
+    },
+    {
+      "source": "track:11-课程录音整理",
+      "target": "doc:docs/11-从AIFDE到AgenticAI架构师/01-课程简介与三周总览.md"
+    },
+    {
+      "source": "doc:docs/11-从AIFDE到AgenticAI架构师/README.md",
+      "target": "doc:docs/11-从AIFDE到AgenticAI架构师/01-课程简介与三周总览.md"
+    },
+    {
+      "source": "track:11-课程录音整理",
+      "target": "doc:docs/11-从AIFDE到AgenticAI架构师/02-Day1-OpenRouter与免费LLM即时上手.md"
+    },
+    {
+      "source": "doc:docs/11-从AIFDE到AgenticAI架构师/01-课程简介与三周总览.md",
+      "target": "doc:docs/11-从AIFDE到AgenticAI架构师/02-Day1-OpenRouter与免费LLM即时上手.md"
+    },
+    {
+      "source": "track:11-课程录音整理",
+      "target": "doc:docs/11-从AIFDE到AgenticAI架构师/03-Day1-三周路线图.md"
+    },
+    {
+      "source": "doc:docs/11-从AIFDE到AgenticAI架构师/02-Day1-OpenRouter与免费LLM即时上手.md",
+      "target": "doc:docs/11-从AIFDE到AgenticAI架构师/03-Day1-三周路线图.md"
+    },
+    {
+      "source": "track:11-课程录音整理",
+      "target": "doc:docs/11-从AIFDE到AgenticAI架构师/04-Day1-什么是FDE.md"
+    },
+    {
+      "source": "doc:docs/11-从AIFDE到AgenticAI架构师/03-Day1-三周路线图.md",
+      "target": "doc:docs/11-从AIFDE到AgenticAI架构师/04-Day1-什么是FDE.md"
+    },
+    {
+      "source": "track:11-课程录音整理",
+      "target": "doc:docs/11-从AIFDE到AgenticAI架构师/05-Day1-FDE所需技能工具与经验.md"
+    },
+    {
+      "source": "doc:docs/11-从AIFDE到AgenticAI架构师/04-Day1-什么是FDE.md",
+      "target": "doc:docs/11-从AIFDE到AgenticAI架构师/05-Day1-FDE所需技能工具与经验.md"
+    }
+  ]
+}

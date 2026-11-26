@@ -1,0 +1,1365 @@
+{
+  "generatedAt": "2026-11-26T12:11:49.108Z",
+  "trackCount": 12,
+  "docCount": 245,
+  "graphNodeCount": 84,
+  "tracks": [
+    {
+      "id": "track:导读",
+      "name": "导读",
+      "color": "#4ee2c5",
+      "docCount": 5,
+      "graphDocCount": 5,
+      "docs": [
+        {
+          "id": "doc:docs/00-导读/如何使用本仓库.md",
+          "title": "如何使用本仓库",
+          "path": "docs/00-导读/如何使用本仓库.md"
+        },
+        {
+          "id": "doc:docs/00-导读/学习路径-转岗者.md",
+          "title": "学习路径-转岗者",
+          "path": "docs/00-导读/学习路径-转岗者.md"
+        },
+        {
+          "id": "doc:docs/00-导读/学习路径-零基础.md",
+          "title": "学习路径-零基础",
+          "path": "docs/00-导读/学习路径-零基础.md"
+        },
+        {
+          "id": "doc:docs/00-导读/术语表.md",
+          "title": "术语表",
+          "path": "docs/00-导读/术语表.md"
+        },
+        {
+          "id": "doc:docs/00-导读/扩展阅读清单.md",
+          "title": "扩展阅读清单",
+          "path": "docs/00-导读/扩展阅读清单.md"
+        }
+      ],
+      "progress": 35,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "track:01-角色认知",
+      "name": "01 角色认知",
+      "color": "#7dd3fc",
+      "docCount": 7,
+      "graphDocCount": 6,
+      "docs": [
+        {
+          "id": "doc:docs/01-角色认知/什么是FDE.md",
+          "title": "什么是 FDE",
+          "path": "docs/01-角色认知/什么是FDE.md"
+        },
+        {
+          "id": "doc:docs/01-角色认知/FDE人设使命与技术栈.md",
+          "title": "人设使命与技术栈",
+          "path": "docs/01-角色认知/FDE人设使命与技术栈.md"
+        },
+        {
+          "id": "doc:docs/01-角色认知/公司图谱与岗位差异.md",
+          "title": "公司图谱与岗位差异",
+          "path": "docs/01-角色认知/公司图谱与岗位差异.md"
+        },
+        {
+          "id": "doc:docs/01-角色认知/能力模型与成长路径.md",
+          "title": "能力模型与成长路径",
+          "path": "docs/01-角色认知/能力模型与成长路径.md"
+        },
+        {
+          "id": "doc:docs/01-角色认知/适合谁不适合谁.md",
+          "title": "适合谁不适合谁",
+          "path": "docs/01-角色认知/适合谁不适合谁.md"
+        },
+        {
+          "id": "doc:docs/01-角色认知/FDE与SWE对比.md",
+          "title": "FDE 与 SWE 对比",
+          "path": "docs/01-角色认知/FDE与SWE对比.md"
+        },
+        {
+          "id": "doc:docs/01-角色认知/如何成为FDE.md",
+          "title": "如何成为 FDE",
+          "path": "docs/01-角色认知/如何成为FDE.md"
+        }
+      ],
+      "progress": 52,
+      "status": "READY"
+    },
+    {
+      "id": "track:02-交付方法论",
+      "name": "02 交付方法论",
+      "color": "#ffb454",
+      "docCount": 7,
+      "graphDocCount": 6,
+      "docs": [
+        {
+          "id": "doc:docs/02-交付方法论/Discover-Design-Deploy-Review.md",
+          "title": "Discover-Design-Deploy-Review",
+          "path": "docs/02-交付方法论/Discover-Design-Deploy-Review.md"
+        },
+        {
+          "id": "doc:docs/02-交付方法论/需求发现与问题拆解.md",
+          "title": "需求发现与问题拆解",
+          "path": "docs/02-交付方法论/需求发现与问题拆解.md"
+        },
+        {
+          "id": "doc:docs/02-交付方法论/POC到生产.md",
+          "title": "POC 到生产",
+          "path": "docs/02-交付方法论/POC到生产.md"
+        },
+        {
+          "id": "doc:docs/02-交付方法论/客户沟通与阻力处理.md",
+          "title": "客户沟通与阻力处理",
+          "path": "docs/02-交付方法论/客户沟通与阻力处理.md"
+        },
+        {
+          "id": "doc:docs/02-交付方法论/咨询思维与软技能栈.md",
+          "title": "咨询思维与软技能栈",
+          "path": "docs/02-交付方法论/咨询思维与软技能栈.md"
+        },
+        {
+          "id": "doc:docs/02-交付方法论/反模式与踩坑.md",
+          "title": "反模式与踩坑",
+          "path": "docs/02-交付方法论/反模式与踩坑.md"
+        },
+        {
+          "id": "doc:docs/02-交付方法论/客户成果方法论.md",
+          "title": "客户成果方法论",
+          "path": "docs/02-交付方法论/客户成果方法论.md"
+        }
+      ],
+      "progress": 69,
+      "status": "SYNC"
+    },
+    {
+      "id": "track:03-ai-落地",
+      "name": "03 AI 落地",
+      "color": "#c4b5fd",
+      "docCount": 11,
+      "graphDocCount": 6,
+      "docs": [
+        {
+          "id": "doc:docs/03-AI落地/企业AI落地全景.md",
+          "title": "企业 AI 落地全景",
+          "path": "docs/03-AI落地/企业AI落地全景.md"
+        },
+        {
+          "id": "doc:docs/03-AI落地/RAG实战精要.md",
+          "title": "RAG 实战精要",
+          "path": "docs/03-AI落地/RAG实战精要.md"
+        },
+        {
+          "id": "doc:docs/03-AI落地/Agent与工具调用.md",
+          "title": "Agent 与工具调用",
+          "path": "docs/03-AI落地/Agent与工具调用.md"
+        },
+        {
+          "id": "doc:docs/03-AI落地/Agent开发工程经验.md",
+          "title": "Agent 开发工程经验",
+          "path": "docs/03-AI落地/Agent开发工程经验.md"
+        },
+        {
+          "id": "doc:docs/03-AI落地/Google-ADK与多Agent编排.md",
+          "title": "Google ADK 与多 Agent",
+          "path": "docs/03-AI落地/Google-ADK与多Agent编排.md"
+        },
+        {
+          "id": "doc:docs/03-AI落地/评测Eval与Guardrails.md",
+          "title": "评测 Eval 与 Guardrails",
+          "path": "docs/03-AI落地/评测Eval与Guardrails.md"
+        },
+        {
+          "id": "doc:docs/03-AI落地/LLM评测双环.md",
+          "title": "LLM 评测双环",
+          "path": "docs/03-AI落地/LLM评测双环.md"
+        },
+        {
+          "id": "doc:docs/03-AI落地/生产化清单.md",
+          "title": "生产化清单",
+          "path": "docs/03-AI落地/生产化清单.md"
+        },
+        {
+          "id": "doc:docs/03-AI落地/架构决策树.md",
+          "title": "架构决策树",
+          "path": "docs/03-AI落地/架构决策树.md"
+        },
+        {
+          "id": "doc:docs/03-AI落地/AI系统设计课程-基础篇.md",
+          "title": "AI 系统设计课程·基础篇",
+          "path": "docs/03-AI落地/AI系统设计课程-基础篇.md"
+        },
+        {
+          "id": "doc:docs/03-AI落地/AI系统设计课程-生产篇.md",
+          "title": "AI 系统设计课程·生产篇",
+          "path": "docs/03-AI落地/AI系统设计课程-生产篇.md"
+        }
+      ],
+      "progress": 86,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "track:04-面试通关",
+      "name": "04 面试通关",
+      "color": "#fb7185",
+      "docCount": 19,
+      "graphDocCount": 6,
+      "docs": [
+        {
+          "id": "doc:docs/04-面试通关/面试全景与公司对照.md",
+          "title": "面试全景与公司对照",
+          "path": "docs/04-面试通关/面试全景与公司对照.md"
+        },
+        {
+          "id": "doc:docs/04-面试通关/公司差异与薪酬.md",
+          "title": "公司差异与薪酬",
+          "path": "docs/04-面试通关/公司差异与薪酬.md"
+        },
+        {
+          "id": "doc:docs/04-面试通关/Palantir-FDSE面试指南.md",
+          "title": "Palantir FDSE 面试指南",
+          "path": "docs/04-面试通关/Palantir-FDSE面试指南.md"
+        },
+        {
+          "id": "doc:docs/04-面试通关/OpenAI-FDE面试指南.md",
+          "title": "OpenAI FDE 面试指南",
+          "path": "docs/04-面试通关/OpenAI-FDE面试指南.md"
+        },
+        {
+          "id": "doc:docs/04-面试通关/Anthropic-FDE面试指南.md",
+          "title": "Anthropic FDE 面试指南",
+          "path": "docs/04-面试通关/Anthropic-FDE面试指南.md"
+        },
+        {
+          "id": "doc:docs/04-面试通关/Google-FDE面试指南.md",
+          "title": "Google FDE 面试指南",
+          "path": "docs/04-面试通关/Google-FDE面试指南.md"
+        },
+        {
+          "id": "doc:docs/04-面试通关/AI初创公司面试指南.md",
+          "title": "AI 初创公司面试指南",
+          "path": "docs/04-面试通关/AI初创公司面试指南.md"
+        },
+        {
+          "id": "doc:docs/04-面试通关/面试练习操练系统.md",
+          "title": "面试练习操练系统",
+          "path": "docs/04-面试通关/面试练习操练系统.md"
+        },
+        {
+          "id": "doc:docs/04-面试通关/客户模拟操练.md",
+          "title": "客户模拟操练",
+          "path": "docs/04-面试通关/客户模拟操练.md"
+        },
+        {
+          "id": "doc:docs/04-面试通关/代码库Learning操练.md",
+          "title": "代码库 / Learning 操练",
+          "path": "docs/04-面试通关/代码库Learning操练.md"
+        },
+        {
+          "id": "doc:docs/04-面试通关/AI系统设计案例操练.md",
+          "title": "AI 系统设计案例操练",
+          "path": "docs/04-面试通关/AI系统设计案例操练.md"
+        },
+        {
+          "id": "doc:docs/04-面试通关/价值观与招聘经理操练.md",
+          "title": "价值观与招聘经理操练",
+          "path": "docs/04-面试通关/价值观与招聘经理操练.md"
+        },
+        {
+          "id": "doc:docs/04-面试通关/Decomposition拆解面.md",
+          "title": "Decomposition 拆解面",
+          "path": "docs/04-面试通关/Decomposition拆解面.md"
+        },
+        {
+          "id": "doc:docs/04-面试通关/CASE框架与Delta案例.md",
+          "title": "C.A.S.E. 与 Delta 案例",
+          "path": "docs/04-面试通关/CASE框架与Delta案例.md"
+        },
+        {
+          "id": "doc:docs/04-面试通关/技术方案与LLM系统设计.md",
+          "title": "技术方案与 LLM 系统设计",
+          "path": "docs/04-面试通关/技术方案与LLM系统设计.md"
+        },
+        {
+          "id": "doc:docs/04-面试通关/编码与Learning轮.md",
+          "title": "编码与 Learning 轮",
+          "path": "docs/04-面试通关/编码与Learning轮.md"
+        },
+        {
+          "id": "doc:docs/04-面试通关/行为面STAR题库.md",
+          "title": "行为面 STAR 题库",
+          "path": "docs/04-面试通关/行为面STAR题库.md"
+        },
+        {
+          "id": "doc:docs/04-面试通关/Take-home与演示.md",
+          "title": "Take-home 与演示",
+          "path": "docs/04-面试通关/Take-home与演示.md"
+        },
+        {
+          "id": "doc:docs/04-面试通关/4-6周备面计划.md",
+          "title": "4–6 周备面计划",
+          "path": "docs/04-面试通关/4-6周备面计划.md"
+        }
+      ],
+      "progress": 48,
+      "status": "READY"
+    },
+    {
+      "id": "track:05-能力补强",
+      "name": "05 能力补强",
+      "color": "#34d399",
+      "docCount": 10,
+      "graphDocCount": 6,
+      "docs": [
+        {
+          "id": "doc:docs/05-能力补强/README.md",
+          "title": "索引",
+          "path": "docs/05-能力补强/README.md"
+        },
+        {
+          "id": "doc:docs/05-能力补强/零基础编程补课地图.md",
+          "title": "零基础补课地图",
+          "path": "docs/05-能力补强/零基础编程补课地图.md"
+        },
+        {
+          "id": "doc:docs/05-能力补强/数据工程基石课程.md",
+          "title": "数据工程基石",
+          "path": "docs/05-能力补强/数据工程基石课程.md"
+        },
+        {
+          "id": "doc:docs/05-能力补强/GCP云架构与基础设施.md",
+          "title": "GCP 云架构",
+          "path": "docs/05-能力补强/GCP云架构与基础设施.md"
+        },
+        {
+          "id": "doc:docs/05-能力补强/气隙与战术边缘部署.md",
+          "title": "气隙与战术边缘",
+          "path": "docs/05-能力补强/气隙与战术边缘部署.md"
+        },
+        {
+          "id": "doc:docs/05-能力补强/Snowflake与Databricks现场.md",
+          "title": "Snowflake 与 Databricks",
+          "path": "docs/05-能力补强/Snowflake与Databricks现场.md"
+        },
+        {
+          "id": "doc:docs/05-能力补强/企业SSO与权限模型.md",
+          "title": "企业 SSO 与权限",
+          "path": "docs/05-能力补强/企业SSO与权限模型.md"
+        },
+        {
+          "id": "doc:docs/05-能力补强/企业网络与私有连接白话.md",
+          "title": "网络与私有连接",
+          "path": "docs/05-能力补强/企业网络与私有连接白话.md"
+        },
+        {
+          "id": "doc:docs/05-能力补强/变更管理与培训设计.md",
+          "title": "变更管理与培训",
+          "path": "docs/05-能力补强/变更管理与培训设计.md"
+        },
+        {
+          "id": "doc:docs/05-能力补强/解决方案产品化.md",
+          "title": "解决方案产品化",
+          "path": "docs/05-能力补强/解决方案产品化.md"
+        }
+      ],
+      "progress": 65,
+      "status": "SYNC"
+    },
+    {
+      "id": "track:06-行业案例",
+      "name": "06 行业案例",
+      "color": "#f472b6",
+      "docCount": 10,
+      "graphDocCount": 6,
+      "docs": [
+        {
+          "id": "doc:docs/06-行业案例/README.md",
+          "title": "案例目录",
+          "path": "docs/06-行业案例/README.md"
+        },
+        {
+          "id": "doc:docs/06-行业案例/01-客服坐席助手.md",
+          "title": "客服坐席助手",
+          "path": "docs/06-行业案例/01-客服坐席助手.md"
+        },
+        {
+          "id": "doc:docs/06-行业案例/02-企业知识库问答.md",
+          "title": "企业知识库问答",
+          "path": "docs/06-行业案例/02-企业知识库问答.md"
+        },
+        {
+          "id": "doc:docs/06-行业案例/03-内部研发Copilot.md",
+          "title": "内部研发 Copilot",
+          "path": "docs/06-行业案例/03-内部研发Copilot.md"
+        },
+        {
+          "id": "doc:docs/06-行业案例/04-合同单据审核HITL.md",
+          "title": "合同审核 HITL",
+          "path": "docs/06-行业案例/04-合同单据审核HITL.md"
+        },
+        {
+          "id": "doc:docs/06-行业案例/05-流程型工单Agent.md",
+          "title": "流程工单 Agent",
+          "path": "docs/06-行业案例/05-流程型工单Agent.md"
+        },
+        {
+          "id": "doc:docs/06-行业案例/06-限域数据分析助手.md",
+          "title": "限域分析助手",
+          "path": "docs/06-行业案例/06-限域数据分析助手.md"
+        },
+        {
+          "id": "doc:docs/06-行业案例/07-Morgan-Stanley-OpenAI.md",
+          "title": "Morgan Stanley × OpenAI",
+          "path": "docs/06-行业案例/07-Morgan-Stanley-OpenAI.md"
+        },
+        {
+          "id": "doc:docs/06-行业案例/08-John-Deere-Blue-River.md",
+          "title": "John Deere & Blue River",
+          "path": "docs/06-行业案例/08-John-Deere-Blue-River.md"
+        },
+        {
+          "id": "doc:docs/06-行业案例/09-Airbus-Palantir.md",
+          "title": "Airbus × Palantir",
+          "path": "docs/06-行业案例/09-Airbus-Palantir.md"
+        }
+      ],
+      "progress": 82,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "track:07-外文精读",
+      "name": "07 外文精读",
+      "color": "#a3e635",
+      "docCount": 12,
+      "graphDocCount": 6,
+      "docs": [
+        {
+          "id": "doc:docs/07-外文精读/README.md",
+          "title": "精读目录",
+          "path": "docs/07-外文精读/README.md"
+        },
+        {
+          "id": "doc:docs/07-外文精读/01-Exponent-FDE面试2026指南.md",
+          "title": "Exponent 2026 指南",
+          "path": "docs/07-外文精读/01-Exponent-FDE面试2026指南.md"
+        },
+        {
+          "id": "doc:docs/07-外文精读/02-Decomposition面试框架与操练.md",
+          "title": "Decomposition 操练",
+          "path": "docs/07-外文精读/02-Decomposition面试框架与操练.md"
+        },
+        {
+          "id": "doc:docs/07-外文精读/03-Palantir-FDSE面试指南.md",
+          "title": "Palantir FDSE",
+          "path": "docs/07-外文精读/03-Palantir-FDSE面试指南.md"
+        },
+        {
+          "id": "doc:docs/07-外文精读/04-OpenAI-FDE面试指南.md",
+          "title": "OpenAI FDE",
+          "path": "docs/07-外文精读/04-OpenAI-FDE面试指南.md"
+        },
+        {
+          "id": "doc:docs/07-外文精读/05-Anthropic-Applied-AI面试侧重点.md",
+          "title": "Anthropic Applied AI",
+          "path": "docs/07-外文精读/05-Anthropic-Applied-AI面试侧重点.md"
+        },
+        {
+          "id": "doc:docs/07-外文精读/06-各公司Careers岗位描述对照.md",
+          "title": "Careers 对照",
+          "path": "docs/07-外文精读/06-各公司Careers岗位描述对照.md"
+        },
+        {
+          "id": "doc:docs/07-外文精读/07-OWASP-LLM应用风险Top10.md",
+          "title": "OWASP LLM Top 10",
+          "path": "docs/07-外文精读/07-OWASP-LLM应用风险Top10.md"
+        },
+        {
+          "id": "doc:docs/07-外文精读/08-Awesome-FDE课程体系总览.md",
+          "title": "Awesome FDE 课程总览",
+          "path": "docs/07-外文精读/08-Awesome-FDE课程体系总览.md"
+        },
+        {
+          "id": "doc:docs/07-外文精读/09-SPC与多家FDE现场声音.md",
+          "title": "SPC 与多家 FDE 现场声音",
+          "path": "docs/07-外文精读/09-SPC与多家FDE现场声音.md"
+        },
+        {
+          "id": "doc:docs/07-外文精读/10-FDEInterviews公开站点地图.md",
+          "title": "FDEInterviews 公开站点地图",
+          "path": "docs/07-外文精读/10-FDEInterviews公开站点地图.md"
+        },
+        {
+          "id": "doc:docs/07-外文精读/11-PragmaticEngineer-什么是FDE与为何抢手.md",
+          "title": "Pragmatic Engineer · FDE 角色深潜",
+          "path": "docs/07-外文精读/11-PragmaticEngineer-什么是FDE与为何抢手.md"
+        }
+      ],
+      "progress": 44,
+      "status": "READY"
+    },
+    {
+      "id": "track:08-工具箱",
+      "name": "08 工具箱",
+      "color": "#38bdf8",
+      "docCount": 6,
+      "graphDocCount": 6,
+      "docs": [
+        {
+          "id": "doc:docs/08-工具箱与清单/README.md",
+          "title": "工具箱索引",
+          "path": "docs/08-工具箱与清单/README.md"
+        },
+        {
+          "id": "doc:docs/08-工具箱与清单/发现访谈提纲.md",
+          "title": "发现访谈提纲",
+          "path": "docs/08-工具箱与清单/发现访谈提纲.md"
+        },
+        {
+          "id": "doc:docs/08-工具箱与清单/POC验收表.md",
+          "title": "POC 验收表",
+          "path": "docs/08-工具箱与清单/POC验收表.md"
+        },
+        {
+          "id": "doc:docs/08-工具箱与清单/生产Go-Live清单.md",
+          "title": "Go-Live 清单",
+          "path": "docs/08-工具箱与清单/生产Go-Live清单.md"
+        },
+        {
+          "id": "doc:docs/08-工具箱与清单/周报模板.md",
+          "title": "周报模板",
+          "path": "docs/08-工具箱与清单/周报模板.md"
+        },
+        {
+          "id": "doc:docs/08-工具箱与清单/现场勘察与范围文档.md",
+          "title": "现场勘察与范围文档",
+          "path": "docs/08-工具箱与清单/现场勘察与范围文档.md"
+        }
+      ],
+      "progress": 61,
+      "status": "SYNC"
+    },
+    {
+      "id": "track:09-面试题",
+      "name": "09 面试题",
+      "color": "#fbbf24",
+      "docCount": 120,
+      "graphDocCount": 6,
+      "docs": [
+        {
+          "id": "doc:docs/09-面试题/README.md",
+          "title": "题目录",
+          "path": "docs/09-面试题/README.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/README.md?id=1-llm和ai基础",
+          "title": "1. LLM和AI基础",
+          "path": "docs/09-面试题/README.md?id=1-llm和ai基础"
+        },
+        {
+          "id": "doc:docs/09-面试题/1.LLM和AI基础/1.什么是上下文窗口.md",
+          "title": "01 什么是上下文窗口？它在生产环境下有哪些实际限制？",
+          "path": "docs/09-面试题/1.LLM和AI基础/1.什么是上下文窗口.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/1.LLM和AI基础/2.大语言模型生成回复时发生什么.md",
+          "title": "02 请为我完整讲解大语言模型生成回复时，到底发生了什么。",
+          "path": "docs/09-面试题/1.LLM和AI基础/2.大语言模型生成回复时发生什么.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/1.LLM和AI基础/3.从头到尾梳理transformer.md",
+          "title": "03 从头到尾梳理Transformer架构，不用复杂数学",
+          "path": "docs/09-面试题/1.LLM和AI基础/3.从头到尾梳理transformer.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/1.LLM和AI基础/4.token是什么FDE为何关注分词.md",
+          "title": "04 什么是词元（token）？为什么现场部署工程师（FDE）需要关心分词（tokenization）？",
+          "path": "docs/09-面试题/1.LLM和AI基础/4.token是什么FDE为何关注分词.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/1.LLM和AI基础/5.解释temperature和top-p.md",
+          "title": "05 解释 temperature（温度）与 top-p。在企业工作流中，什么时候会将 temperature 设置为0？",
+          "path": "docs/09-面试题/1.LLM和AI基础/5.解释temperature和top-p.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/1.LLM和AI基础/6.什么是embedding语义搜索.md",
+          "title": "06 什么是嵌入（Embeddings）？它如何实现语义搜索？",
+          "path": "docs/09-面试题/1.LLM和AI基础/6.什么是embedding语义搜索.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/1.LLM和AI基础/7.点积是注意力机制与嵌入向量中的相似度得分.md",
+          "title": "07 为什么点积是注意力机制与嵌入向量中的相似度得分？什么时候需要归一化来计算余弦相似度？",
+          "path": "docs/09-面试题/1.LLM和AI基础/7.点积是注意力机制与嵌入向量中的相似度得分.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/1.LLM和AI基础/8.基础指令模型区别.md",
+          "title": "08 基础模型（base model）与指令模型（instruct model）的区别是什么？客户为什么要关心这个？",
+          "path": "docs/09-面试题/1.LLM和AI基础/8.基础指令模型区别.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/1.LLM和AI基础/9.什么是LLM幻觉.md",
+          "title": "09 大模型为什么会产生幻觉？",
+          "path": "docs/09-面试题/1.LLM和AI基础/9.什么是LLM幻觉.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/1.LLM和AI基础/10.分类器精确率和召回率选择.md",
+          "title": "10 你正在构建一个分类器，用于标记有风险的合同条款。应当优化精确率还是召回率？",
+          "path": "docs/09-面试题/1.LLM和AI基础/10.分类器精确率和召回率选择.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/1.LLM和AI基础/11.prompt-rag微调选择.md",
+          "title": "11 客户希望模型“掌握我们的文档”：提示工程、RAG、微调，该如何选择？",
+          "path": "docs/09-面试题/1.LLM和AI基础/11.prompt-rag微调选择.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/1.LLM和AI基础/12.超出上下文窗口.md",
+          "title": "12 你的提示词加上检索到的文档超出了上下文窗口。你有哪些方案，各自要做哪些取舍？",
+          "path": "docs/09-面试题/1.LLM和AI基础/12.超出上下文窗口.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/1.LLM和AI基础/13.rag搜索准确性.md",
+          "title": "13 为什么向量搜索会返回“相关但错误”的结果？该如何解决？",
+          "path": "docs/09-面试题/1.LLM和AI基础/13.rag搜索准确性.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/1.LLM和AI基础/14.幻觉缓解方案.md",
+          "title": "14 给我三种具体的幻觉缓解方案，并说明每种方案的代价",
+          "path": "docs/09-面试题/1.LLM和AI基础/14.幻觉缓解方案.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/1.LLM和AI基础/15.微调何时优于少样本提示.md",
+          "title": "15 什么时候微调会优于少样本提示？你需要多少数据？如何防止模型性能退化？",
+          "path": "docs/09-面试题/1.LLM和AI基础/15.微调何时优于少样本提示.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/1.LLM和AI基础/16.rag系统上下文组装.md",
+          "title": "16 什么是“中间丢失（lost in the middle）”现象？它会如何改变RAG系统的上下文组装方式？",
+          "path": "docs/09-面试题/1.LLM和AI基础/16.rag系统上下文组装.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/1.LLM和AI基础/17.工具调用失败.md",
+          "title": "17 工具/函数调用有哪些失效模式？生产环境中如何处理？",
+          "path": "docs/09-面试题/1.LLM和AI基础/17.工具调用失败.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/1.LLM和AI基础/18.JSON破坏模式问题.md",
+          "title": "18 你需要大模型输出保证可用的JSON，但它总是破坏模式约束。你该怎么做？",
+          "path": "docs/09-面试题/1.LLM和AI基础/18.JSON破坏模式问题.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/1.LLM和AI基础/19.反对使用智能体理由.md",
+          "title": "19 什么时候不应该使用智能体（agent）？论述反对使用智能体的理由",
+          "path": "docs/09-面试题/1.LLM和AI基础/19.反对使用智能体理由.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/1.LLM和AI基础/20.降低延迟和成本方法.md",
+          "title": "20 客户反馈你的大模型应用速度过慢。给出5种降低延迟的手段，以及各自的权衡取舍",
+          "path": "docs/09-面试题/1.LLM和AI基础/20.降低延迟和成本方法.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/README.md?id=2-rag和agent系统",
+          "title": "2. RAG和Agent系统",
+          "path": "docs/09-面试题/README.md?id=2-rag和agent系统"
+        },
+        {
+          "id": "doc:docs/09-面试题/2.RAG和Agent系统/1.RAG流水线.md",
+          "title": "01 带你完整走一遍RAG流水线，讲讲它通常会在哪些环节出错",
+          "path": "docs/09-面试题/2.RAG和Agent系统/1.RAG流水线.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/2.RAG和Agent系统/2.分块.md",
+          "title": "02 文档分块检索：如何对文档做检索分块，如何判断分块效果好坏？",
+          "path": "docs/09-面试题/2.RAG和Agent系统/2.分块.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/2.RAG和Agent系统/3.向量搜索vs关键词搜索.md",
+          "title": "03 关键词搜索 vs 向量搜索：在RAG系统中二者究竟能带来什么？",
+          "path": "docs/09-面试题/2.RAG和Agent系统/3.向量搜索vs关键词搜索.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/2.RAG和Agent系统/4.什么时候不需要构建agent.md",
+          "title": "04 什么时候不该用智能Agent？论述反对构建Agent的理由",
+          "path": "docs/09-面试题/2.RAG和Agent系统/4.什么时候不需要构建agent.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/2.RAG和Agent系统/5.rag系统评估.md",
+          "title": "05 在让客户上线RAG系统之前，你会如何对它做评估？",
+          "path": "docs/09-面试题/2.RAG和Agent系统/5.rag系统评估.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/2.RAG和Agent系统/6.复杂pdf分块.md",
+          "title": "06 你会如何对合同、Slack会话线程、满是表格的PDF做文本分块：同一套流水线，还是多套不同流水线？",
+          "path": "docs/09-面试题/2.RAG和Agent系统/6.复杂pdf分块.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/2.RAG和Agent系统/7.设计混合检索.md",
+          "title": "07 设计一套混合检索栈：BM25、向量检索，以及重排器。每个阶段分别补救/解决什么问题？",
+          "path": "docs/09-面试题/2.RAG和Agent系统/7.设计混合检索.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/2.RAG和Agent系统/8.诊断准确率只有60的rag.md",
+          "title": "08 客户试点RAG系统仅能正确回答60%的问题，请排查问题根源",
+          "path": "docs/09-面试题/2.RAG和Agent系统/8.诊断准确率只有60的rag.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/2.RAG和Agent系统/9.行业术语导致检索失败.md",
+          "title": "09 客户内部行业术语导致检索失败。微调嵌入模型、增加重排序器，还是改写查询？",
+          "path": "docs/09-面试题/2.RAG和Agent系统/9.行业术语导致检索失败.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/2.RAG和Agent系统/10.设计订单查询和退货工具代理设计.md",
+          "title": "10 设计具备订单状态查询与退货工具的客服智能体：如何保障其安全性与实用性？",
+          "path": "docs/09-面试题/2.RAG和Agent系统/10.设计订单查询和退货工具代理设计.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/2.RAG和Agent系统/11.设计防护护栏.md",
+          "title": "11 一个品牌想要一套智能代理，它永远不提供金融建议、保持品牌口吻，并且绝不提及竞品。请设计防护护栏。",
+          "path": "docs/09-面试题/2.RAG和Agent系统/11.设计防护护栏.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/2.RAG和Agent系统/13.流式交互设计.md",
+          "title": "13 你的智能体工作流需要30秒。设计流式用户交互，包含中途失败时的处理逻辑。",
+          "path": "docs/09-面试题/2.RAG和Agent系统/13.流式交互设计.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/2.RAG和Agent系统/14.构建医疗领域问答系统.md",
+          "title": "14 构建医疗领域文档问答系统：错误答案比不作答更糟。如何让系统可靠输出“我不知道”？",
+          "path": "docs/09-面试题/2.RAG和Agent系统/14.构建医疗领域问答系统.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/2.RAG和Agent系统/15.设计关联引用系统.md",
+          "title": "15 （待补）",
+          "path": "docs/09-面试题/2.RAG和Agent系统/15.设计关联引用系统.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/2.RAG和Agent系统/16.设计文本转sql系统.md",
+          "title": "16 （待补）",
+          "path": "docs/09-面试题/2.RAG和Agent系统/16.设计文本转sql系统.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/2.RAG和Agent系统/17.MCP暴露给模型.md",
+          "title": "17 （待补）",
+          "path": "docs/09-面试题/2.RAG和Agent系统/17.MCP暴露给模型.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/2.RAG和Agent系统/18.批处理流水线处理1000条记录.md",
+          "title": "18 （待补）",
+          "path": "docs/09-面试题/2.RAG和Agent系统/18.批处理流水线处理1000条记录.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/2.RAG和Agent系统/19.摄取多个数据源支持批量增删.md",
+          "title": "19 摄取40个企业数据源（SharePoint、Confluence、Jira、Drive），支持增量同步与删除处理",
+          "path": "docs/09-面试题/2.RAG和Agent系统/19.摄取多个数据源支持批量增删.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/2.RAG和Agent系统/20.设计评估框架.md",
+          "title": "20 （待补）",
+          "path": "docs/09-面试题/2.RAG和Agent系统/20.设计评估框架.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/2.RAG和Agent系统/21.千万级带用户权限rag.md",
+          "title": "21 设计支持千万级文档、带用户权限控制的RAG：用户绝对不能看到无权访问的数据",
+          "path": "docs/09-面试题/2.RAG和Agent系统/21.千万级带用户权限rag.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/README.md?id=4-生产系统设计",
+          "title": "4. 生产系统设计",
+          "path": "docs/09-面试题/README.md?id=4-生产系统设计"
+        },
+        {
+          "id": "doc:docs/09-面试题/4.生产系统设计/1.为个性化信息流设计排序模型.md",
+          "title": "01 为个性化信息流（Instagram风格）设计排序模型",
+          "path": "docs/09-面试题/4.生产系统设计/1.为个性化信息流设计排序模型.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/4.生产系统设计/2.设计音乐推荐流.md",
+          "title": "02 设计一个音乐推荐系统（Spotify风格）",
+          "path": "docs/09-面试题/4.生产系统设计/2.设计音乐推荐流.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/4.生产系统设计/3.为广告排序系统设计评估框架.md",
+          "title": "03 为广告排序系统设计一套评估框架",
+          "path": "docs/09-面试题/4.生产系统设计/3.为广告排序系统设计评估框架.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/4.生产系统设计/4.视频库预测观看时长.md",
+          "title": "04 为视频库预测观看时长（网飞Netflix风格），该如何搭建这套系统？",
+          "path": "docs/09-面试题/4.生产系统设计/4.视频库预测观看时长.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/4.生产系统设计/5.实时检测和虚假账号.md",
+          "title": "05 设计一套系统，实时检测机器人账号与虚假账号",
+          "path": "docs/09-面试题/4.生产系统设计/5.实时检测和虚假账号.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/4.生产系统设计/6.CTR与CVR预估系统设计.md",
+          "title": "06 广告点击率（CTR）与转化率（CVR）预估系统设计",
+          "path": "docs/09-面试题/4.生产系统设计/6.CTR与CVR预估系统设计.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/4.生产系统设计/7.为导航设计ETA.md",
+          "title": "07 为地图/导航应用设计ETA（预计到达时间）预测系统",
+          "path": "docs/09-面试题/4.生产系统设计/7.为导航设计ETA.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/4.生产系统设计/8.图像识别系统设计.md",
+          "title": "08 大规模地标/图像识别系统设计",
+          "path": "docs/09-面试题/4.生产系统设计/8.图像识别系统设计.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/4.生产系统设计/9.搭建支付欺诈模型.md",
+          "title": "09 搭建支付欺诈检测模型",
+          "path": "docs/09-面试题/4.生产系统设计/9.搭建支付欺诈模型.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/4.生产系统设计/10.为在线课程设计搜索引擎.md",
+          "title": "10 为在线课程（或电商）目录设计一个推荐引擎",
+          "path": "docs/09-面试题/4.生产系统设计/10.为在线课程设计搜索引擎.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/4.生产系统设计/11.为短视频信息流设计排序系统.md",
+          "title": "11 为短视频“为你推荐（For You）”信息流设计排序系统",
+          "path": "docs/09-面试题/4.生产系统设计/11.为短视频信息流设计排序系统.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/4.生产系统设计/12.为商品交易市场搜索设计排序学习.md",
+          "title": "12 为商品/交易市场搜索设计排序学习（Learning-to-rank, LTR）",
+          "path": "docs/09-面试题/4.生产系统设计/12.为商品交易市场搜索设计排序学习.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/README.md?id=6-ml基础设施与serving",
+          "title": "6. ML基础设施与Serving",
+          "path": "docs/09-面试题/README.md?id=6-ml基础设施与serving"
+        },
+        {
+          "id": "doc:docs/09-面试题/06-ML基础设施与Serving/1.cuda执行模型如何映射硬件.md",
+          "title": "01 解释 CUDA 执行模型如何映射到硬件：网格、线程块、warp、SM",
+          "path": "docs/09-面试题/06-ML基础设施与Serving/1.cuda执行模型如何映射硬件.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/06-ML基础设施与Serving/2.梳理gpu的存储层次.md",
+          "title": "02 带你梳理GPU存储层次：寄存器、共享内存、L2缓存、HBM",
+          "path": "docs/09-面试题/06-ML基础设施与Serving/2.梳理gpu的存储层次.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/06-ML基础设施与Serving/3.线程束分化.md",
+          "title": "03 什么是warp divergence（束发散/线程束分化）？为什么它会损害性能？",
+          "path": "docs/09-面试题/06-ML基础设施与Serving/3.线程束分化.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/06-ML基础设施与Serving/4.内存合并访问和共享内存体冲突.md",
+          "title": "04 解释内存合并访问与共享内存体冲突；同时存在时如何修复？",
+          "path": "docs/09-面试题/06-ML基础设施与Serving/4.内存合并访问和共享内存体冲突.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/06-ML基础设施与Serving/5.占用率权衡寄存器和共享内存.md",
+          "title": "05 什么是占用率（occupancy）？如何权衡块大小与寄存器、共享内存？",
+          "path": "docs/09-面试题/06-ML基础设施与Serving/5.占用率权衡寄存器和共享内存.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/06-ML基础设施与Serving/6.内存受限和计算受限.md",
+          "title": "06 如何判断一个 Kernel 是访存受限还是计算受限？",
+          "path": "docs/09-面试题/06-ML基础设施与Serving/6.内存受限和计算受限.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/06-ML基础设施与Serving/7.GPU-payload.md",
+          "title": "07 你做过机器学习GPU负载相关的工作吗？",
+          "path": "docs/09-面试题/06-ML基础设施与Serving/7.GPU-payload.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/06-ML基础设施与Serving/8.TP-DP-PP.md",
+          "title": "08 对比数据并行、张量并行、流水线并行；如何组合成3D并行？",
+          "path": "docs/09-面试题/06-ML基础设施与Serving/8.TP-DP-PP.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/06-ML基础设施与Serving/9.Ring-All-Reduce.md",
+          "title": "09 环形全归约（Ring All-Reduce）原理说明以及通信代价推导",
+          "path": "docs/09-面试题/06-ML基础设施与Serving/9.Ring-All-Reduce.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/06-ML基础设施与Serving/10.ZeRo和FSDP.md",
+          "title": "10 ZeRO 和 FSDP 究竟分片了什么？梯度检查点在其中处于什么位置？",
+          "path": "docs/09-面试题/06-ML基础设施与Serving/10.ZeRo和FSDP.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/06-ML基础设施与Serving/11.训练千亿参数模型方案.md",
+          "title": "11 训练1000亿参数模型：设计数据并行与模型并行方案",
+          "path": "docs/09-面试题/06-ML基础设施与Serving/11.训练千亿参数模型方案.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/06-ML基础设施与Serving/12.流水线并行.md",
+          "title": "12 流水线并行：TP/PP/DP 如何映射到集群网络结构？",
+          "path": "docs/09-面试题/06-ML基础设施与Serving/12.流水线并行.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/06-ML基础设施与Serving/13.NCCL.md",
+          "title": "13 NCCL 到底做什么？通信受限时 GPU 利用率为何还能 100%？",
+          "path": "docs/09-面试题/06-ML基础设施与Serving/13.NCCL.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/06-ML基础设施与Serving/14.gpu训练集群选择.md",
+          "title": "14 对于GPU训练集群，该如何选择InfiniBand还是RoCE？",
+          "path": "docs/09-面试题/06-ML基础设施与Serving/14.gpu训练集群选择.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/06-ML基础设施与Serving/15.moe.md",
+          "title": "15 你如何处理MoE模型中的专家负载均衡？",
+          "path": "docs/09-面试题/06-ML基础设施与Serving/15.moe.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/06-ML基础设施与Serving/16.调试流程.md",
+          "title": "16 训练代码能跑但损失持平不变：讲一下调试流程",
+          "path": "docs/09-面试题/06-ML基础设施与Serving/16.调试流程.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/06-ML基础设施与Serving/17.保障持续数周的训练任务稳定运行.md",
+          "title": "17 硬件故障与拖慢节点下，如何保障数周训练稳定运行？",
+          "path": "docs/09-面试题/06-ML基础设施与Serving/17.保障持续数周的训练任务稳定运行.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/06-ML基础设施与Serving/18.ML基础设施经验.md",
+          "title": "18 你在机器学习基础设施（包括分布式GPU集群）方面有哪些经验？",
+          "path": "docs/09-面试题/06-ML基础设施与Serving/18.ML基础设施经验.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/06-ML基础设施与Serving/19.kvcache.md",
+          "title": "19 什么是KV缓存？为何占推理绝大部分显存？针对70B演算",
+          "path": "docs/09-面试题/06-ML基础设施与Serving/19.kvcache.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/06-ML基础设施与Serving/20.pagedAttention.md",
+          "title": "20 vLLM 的 PagedAttention 是如何工作的？它实际解决了什么问题？",
+          "path": "docs/09-面试题/06-ML基础设施与Serving/20.pagedAttention.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/README.md?id=8-ai安全隐私与治理",
+          "title": "8. AI安全隐私与治理",
+          "path": "docs/09-面试题/README.md?id=8-ai安全隐私与治理"
+        },
+        {
+          "id": "doc:docs/09-面试题/08-AI安全隐私与治理/1.直接提示注入和间接提示注入.md",
+          "title": "01 解释直接提示注入与间接提示注入，以及二者分别会如何破坏大语言模型应用。",
+          "path": "docs/09-面试题/08-AI安全隐私与治理/1.直接提示注入和间接提示注入.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/08-AI安全隐私与治理/2.模型越狱和提示词注入.md",
+          "title": "02 （待补）",
+          "path": "docs/09-面试题/08-AI安全隐私与治理/2.模型越狱和提示词注入.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/08-AI安全隐私与治理/3.系统提示词泄漏和预防.md",
+          "title": "03 （待补）",
+          "path": "docs/09-面试题/08-AI安全隐私与治理/3.系统提示词泄漏和预防.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/08-AI安全隐私与治理/4.OWASP大模型风险.md",
+          "title": "04 给我讲解OWASP大语言模型十大风险，如果面向企业智能代理部署，你会优先关注其中哪两项风险？",
+          "path": "docs/09-面试题/08-AI安全隐私与治理/4.OWASP大模型风险.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/08-AI安全隐私与治理/5.过度自主权限.md",
+          "title": "05 （待补）",
+          "path": "docs/09-面试题/08-AI安全隐私与治理/5.过度自主权限.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/08-AI安全隐私与治理/6.模型投毒.md",
+          "title": "06 什么是数据/模型投毒？你会如何检测通过微调或者嵌入数据植入的后门？",
+          "path": "docs/09-面试题/08-AI安全隐私与治理/6.模型投毒.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/08-AI安全隐私与治理/7.MITRE_ATLAS.md",
+          "title": "07 （待补）",
+          "path": "docs/09-面试题/08-AI安全隐私与治理/7.MITRE_ATLAS.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/08-AI安全隐私与治理/8.防御提示词泄漏.md",
+          "title": "08 （待补）",
+          "path": "docs/09-面试题/08-AI安全隐私与治理/8.防御提示词泄漏.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/08-AI安全隐私与治理/9.rag投毒攻击.md",
+          "title": "09 （待补）",
+          "path": "docs/09-面试题/08-AI安全隐私与治理/9.rag投毒攻击.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/08-AI安全隐私与治理/10.工具投毒和提示注入.md",
+          "title": "10 （待补）",
+          "path": "docs/09-面试题/08-AI安全隐私与治理/10.工具投毒和提示注入.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/08-AI安全隐私与治理/11.对chatbot做红队测试.md",
+          "title": "11 带我一步步说明，你会如何对面向客户的生成式AI聊天机器人开展红队测试。",
+          "path": "docs/09-面试题/08-AI安全隐私与治理/11.对chatbot做红队测试.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/08-AI安全隐私与治理/12.持续化AI红队项目设计.md",
+          "title": "12 持续化AI红队项目设计：团队、危害分类、执行节奏，以及优先用PyRIT自动化的内容",
+          "path": "docs/09-面试题/08-AI安全隐私与治理/12.持续化AI红队项目设计.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/08-AI安全隐私与治理/13.安全护栏设计.md",
+          "title": "13 （待补）",
+          "path": "docs/09-面试题/08-AI安全隐私与治理/13.安全护栏设计.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/08-AI安全隐私与治理/14.PII.md",
+          "title": "14 对比PII检测方案：正则表达式、信息熵、命名实体识别、外部API。为什么仅靠正则无法识别人名？",
+          "path": "docs/09-面试题/08-AI安全隐私与治理/14.PII.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/08-AI安全隐私与治理/15.PII网管层应用层.md",
+          "title": "15 个人身份信息（PII）脱敏处理，应该放在AI网关层，还是应用层？请论述两者的取舍权衡。",
+          "path": "docs/09-面试题/08-AI安全隐私与治理/15.PII网管层应用层.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/08-AI安全隐私与治理/16.PII脱敏系统设计.md",
+          "title": "16 为大语言模型流水线设计一套个人身份信息（PII）脱敏系统",
+          "path": "docs/09-面试题/08-AI安全隐私与治理/16.PII脱敏系统设计.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/08-AI安全隐私与治理/17.提示词和输出包含个人数据.md",
+          "title": "17 提示词与输出内容包含个人数据。依据GDPR，每一次调用外部大语言模型接口意味着什么？",
+          "path": "docs/09-面试题/08-AI安全隐私与治理/17.提示词和输出包含个人数据.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/08-AI安全隐私与治理/18.数据安全问题.md",
+          "title": "18 客户提问：“你们会用我们的数据训练模型吗？”给出精准答复，并解释零数据留存（ZDR）",
+          "path": "docs/09-面试题/08-AI安全隐私与治理/18.数据安全问题.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/08-AI安全隐私与治理/19.数据私有化部署方案.md",
+          "title": "19 客户说：“我们的数据不能离开我们的环境。”请给我梳理一下部署方案，以及每种方案实际能达成什么效果。",
+          "path": "docs/09-面试题/08-AI安全隐私与治理/19.数据私有化部署方案.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/08-AI安全隐私与治理/20.医院搭建LLM.md",
+          "title": "20 一家医院想要基于患者病历搭建大语言模型功能。HIPAA对你的设计实际上提出了哪些要求？",
+          "path": "docs/09-面试题/08-AI安全隐私与治理/20.医院搭建LLM.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/README.md?id=10-客户面手艺",
+          "title": "10. 客户面手艺",
+          "path": "docs/09-面试题/README.md?id=10-客户面手艺"
+        },
+        {
+          "id": "doc:docs/09-面试题/10.客户面手艺/1.第一周做了什么.md",
+          "title": "01 讲讲你从头到尾全权负责过的、目标最模糊不清的项目。第一周你做了什么？",
+          "path": "docs/09-面试题/10.客户面手艺/1.第一周做了什么.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/10.客户面手艺/2.为啥选择FDE.md",
+          "title": "02 （待补）",
+          "path": "docs/09-面试题/10.客户面手艺/2.为啥选择FDE.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/10.客户面手艺/3.长期出差.md",
+          "title": "03 （待补）",
+          "path": "docs/09-面试题/10.客户面手艺/3.长期出差.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/10.客户面手艺/4.几天交付.md",
+          "title": "04 讲一次你在短短几天内交付了本需要数月才能完成的成果的经历。你做了哪些取舍、是如何做出这些取舍判断的？",
+          "path": "docs/09-面试题/10.客户面手艺/4.几天交付.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/10.客户面手艺/5.快速学习.md",
+          "title": "05 说说你如何快速学习一个陌生领域。学习速度如何，你又是如何验证自己真的理解了该领域？",
+          "path": "docs/09-面试题/10.客户面手艺/5.快速学习.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/10.客户面手艺/6.最严重的事故.md",
+          "title": "06 描述你在客户现场遇到过最严重的生产事故。你告知了他们什么内容，以及何时告知？",
+          "path": "docs/09-面试题/10.客户面手艺/6.最严重的事故.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/10.客户面手艺/7.对客户说不.md",
+          "title": "07 （待补）",
+          "path": "docs/09-面试题/10.客户面手艺/7.对客户说不.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/10.客户面手艺/8.失败的项目.md",
+          "title": "08 （待补）",
+          "path": "docs/09-面试题/10.客户面手艺/8.失败的项目.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/10.客户面手艺/9.token计算.md",
+          "title": "09 （待补）",
+          "path": "docs/09-面试题/10.客户面手艺/9.token计算.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/10.客户面手艺/10.客户信任.md",
+          "title": "10 （待补）",
+          "path": "docs/09-面试题/10.客户面手艺/10.客户信任.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/10.客户面手艺/11.聊天机器人需求调研.md",
+          "title": "11 角色扮演：我是一家地区性银行的副总裁，我想要一个“聊天机器人”，你来主持需求调研会议。",
+          "path": "docs/09-面试题/10.客户面手艺/11.聊天机器人需求调研.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/10.客户面手艺/12.解释rag.md",
+          "title": "12 用两分钟向我们的首席法务官解释RAG。她精明干练、事务繁忙，不懂技术。",
+          "path": "docs/09-面试题/10.客户面手艺/12.解释rag.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/10.客户面手艺/13.解决幻觉.md",
+          "title": "13 角色扮演场景：一位CTO对你说：“我们去年试过GPT，它在我们的数据上大量产生幻觉，AI根本没法用。”请做出回应。",
+          "path": "docs/09-面试题/10.客户面手艺/13.解决幻觉.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/10.客户面手艺/14.校准式诚信.md",
+          "title": "14 （待补）",
+          "path": "docs/09-面试题/10.客户面手艺/14.校准式诚信.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/10.客户面手艺/15.准确率.md",
+          "title": "15 一位高管直截了当地发问：“它能做到100%准确吗？”你需要作答，既不能撒谎，也不能丢掉这笔订单。",
+          "path": "docs/09-面试题/10.客户面手艺/15.准确率.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/10.客户面手艺/16.差不多就行.md",
+          "title": "16 你的客户说试点项目「差不多好用就行」。当场和他们一起定义成功指标。",
+          "path": "docs/09-面试题/10.客户面手艺/16.差不多就行.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/10.客户面手艺/17.三十个应用场景挑落地项目.md",
+          "title": "17 客户带来30个AI应用场景。你来设计一场研讨会，从中选出第一个落地项目。",
+          "path": "docs/09-面试题/10.客户面手艺/17.三十个应用场景挑落地项目.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/10.客户面手艺/18.专业术语进度同步.md",
+          "title": "18 这里是一份满是专业术语的工程师进度同步。把它改写为发给指导委员会的邮件。",
+          "path": "docs/09-面试题/10.客户面手艺/18.专业术语进度同步.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/10.客户面手艺/19.演示崩溃解释.md",
+          "title": "19 向客户演示产品的中途，演示突然崩溃了。在现场你会怎么做？",
+          "path": "docs/09-面试题/10.客户面手艺/19.演示崩溃解释.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/10.客户面手艺/20.rag和微调选择.md",
+          "title": "20 客户执意要做微调（fine-tuning），但检索增强生成（RAG）明显更适配场景，且客户不肯让步。如果你是可信赖的顾问或者供应商，你会怎么做？",
+          "path": "docs/09-面试题/10.客户面手艺/20.rag和微调选择.md"
+        },
+        {
+          "id": "doc:docs/09-面试题/10.客户面手艺/21.范围外需求.md",
+          "title": "21 你独自在客户现场。客户提出了范围之外的需求，而你的团队在另一个时区，此刻正在休息。现在就要做出决定。",
+          "path": "docs/09-面试题/10.客户面手艺/21.范围外需求.md"
+        }
+      ],
+      "progress": 78,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "track:10-概念课程",
+      "name": "10 概念课程",
+      "color": "#818cf8",
+      "docCount": 21,
+      "graphDocCount": 6,
+      "docs": [
+        {
+          "id": "doc:docs/10-概念课程/README.md",
+          "title": "总索引",
+          "path": "docs/10-概念课程/README.md"
+        },
+        {
+          "id": "doc:docs/10-概念课程/01-LLM与GenAI基础/README.md",
+          "title": "01 LLM 与 GenAI 基础",
+          "path": "docs/10-概念课程/01-LLM与GenAI基础/README.md"
+        },
+        {
+          "id": "doc:docs/10-概念课程/02-检索与Agent/README.md",
+          "title": "02 检索与 Agent",
+          "path": "docs/10-概念课程/02-检索与Agent/README.md"
+        },
+        {
+          "id": "doc:docs/10-概念课程/03-评测与ML基础/README.md",
+          "title": "03 评测与 ML 基础",
+          "path": "docs/10-概念课程/03-评测与ML基础/README.md"
+        },
+        {
+          "id": "doc:docs/10-概念课程/04-生产系统设计/README.md",
+          "title": "04 生产系统设计",
+          "path": "docs/10-概念课程/04-生产系统设计/README.md"
+        },
+        {
+          "id": "doc:docs/10-概念课程/05-MLOps与生命周期/README.md",
+          "title": "05 MLOps 与生命周期",
+          "path": "docs/10-概念课程/05-MLOps与生命周期/README.md"
+        },
+        {
+          "id": "doc:docs/10-概念课程/06-ML基础设施与Serving/README.md",
+          "title": "06 ML 基础设施与 Serving",
+          "path": "docs/10-概念课程/06-ML基础设施与Serving/README.md"
+        },
+        {
+          "id": "doc:docs/10-概念课程/07-数据与SQL工程/README.md",
+          "title": "07 数据与 SQL 工程",
+          "path": "docs/10-概念课程/07-数据与SQL工程/README.md"
+        },
+        {
+          "id": "doc:docs/10-概念课程/08-AI安全隐私与治理/README.md",
+          "title": "08 AI 安全隐私与治理",
+          "path": "docs/10-概念课程/08-AI安全隐私与治理/README.md"
+        },
+        {
+          "id": "doc:docs/10-概念课程/09-编码与工程手艺/README.md",
+          "title": "09 编码与工程手艺",
+          "path": "docs/10-概念课程/09-编码与工程手艺/README.md"
+        },
+        {
+          "id": "doc:docs/10-概念课程/10-客户面手艺/README.md",
+          "title": "10 客户面手艺",
+          "path": "docs/10-概念课程/10-客户面手艺/README.md"
+        },
+        {
+          "id": "doc:docs/10-概念课程/11-后端开发第一性原理/README.md",
+          "title": "11 后端开发第一性原理",
+          "path": "docs/10-概念课程/11-后端开发第一性原理/README.md"
+        },
+        {
+          "id": "doc:docs/10-概念课程/11-后端开发第一性原理/01-后端第一性原理路线图.md",
+          "title": "01 路线图",
+          "path": "docs/10-概念课程/11-后端开发第一性原理/01-后端第一性原理路线图.md"
+        },
+        {
+          "id": "doc:docs/10-概念课程/11-后端开发第一性原理/05-HTTP协议详解.md",
+          "title": "05 HTTP",
+          "path": "docs/10-概念课程/11-后端开发第一性原理/05-HTTP协议详解.md"
+        },
+        {
+          "id": "doc:docs/10-概念课程/11-后端开发第一性原理/08-认证与鉴权.md",
+          "title": "08 认证鉴权",
+          "path": "docs/10-概念课程/11-后端开发第一性原理/08-认证与鉴权.md"
+        },
+        {
+          "id": "doc:docs/10-概念课程/11-后端开发第一性原理/12-数据库基础.md",
+          "title": "12 数据库",
+          "path": "docs/10-概念课程/11-后端开发第一性原理/12-数据库基础.md"
+        },
+        {
+          "id": "doc:docs/10-概念课程/11-后端开发第一性原理/20-后端安全.md",
+          "title": "20 安全",
+          "path": "docs/10-概念课程/11-后端开发第一性原理/20-后端安全.md"
+        },
+        {
+          "id": "doc:docs/10-概念课程/11-后端开发第一性原理/23-并发与并行.md",
+          "title": "23 并发与并行",
+          "path": "docs/10-概念课程/11-后端开发第一性原理/23-并发与并行.md"
+        },
+        {
+          "id": "doc:docs/10-概念课程/11-后端开发第一性原理/26-实时后端系统.md",
+          "title": "26 实时后端",
+          "path": "docs/10-概念课程/11-后端开发第一性原理/26-实时后端系统.md"
+        },
+        {
+          "id": "doc:docs/10-概念课程/11-后端开发第一性原理/30-Webhooks.md",
+          "title": "30 Webhooks",
+          "path": "docs/10-概念课程/11-后端开发第一性原理/30-Webhooks.md"
+        },
+        {
+          "id": "doc:docs/10-概念课程/11-后端开发第一性原理/31-后端工程师的DevOps.md",
+          "title": "31 DevOps",
+          "path": "docs/10-概念课程/11-后端开发第一性原理/31-后端工程师的DevOps.md"
+        }
+      ],
+      "progress": 40,
+      "status": "READY"
+    },
+    {
+      "id": "track:11-课程录音整理",
+      "name": "11 课程录音整理",
+      "color": "#2dd4bf",
+      "docCount": 17,
+      "graphDocCount": 6,
+      "docs": [
+        {
+          "id": "doc:docs/11-从AIFDE到AgenticAI架构师/README.md",
+          "title": "总索引",
+          "path": "docs/11-从AIFDE到AgenticAI架构师/README.md"
+        },
+        {
+          "id": "doc:docs/11-从AIFDE到AgenticAI架构师/01-课程简介与三周总览.md",
+          "title": "01 课程简介与三周总览",
+          "path": "docs/11-从AIFDE到AgenticAI架构师/01-课程简介与三周总览.md"
+        },
+        {
+          "id": "doc:docs/11-从AIFDE到AgenticAI架构师/02-Day1-OpenRouter与免费LLM即时上手.md",
+          "title": "02 OpenRouter 与免费 LLM 即时上手",
+          "path": "docs/11-从AIFDE到AgenticAI架构师/02-Day1-OpenRouter与免费LLM即时上手.md"
+        },
+        {
+          "id": "doc:docs/11-从AIFDE到AgenticAI架构师/03-Day1-三周路线图.md",
+          "title": "03 三周路线图",
+          "path": "docs/11-从AIFDE到AgenticAI架构师/03-Day1-三周路线图.md"
+        },
+        {
+          "id": "doc:docs/11-从AIFDE到AgenticAI架构师/04-Day1-什么是FDE.md",
+          "title": "04 什么是 FDE",
+          "path": "docs/11-从AIFDE到AgenticAI架构师/04-Day1-什么是FDE.md"
+        },
+        {
+          "id": "doc:docs/11-从AIFDE到AgenticAI架构师/05-Day1-FDE所需技能工具与经验.md",
+          "title": "05 FDE 所需技能工具与经验",
+          "path": "docs/11-从AIFDE到AgenticAI架构师/05-Day1-FDE所需技能工具与经验.md"
+        },
+        {
+          "id": "doc:docs/11-从AIFDE到AgenticAI架构师/06-Day1-环境搭建.md",
+          "title": "06 环境搭建",
+          "path": "docs/11-从AIFDE到AgenticAI架构师/06-Day1-环境搭建.md"
+        },
+        {
+          "id": "doc:docs/11-从AIFDE到AgenticAI架构师/07-Day1-克隆仓库与uv-sync.md",
+          "title": "07 克隆仓库与 uv sync",
+          "path": "docs/11-从AIFDE到AgenticAI架构师/07-Day1-克隆仓库与uv-sync.md"
+        },
+        {
+          "id": "doc:docs/11-从AIFDE到AgenticAI架构师/08-Day1-本地运行Maze-Agent.md",
+          "title": "08 本地运行 Maze Agent",
+          "path": "docs/11-从AIFDE到AgenticAI架构师/08-Day1-本地运行Maze-Agent.md"
+        },
+        {
+          "id": "doc:docs/11-从AIFDE到AgenticAI架构师/09-Day2-回顾与计划.md",
+          "title": "09 回顾与计划",
+          "path": "docs/11-从AIFDE到AgenticAI架构师/09-Day2-回顾与计划.md"
+        },
+        {
+          "id": "doc:docs/11-从AIFDE到AgenticAI架构师/10-Day2-从GPT到ChatGPT的6个技巧.md",
+          "title": "10 从 GPT 到 ChatGPT 的 6 个技巧",
+          "path": "docs/11-从AIFDE到AgenticAI架构师/10-Day2-从GPT到ChatGPT的6个技巧.md"
+        },
+        {
+          "id": "doc:docs/11-从AIFDE到AgenticAI架构师/11-Day2-比较前沿LLM与METR.md",
+          "title": "11 比较前沿 LLM 与 METR",
+          "path": "docs/11-从AIFDE到AgenticAI架构师/11-Day2-比较前沿LLM与METR.md"
+        },
+        {
+          "id": "doc:docs/11-从AIFDE到AgenticAI架构师/12-Day2-介绍UnderCover项目.md",
+          "title": "12 介绍 UnderCover 项目",
+          "path": "docs/11-从AIFDE到AgenticAI架构师/12-Day2-介绍UnderCover项目.md"
+        },
+        {
+          "id": "doc:docs/11-从AIFDE到AgenticAI架构师/13-Day2-Lab准备与LangChain基础.md",
+          "title": "13 Lab 准备与 LangChain 基础",
+          "path": "docs/11-从AIFDE到AgenticAI架构师/13-Day2-Lab准备与LangChain基础.md"
+        },
+        {
+          "id": "doc:docs/11-从AIFDE到AgenticAI架构师/14-Day2-探索理赔数据.md",
+          "title": "14 探索理赔数据",
+          "path": "docs/11-从AIFDE到AgenticAI架构师/14-Day2-探索理赔数据.md"
+        },
+        {
+          "id": "doc:docs/11-从AIFDE到AgenticAI架构师/15-Day2-测试多个模型.md",
+          "title": "15 测试多个模型",
+          "path": "docs/11-从AIFDE到AgenticAI架构师/15-Day2-测试多个模型.md"
+        },
+        {
+          "id": "doc:docs/11-从AIFDE到AgenticAI架构师/16-Day2-用LangChain构建理赔Agent.md",
+          "title": "16 用 LangChain 构建理赔 Agent",
+          "path": "docs/11-从AIFDE到AgenticAI架构师/16-Day2-用LangChain构建理赔Agent.md"
+        }
+      ],
+      "progress": 57,
+      "status": "SYNC"
+    }
+  ]
+}

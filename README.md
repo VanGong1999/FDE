@@ -3,6 +3,7 @@
 中文 **AI 前线部署工程师（Forward Deployed Engineer）** 学习与面试资料库：从角色认知、交付方法论、企业 AI 落地，到面试通关与可复制工作模板。
 
 > 在线阅读：[vangong1999.github.io/FDE](https://vangong1999.github.io/FDE/) · 源码仓库：[github.com/VanGong1999/FDE](https://github.com/VanGong1999/FDE)  
+> 前端：`web/` 为 Dashboard 操作台（力导向知识图谱 + 文档索引）；课程正文仍是本仓库 Markdown。本地：`cd web && npm install && npm run dev`  
 > 主读者：有后端/全栈经验、转 FDE。从零基础开始，可参考 [学习路径-零基础](/docs/00-导读/学习路径-零基础.md)  
 > 打赏 / 加好友 / 关注公众号 → [支持与联系](#支持与联系)
 

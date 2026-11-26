@@ -16,5 +16,8 @@ __pycache__/
 venv/
 dist/
 build/
+web/public/docs/
+web/public/pictures/
+web/dist/
 .cursor/
 *.local
